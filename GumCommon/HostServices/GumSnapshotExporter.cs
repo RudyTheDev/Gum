@@ -236,7 +236,11 @@ public class GumSnapshotExporter
         IReadOnlyList<UnresolvedTextureReference> references, Func<object, string, bool> trySaveTexture)
     {
         // Dedupe by texture instance (not value): the one shared sheet -> one file, many filled placeholders.
+#if NETSTANDARD2_1
+        Dictionary<object, string> savedRelativePaths = new(ReferenceComparer.Instance);
+#else
         Dictionary<object, string> savedRelativePaths = new(ReferenceEqualityComparer.Instance);
+#endif
         int index = 0;
         foreach (UnresolvedTextureReference reference in references)
         {
@@ -254,4 +258,16 @@ public class GumSnapshotExporter
             reference.SourceFileVariable.Value = relativePath;
         }
     }
+
+#if NETSTANDARD2_1
+    // netstandard2.1 has no System.Collections.Generic.ReferenceEqualityComparer (added in .NET 5).
+    private sealed class ReferenceComparer : IEqualityComparer<object>
+    {
+        public static readonly ReferenceComparer Instance = new();
+
+        public new bool Equals(object? x, object? y) => ReferenceEquals(x, y);
+
+        public int GetHashCode(object obj) => System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(obj);
+    }
+#endif
 }
