@@ -5,6 +5,8 @@ description: GumService — runtime entry point for MonoGame/Raylib/KNI/FNA. Tri
 
 # GumService Reference
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## What It Is
 
 `GumService` is the runtime-facing API that game developers use to initialize, update, and draw Gum UI. It lives in `MonoGameGum/GumService.cs` (compiled for XNALIKE, RAYLIB via `#if`) under the `Gum` namespace (since issue #3119 / syntax version 3). Legacy `MonoGameGum.GumService` / `RaylibGum.GumService` names are permanent `[Obsolete]` subclass shims in `MonoGameGum/GumServiceCompat.cs` (linked into `RaylibGum.csproj`). `WindowZoomMode`, `GumHotReloadManager`, and related hot-reload types also live in `namespace Gum`.

@@ -5,6 +5,8 @@ description: Unifying per-platform runtime files (MonoGame/Raylib/Skia/KNI/FNA, 
 
 # Gum Cross-Platform Runtime Unification
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## The Pattern
 
 Per-platform runtimes (e.g. `ColoredRectangleRuntime`, `TextRuntime`, `ContainerRuntime`) historically live as three separate files — one each in `MonoGameGum/GueDeriving/`, `Runtimes/RaylibGum/GueDeriving/`, and `Runtimes/SkiaGum/GueDeriving/`. Unification collapses them into **one source file in `MonoGameGum/GueDeriving/`** with `#if RAYLIB / #if SKIA / #if XNALIKE` directives, then links that file into the Raylib and Skia csprojs via `<Compile Include="..\..\MonoGameGum\GueDeriving\FooRuntime.cs" Link="GueDeriving\FooRuntime.cs" />`.

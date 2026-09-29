@@ -5,6 +5,8 @@ description: Gum editor selection — click/drag, marquee, input handlers (move/
 
 # Gum Editor Selection System Reference
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## Overview
 
 Selection in the wireframe (XNA) editor is coordinated by `SelectionManager`. It delegates specific interactions to a set of **input handlers**, each responsible for one type of gesture (move, resize, rotate, polygon point editing). A separate **rectangle selector** handles marquee/rubber-band multi-selection. Locking (`InstanceSave.Locked`) cuts across all of these.

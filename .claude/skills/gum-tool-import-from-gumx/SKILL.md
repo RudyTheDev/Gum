@@ -5,6 +5,8 @@ description: The "Import from .gumx" dialog. Triggers: ImportFromGumxPlugin, Gum
 
 # Import from .gumx Dialog
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Cross-project import dialog (Content → Import → ".gumx…"). Lets the user pick a source `.gumx` (local or URL), preview its Components/Screens/Behaviors/Standards in a checkbox TreeView, and import a selected subset into the currently open project.
 
 ## Layout (one-screen map)

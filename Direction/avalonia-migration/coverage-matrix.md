@@ -1,3 +1,5 @@
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # Coverage matrix — every Windows-only dependency in the tool graph, and the phase that removes it
 
 > The proof that the plan reaches "100% off Windows-only technology" for `gum.exe` and everything it

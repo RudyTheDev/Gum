@@ -5,6 +5,8 @@ description: Where runtime-feature demo screens go. Triggers: adding a sample/de
 
 # Gum Sample Projects
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 When a runtime feature needs a visual demo (so a human can eyeball it across backends), add a screen to the **three cross-backend feature samples**, keeping them aligned. Shape demos included — they live in the feature samples on every backend, same as any other feature (see "Shape features" below).
 
 The "**big three**" refers to the three backends below (Silk.NET/Skia, raylib, MonoGame) — one feature sample each.

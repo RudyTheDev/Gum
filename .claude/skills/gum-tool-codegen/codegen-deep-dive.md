@@ -1,5 +1,7 @@
 # Code Generation for Agents
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Gum can generate strongly-typed C# from a project's Screens and Components, so game code refers to UI
 by name and type instead of by magic string. This page explains the whole system: what gets written,
 where it goes, the two instantiation models, how the two halves of each partial class relate, and what

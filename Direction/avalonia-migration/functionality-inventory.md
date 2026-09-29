@@ -1,3 +1,5 @@
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # Gum tool functionality inventory
 
 > Living document. Created 2026-09-26 for #5141 from static reads of `main` (b3d7ffde3); nothing

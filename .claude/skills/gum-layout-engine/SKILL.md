@@ -6,6 +6,8 @@ trigger_phrase: UpdateLayout internals|UpdateChildren|GetWhatToStackAfter|Refres
 
 # Gum Layout Engine Internals
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 For user-facing layout concepts (units, stacking, wrapping, Anchor/Dock), see
 the **gum-layout** skill. This skill is for people debugging, optimizing, or
 extending the engine itself.

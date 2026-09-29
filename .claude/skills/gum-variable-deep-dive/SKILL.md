@@ -5,6 +5,8 @@ description: Full variable lifecycle — VariableSave on ElementSave through run
 
 # Variable Lifecycle Deep Dive
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 For individual subsystem references, see: **gum-tool-save-classes** (save model),
 **gum-property-assignment** (instantiation + SetProperty), **gum-forms-controls** (Forms
 state machine), **gum-runtime-variable-references** (ApplyAllVariableReferences).

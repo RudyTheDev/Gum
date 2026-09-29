@@ -6,6 +6,8 @@ trigger_phrase: layout|WidthUnits|HeightUnits|DimensionUnitType|XUnits|YUnits|Ch
 
 # Gum Layout System
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Gum's layout is driven by **unit enums** that tell the engine how to interpret
 numeric Width/Height/X/Y values, plus a **children layout** mode on containers.
 All layout lives in `GraphicalUiElement` (`GumRuntime/GraphicalUiElement.cs`).

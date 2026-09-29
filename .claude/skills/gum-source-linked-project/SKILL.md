@@ -5,6 +5,8 @@ description: Creating a new MonoGame project that references Gum via ProjectRefe
 
 # Gum Source-Linked Project
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 For manually running a MonoGameGum/GumCommon change in a real game (see the `tdd` skill for when a unit test isn't enough). Two of Gum's own samples are already working reference projects for this exact pattern — start from one of them rather than guessing:
 
 - **Code-only** (no `.gumx`, UI built via C#): `Samples/MonoGameGumInCode/MonoGameGumInCode/MonoGameGumInCode.csproj`

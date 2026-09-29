@@ -5,6 +5,8 @@ description: The SystemManagers.Initialize() registration contract every render 
 
 # SystemManagers.Initialize() Registration Contract
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Each render backend has its own `SystemManagers` (not shared — see [gum-runtime-topology](../gum-runtime-topology/SKILL.md) for why `RenderingLibrary.*` compiles into multiple assemblies). Its `Initialize()`/`Initialize(fullInstantiation: true)` is what makes that backend's renderables visible to Gum's primary runtime-type registry. There is no shared interface or base-class checklist for this — each backend hand-writes the same sequence. New backend implementers (e.g. Silk.NET, #2738) must replicate it.
 
 ## The contract

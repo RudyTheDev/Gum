@@ -5,6 +5,8 @@ description: Answering Discord/GitHub user questions — search skills→docs→
 
 # Answering User Questions
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Use when the user pastes a question from someone (Discord text, a GitHub issue, a `#N` reference) or asks you to help answer a person. Goal: a short reply they can paste back, grounded in a citable docs URL, plus a fix suggestion when docs or the API fall short.
 
 **Relay signal, easy to miss: third-person pronouns about the asker mean this skill applies, even with no explicit "someone asked me" framing or pasted quote.** A message phrased as the user's own technical question can still be a relayed one — "they probably need X", "a user of mine is trying to Y", "I think there's 2 parts to *their* question." Any "they"/"someone"/"a user of mine" referring to a person other than the one you're talking to is enough on its own to classify this as a relay. Don't wait for an explicit "someone asked me" or a pasted quote before recognizing it.

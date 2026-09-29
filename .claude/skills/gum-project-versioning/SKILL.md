@@ -5,6 +5,8 @@ description: Gum's .gumx schema versioning and migration strategy. Triggers: sha
 
 # Gum Project Versioning Reference
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## The GumxVersions enum
 
 Located in `GumDataTypes/GumProjectSave.cs`. The enum gains one entry per breaking schema change; the earliest entries cover the verbose→compact XML shift, later ones reserve slots for new variable surfaces. Read the enum itself for the current list and each entry's doc comment — don't rely on a copy here.

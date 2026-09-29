@@ -8,6 +8,8 @@ Invoking product-manager agent to drive the Gum release checklist.
 
 # Gum Release Orchestrator
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 This skill is a **guided checklist driver, not full automation.** Most release steps are inherently human — taking screenshots, clicking GitHub Actions, uploading to FTP, announcing on Discord/Twitter/Bluesky. The skill's job is to walk the maintainer through the steps in order, track what's done, and invoke the one step a skill can actually do (the notes draft).
 
 ## Source of truth — do not restate it here

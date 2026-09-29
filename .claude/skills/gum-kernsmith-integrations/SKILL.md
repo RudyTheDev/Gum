@@ -5,6 +5,8 @@ description: KernSmith runtime bitmap-font packages. Triggers: Integrations/Kern
 
 # KernSmith Integrations
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 [KernSmith](https://github.com/kaltinril/KernSmith) is a third-party, cross-platform, in-memory BMFont rasterizer. `Integrations/KernSmith/*` are optional first-party Gum packages that bridge it into each runtime. The tool itself also uses KernSmith directly as an alternate offline generator backend — see `gum-tool-font-generation` for that (`KernSmithFileGenerator`, unrelated to the runtime packages below).
 
 ## Package map

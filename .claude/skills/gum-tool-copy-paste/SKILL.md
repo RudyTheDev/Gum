@@ -5,6 +5,8 @@ description: Gum copy/paste. Triggers: CopyPasteLogic, ICopyPasteLogic, OnCopy/O
 
 # Gum Copy/Paste Reference
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## In-Memory, Not System Clipboard
 
 Gum's copy/paste does **not** use the system clipboard. Copied data lives in `CopyPasteLogic.CopiedData` (an in-memory instance). `MonoGameGum/Clipboard/ClipboardImplementation.cs` is a separate text-only clipboard used elsewhere in the app — not part of this system.

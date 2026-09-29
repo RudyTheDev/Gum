@@ -5,6 +5,8 @@ description: XnaFiddle — Victor's site for XNA-syntax fiddles that run on web 
 
 # XnaFiddle
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 **XnaFiddle is Victor's own site** (he maintains it) — so it's authoritative and feature-requestable, not a black-box third party. It lets you author a *fiddle*: a small project written in XNA syntax that compiles and runs in the browser.
 
 ## What it's for in Gum

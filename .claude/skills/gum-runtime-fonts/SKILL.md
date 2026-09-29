@@ -5,6 +5,8 @@ description: Gum runtime font loading (MonoGame/KNI) — three loading paths (cu
 
 # Runtime Font Loading
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Gum renders text using **BitmapFont** — a `.fnt` descriptor file plus one or more `.png` texture atlases. There are three ways to get a BitmapFont onto a TextRuntime, each with different tradeoffs. Path 3 (in-memory generation, typically KernSmith) is the recommended route for new projects; pre-generated `.fnt` files on disk are the older path.
 
 For crisp text under camera/layer zoom, see `docs/code/files-and-fonts/font-oversampling.md` — `TextRuntime.UseFontOversampling` rebuilds the font bigger automatically when zoom changes; unrelated to the three loading paths below.

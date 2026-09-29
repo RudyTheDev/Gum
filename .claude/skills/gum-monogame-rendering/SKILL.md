@@ -5,6 +5,8 @@ description: Gum's MonoGame rendering pipeline — Renderer/SpriteBatchStack/Gum
 
 # Gum's MonoGame Rendering Pipeline
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 This skill covers the XNA-family backends only (MonoGame / KNI / FNA). Skia, Raylib, and Sokol have their own renderers and don't go through this code — for raylib's blend-mode/render-target pipeline see [gum-raylib-rendering](../gum-raylib-rendering/SKILL.md).
 
 ## Two Entry Paths into Renderer

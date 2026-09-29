@@ -5,6 +5,8 @@ description: Add Forms dialog's tool-content theme system (Templates/FormsThemes
 
 # Add Forms Theme Import
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Distinct from code-only themes (`gum-theming` skill — C# `*Visual` subclasses, NuGet
 packages). The two are **alternative delivery paths, not layers**: a theme imported here renders
 from the user's own `.gumx`, so a `Gum.Themes.*` package is never needed for the styled look.

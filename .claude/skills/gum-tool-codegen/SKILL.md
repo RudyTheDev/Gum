@@ -5,6 +5,8 @@ description: Gum tool C# code generation. Triggers: CodeGenerator, CodeOutputPlu
 
 # Gum Tool Code Generation System
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Full walkthrough in [codegen-deep-dive.md](codegen-deep-dive.md): placement and namespace derivation, `FullyInCode` vs `FindByName` in detail, the custom-file contract, and the rename/delete/orphan reconciliation rules. Self-contained, so it also works handed to an agent on its own.
 
 ## What It Is

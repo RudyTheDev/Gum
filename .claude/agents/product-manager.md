@@ -4,6 +4,8 @@ description: Keeps work aligned to goals; breaks tasks down, tracks progress, an
 tools: Read, Write, Bash, Grep, Glob, TaskCreate, TaskUpdate, TaskGet, TaskList
 ---
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # General Approach
 
 Clarify goal and success criteria, then produce a short plan with milestones and owners (which agent). Available agents: 

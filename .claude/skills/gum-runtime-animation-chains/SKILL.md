@@ -5,6 +5,8 @@ description: AnimationChain playback on Sprites and NineSlices — .achx -> Anim
 
 # Runtime Animation Chains
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Gum plays back FRB-style `.achx`/`.achj` animations on `Sprite` and `NineSlice`. `.achx` (XML) and `.achj` (JSON, matching FlatRedBall2's `AnimationChain.Common` writer) both deserialize into `AnimationChainListSave` — see `AnimationChainListSave.FromFile`. Each chain is a list of frames with a texture, source rect, frame length, optional flip flags, optional `RelativeX`/`RelativeY` per-frame offsets, and optional per-frame color (see below).
 
 ## Pipeline: Save → Runtime

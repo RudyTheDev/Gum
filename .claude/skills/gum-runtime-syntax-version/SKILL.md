@@ -5,6 +5,8 @@ description: The integer version stamped on Gum runtime assemblies via GumSyntax
 
 # Gum Runtime Syntax Version
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Not the same thing as `.gumx` file format versioning (see `gum-project-versioning`). This is an **assembly-level** integer stamped on each runtime DLL that tells the Gum tool's codegen which conventions / namespaces / role interfaces the consumer's runtime supports.
 
 ## Where it lives

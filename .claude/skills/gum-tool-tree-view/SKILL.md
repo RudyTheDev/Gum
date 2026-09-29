@@ -5,6 +5,8 @@ description: Gum's element tree (Screens/Components/Standard/Behaviors panel). T
 
 # Gum Tool Tree View Reference
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 The left-hand panel listing Screens, Components, Standard Elements, Behaviors, and the instances
 inside an open element. The model and logic are framework-neutral in `Tool/TreeViewPlugin.Core`
 (net10.0, shared by both heads); each head supplies only the panel, through `IElementTreeView`.

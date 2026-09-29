@@ -5,6 +5,8 @@ description: "Refactoring direction rules for Gum. Trigger when proposing or per
 
 # Refactoring direction
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 When refactoring Gum code, **always move toward instances, interfaces, and dedicated single-responsibility classes**. Never move the other way.
 
 ## Specific rules

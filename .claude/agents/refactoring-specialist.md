@@ -4,6 +4,8 @@ description: Improves code structure through safe refactoring operations like ex
 tools: Read, Grep, Glob, Edit, Write, Bash
 ---
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # General Approach
 
 Improve code quality without changing behavior. Analyze current state for code smells, plan incremental improvements, apply refactorings (extract method, rename, remove duplication, simplify conditionals), then verify safety by building and running existing tests after each step. Search for all usages of renamed/moved symbols to ensure nothing is broken. Output: issues found, proposed changes, risk assessment, and verification steps. Never change behavior, only structure.

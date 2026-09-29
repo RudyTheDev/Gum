@@ -5,6 +5,8 @@ description: Gum runtime cursor-event dispatch — how Click/Push/RollOver/etc. 
 
 # Gum Visual Event Dispatch
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Internals of how cursor events are raised on visuals. For the user-facing event list and "what fires when" tables, see [visual-events.md](../../../docs/code/events-and-interactivity/visual-events.md) — don't duplicate it here.
 
 ## Where it lives

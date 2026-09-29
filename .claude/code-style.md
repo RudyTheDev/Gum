@@ -1,3 +1,5 @@
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # Gum Code Style
 
 * Use nullable method parameters when appropriate: If a method checks for null (e.g., `if (instance == null)` or `instance?.SomeProperty`), the parameter MUST be declared as nullable (e.g., `InstanceSave?` instead of `InstanceSave`). Non-nullable parameters should never have null checks.

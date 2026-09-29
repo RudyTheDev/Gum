@@ -5,6 +5,8 @@ description: RaylibGum's rendering pipeline and blend-mode handling. Triggers: R
 
 # RaylibGum's Rendering Pipeline
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 This skill covers the raylib backend only. MonoGame/KNI/FNA go through a different renderer entirely — see [gum-monogame-rendering](../gum-monogame-rendering/SKILL.md).
 
 ## Architecture Seam: BatchDrawCallCounter

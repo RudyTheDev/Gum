@@ -5,6 +5,8 @@ description: Map of Gum's render-backend projects and every place that compiles 
 
 # Gum Runtime Topology
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Gum has **no single "runtime" assembly**. The same `RenderingLibrary.*` / `GumCommon` source is compiled into many assemblies via three different source-sharing mechanisms, and is also consumed by FlatRedBall (FRB), a **separate repo**. A refactor that builds clean in `AllLibraries.sln` can still break the WPF runtime or FRB. Before moving/renaming/deleting any shared file, check it against every surface below.
 
 > FRB is a separate git repo, but Gum and FRB are always checked out side by side (`GitHub/Gum` and `GitHub/FlatRedBall`), so `../FlatRedBall/...` reaches FRB from the Gum repo root.

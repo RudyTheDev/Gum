@@ -5,6 +5,8 @@ description: Gum undo/redo. Triggers: History tab, UndoManager, UndoPlugin, Undo
 
 # Gum Undo/Redo System Reference
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## Overview
 
 Gum has a snapshot-based undo/redo system scoped per-element. Undo history is displayed in the **History tab** in the Gum UI tool.

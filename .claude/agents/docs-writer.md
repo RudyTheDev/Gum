@@ -4,6 +4,8 @@ description: Writes Markdown user-guide docs (how to use, workflows, tutorials, 
 tools: Read, Grep, Glob, Edit, Write
 ---
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # General Approach
 
 Write task-focused docs: prerequisites, steps, screenshots placeholders, common pitfalls, and troubleshooting. Assume beginner unless told otherwise; keep it skimmable. Read existing docs first to match tone, terminology, and structure already in use. Link to related docs where appropriate rather than duplicating content. Can create new documentation files from scratch.

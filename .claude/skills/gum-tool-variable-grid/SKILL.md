@@ -5,6 +5,8 @@ description: Gum Variables tab and DataUiGrid. Triggers: Variables tab, DataUiGr
 
 # Gum Variables Tab & DataUiGrid Reference
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## Overview
 
 The **Variables tab** displays and edits properties of the selected element, instance, state, or behavior. The grid's model is framework-neutral in `DataUi.Core` (net10.0: `InstanceMember`, `MemberCategory`, `DataUiGridModel`, `DisplayerRegistry`, and the editor logic classes, still in the `WpfDataUi.*` namespaces). `WpfDataUi` holds only the WPF views (`DataUiGrid`, an `ItemsControl` over a `DataUiGridModel`, plus the editors) and `AvaloniaDataUi` the Avalonia ones (`DataUiGrid.cs`, `SingleDataUiContainer.cs`, editors under `Controls/`, all built in C#); the Avalonia head is the shipped tool, the WPF head is frozen. Categories render as collapsible `Expander` sections.

@@ -5,6 +5,8 @@ description: Gum's localization — ILocalizationService, CSV/RESX loading (tool
 
 # Gum Localization
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## Architecture Overview
 
 Localization is opt-in via a nullable static property. When set, text assigned through the `"Text"` property name is translated; text assigned through `"TextNoTranslate"` bypasses translation entirely.

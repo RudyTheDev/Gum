@@ -1,3 +1,5 @@
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # Gum — Vision
 
 > **Status: scaffold.** This is the north star, filled in collaboratively over time. The

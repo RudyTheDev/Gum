@@ -5,6 +5,8 @@ description: Conventions for filing GitHub issues in the Gum repo via gh. Trigge
 
 # Creating Gum Issues
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Use `gh issue create` to file issues. Conventions:
 
 ## Before researching the source pointer

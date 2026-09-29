@@ -1,5 +1,7 @@
 # XnaFiddle Links
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## Criteria — only include a link when
 
 - The example needs **no custom content files** (no uploaded PNG, font, .achx, etc.) — XnaFiddle's **Standard Content** library (`std/DroidSans.ttf` today; see the [XnaFiddle README](https://github.com/vchelaru/XnaFiddle#standard-content)) ships fonts/assets referenceable by fixed path with no upload, and is fair game.

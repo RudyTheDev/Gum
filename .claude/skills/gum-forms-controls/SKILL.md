@@ -5,6 +5,8 @@ description: Forms controls (FrameworkElement subclasses). Triggers: Button, Che
 
 # Gum Forms Controls Reference
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 ## What They Are
 
 Forms controls are classes inheriting from `FrameworkElement` (`MonoGameGum/Forms/Controls/FrameworkElement.cs`). Their names and API intentionally mirror WPF (Button, CheckBox, ListBox, TextBox, etc.), but the visual and layout engine is Gum (`GraphicalUiElement`/`InteractiveGue`), not WPF.

@@ -5,6 +5,8 @@ description: Gum bitmap font generation — tool converts font properties into .
 
 # Font Generation Pipeline
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Gum generates BMFont-format bitmap fonts (`.fnt` + `.png` atlas). Pipeline: **collect font properties → build BmfcSave → pick a generator backend → produce .fnt + .png**. Two interchangeable `IFontFileGenerator` backends exist, chosen per-project via `GumProjectSave.FontGenerator` (`FontGeneratorType.BmFont`, the default for back-compat, or `.KernSmith`):
 
 - **`BmFontExeFileGenerator`** shells out to the embedded `bmfont.exe` (Windows-only). Legacy path; does **not** support dropshadow at all — `BmfcTemplate.bmfc` has no dropshadow placeholders, so `BmfcSave.HasDropshadow`/`Dropshadow*` fields are silently ignored on this backend.

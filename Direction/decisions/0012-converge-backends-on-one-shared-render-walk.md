@@ -1,3 +1,5 @@
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # 0012. Converge every backend on one shared render walk, including render-target bakes
 
 - **Status:** Accepted

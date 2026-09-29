@@ -5,6 +5,8 @@ description: How to investigate a hard bug without tunnel-visioning on one metho
 
 # Debugging Without Tunnel Vision
 
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 Trying new hypotheses but testing all of them with the same *method* is still tunnel vision, even
 though each attempt feels like progress. Cap it: 2 attempts per category below, then switch
 categories. (Seen in #3475 — three synthetic unit-test probes for a bug only visible in a real

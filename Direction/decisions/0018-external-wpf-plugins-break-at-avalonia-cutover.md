@@ -1,3 +1,5 @@
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # 0018. External WPF plugins break at the Avalonia cutover, with notice
 
 - **Status:** Accepted; the notice went into `docs/gum-tool/plugins/README.md` on 2026-09-14, the release-notes announcement is owed by the first Avalonia release (see the `gum-monthly-release` skill)

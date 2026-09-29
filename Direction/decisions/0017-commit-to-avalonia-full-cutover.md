@@ -1,3 +1,5 @@
+> **EXPERIMENTAL UNITY PORT BRANCH:** this branch ports Gum to Unity and will never ship in a live build. Major, breaking changes are intended. The instructions and rules in this file were written for upstream Gum and do not apply here; use it only as reference for how the existing code works. See the banner at the top of `CLAUDE.md`.
+
 # 0017. Commit to a full Avalonia cutover for the Gum tool
 
 - **Status:** Accepted; implemented in part (the Avalonia head is the shipped tool since 2026-09-14; the WPF projects are frozen in the repo until the phase-120 deletion PR)
