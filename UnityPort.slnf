@@ -1,0 +1,9 @@
+{
+  "solution": {
+    "path": "AllLibraries.sln",
+    "projects": [
+      "GumCommon\\GumCommon.csproj",
+      "Runtimes\\SkiaGum\\SkiaGum.csproj"
+    ]
+  }
+}
