@@ -118,7 +118,13 @@ public abstract class TextBoxBase :
     /// You can override the default by setting this property explicitly after the control is created.
     /// </summary>
     public bool ShowNativeKeyboardOnFocus { get; set; }
+#if NETSTANDARD2_1
+        // OperatingSystem.IsAndroid()/IsIOS() are .NET 5+; this is the netstandard2.1 equivalent.
+        = System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(System.Runtime.InteropServices.OSPlatform.Create("ANDROID"))
+        || System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(System.Runtime.InteropServices.OSPlatform.Create("IOS"));
+#else
         = OperatingSystem.IsAndroid() || OperatingSystem.IsIOS();
+#endif
 
     /// <summary>
     /// Title shown at the top of the native keyboard dialog when
