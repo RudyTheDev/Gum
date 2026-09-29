@@ -1,0 +1,65 @@
+# Unity project ignores, based on github/gitignore's Unity.gitignore.
+# Leading slashes anchor to this Unity project's root.
+
+# The repo root's .gitignore ignores packages/ (NuGet, matched case-insensitively on Windows), which
+# would hide Unity's Packages/manifest.json and packages-lock.json. Those define the project's
+# package dependencies and must be committed.
+!/[Pp]ackages/
+
+# Generated and cached by the editor
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Rider/JetBrains plugin that Unity copies into the project, and IDE state
+/[Aa]ssets/Plugins/Editor/JetBrains*
+.idea/
+.vs/
+.vscode/
+.gradle/
+ExportedObj/
+.consulo/
+
+# IDE project files Unity regenerates on every script change
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Meta files for the debug symbols above
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports
+sysinfo.txt
+mono_crash.*
+
+# Player builds and exported packages
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+crashlytics-build.properties
+
+# Addressables build output
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
