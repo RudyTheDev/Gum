@@ -1,0 +1,337 @@
+{
+  "FontRanges": "32-126,160-255",
+  "FontSpacingVertical": 1,
+  "FontSpacingHorizontal": 1,
+  "UseFontCharacterFile": false,
+  "AutoSizeFontOutputs": false,
+  "FontGenerator": 1,
+  "Version": 4,
+  "DefaultCanvasWidth": 800,
+  "DefaultCanvasHeight": 600,
+  "CustomCanvasSizes": [
+    {
+      "Width": null,
+      "Height": null,
+      "FriendlyName": "Project Default"
+    },
+    {
+      "Width": 640,
+      "Height": 480,
+      "FriendlyName": "480p"
+    },
+    {
+      "Width": 1280,
+      "Height": 720,
+      "FriendlyName": "720p"
+    },
+    {
+      "Width": 1280,
+      "Height": 800,
+      "FriendlyName": "Steam Deck"
+    },
+    {
+      "Width": 1920,
+      "Height": 1080,
+      "FriendlyName": "1080p"
+    },
+    {
+      "Width": 3840,
+      "Height": 2160,
+      "FriendlyName": "4k"
+    }
+  ],
+  "ShowOutlines": true,
+  "ShowCanvasOutline": true,
+  "ShowRuler": true,
+  "ShowCheckerBackground": true,
+  "TextureFilter": "Point",
+  "ConvertVariablesOnUnitTypeChange": false,
+  "RestrictToUnitValues": true,
+  "SnapToGrid": false,
+  "GridSize": 16,
+  "RestrictFileNamesForAndroid": false,
+  "Guides": [],
+  "FavoriteComponents": [],
+  "ParentProjectRoot": "",
+  "LocalizationFiles": [],
+  "ShowLocalizationInGum": true,
+  "CurrentLanguageIndex": 0,
+  "ScreenReferences": [
+    {
+      "Name": "DemoScreenGum",
+      "ElementType": 0,
+      "LinkType": 0
+    }
+  ],
+  "ComponentReferences": [
+    {
+      "Name": "Meadow/Controls/Button",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/ButtonIcon",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/CheckBox",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/ColorPicker",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/ComboBox",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/DialogBox",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/Expander",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/ItemsControl",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/Label",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/ListBox",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/ListBoxItem",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/Menu",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/MenuItem",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/Panel",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/PasswordBox",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/RadioButton",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/ScrollBar",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/ScrollViewer",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/Slider",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/SliderThumb",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/Splitter",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/StackPanel",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/TextBox",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/Toast",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/UserControl",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Controls/Window",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Elements/Divider",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Elements/Icon",
+      "ElementType": 1,
+      "LinkType": 0
+    },
+    {
+      "Name": "Meadow/Styles",
+      "ElementType": 1,
+      "LinkType": 0
+    }
+  ],
+  "StandardElementReferences": [
+    {
+      "Name": "Circle",
+      "ElementType": 2,
+      "LinkType": 0
+    },
+    {
+      "Name": "Component",
+      "ElementType": 2,
+      "LinkType": 0
+    },
+    {
+      "Name": "Container",
+      "ElementType": 2,
+      "LinkType": 0
+    },
+    {
+      "Name": "NineSlice",
+      "ElementType": 2,
+      "LinkType": 0
+    },
+    {
+      "Name": "Polygon",
+      "ElementType": 2,
+      "LinkType": 0
+    },
+    {
+      "Name": "Rectangle",
+      "ElementType": 2,
+      "LinkType": 0
+    },
+    {
+      "Name": "Sprite",
+      "ElementType": 2,
+      "LinkType": 0
+    },
+    {
+      "Name": "Text",
+      "ElementType": 2,
+      "LinkType": 0
+    }
+  ],
+  "BehaviorReferences": [
+    {
+      "Name": "ButtonBehavior"
+    },
+    {
+      "Name": "CheckBoxBehavior"
+    },
+    {
+      "Name": "ColorPickerBehavior"
+    },
+    {
+      "Name": "ComboBoxBehavior"
+    },
+    {
+      "Name": "DialogBoxBehavior"
+    },
+    {
+      "Name": "ExpanderBehavior"
+    },
+    {
+      "Name": "ItemsControlBehavior"
+    },
+    {
+      "Name": "LabelBehavior"
+    },
+    {
+      "Name": "ListBoxBehavior"
+    },
+    {
+      "Name": "ListBoxItemBehavior"
+    },
+    {
+      "Name": "MenuBehavior"
+    },
+    {
+      "Name": "MenuItemBehavior"
+    },
+    {
+      "Name": "OnScreenKeyboardBehavior"
+    },
+    {
+      "Name": "PanelBehavior"
+    },
+    {
+      "Name": "PasswordBoxBehavior"
+    },
+    {
+      "Name": "RadioButtonBehavior"
+    },
+    {
+      "Name": "ScrollBarBehavior"
+    },
+    {
+      "Name": "ScrollViewerBehavior"
+    },
+    {
+      "Name": "SliderBehavior"
+    },
+    {
+      "Name": "SplitterBehavior"
+    },
+    {
+      "Name": "StackPanelBehavior"
+    },
+    {
+      "Name": "TextBoxBehavior"
+    },
+    {
+      "Name": "ToastBehavior"
+    },
+    {
+      "Name": "ToggleBehavior"
+    },
+    {
+      "Name": "UserControlBehavior"
+    },
+    {
+      "Name": "WindowBehavior"
+    }
+  ],
+  "SinglePixelTextureFile": "",
+  "CustomProperties": []
+}

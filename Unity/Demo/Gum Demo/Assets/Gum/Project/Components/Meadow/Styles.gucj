@@ -1,0 +1,1164 @@
+{
+  "Name": "Meadow/Styles",
+  "BaseType": "Container",
+  "States": [
+    {
+      "Name": "Default",
+      "Variables": [
+        {
+          "Name": "Blue.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 230
+        },
+        {
+          "Name": "Blue.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 173
+        },
+        {
+          "Name": "Blue.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 70
+        },
+        {
+          "Name": "Blue.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Blue.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "Blue.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "BlueDark.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 210
+        },
+        {
+          "Name": "BlueDark.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 147
+        },
+        {
+          "Name": "BlueDark.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 46
+        },
+        {
+          "Name": "BlueDark.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "BlueDark.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "BlueDark.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "BlueFocusRing.FillAlpha",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 70
+        },
+        {
+          "Name": "BlueFocusRing.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 230
+        },
+        {
+          "Name": "BlueFocusRing.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 173
+        },
+        {
+          "Name": "BlueFocusRing.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 70
+        },
+        {
+          "Name": "BlueFocusRing.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "BlueFocusRing.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "BlueFocusRing.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "BlueHover.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 240
+        },
+        {
+          "Name": "BlueHover.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 187
+        },
+        {
+          "Name": "BlueHover.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 94
+        },
+        {
+          "Name": "BlueHover.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "BlueHover.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "BlueHover.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Body.Font",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Fonts/Quicksand-Medium.ttf"
+        },
+        {
+          "Name": "Body.FontSize",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 15
+        },
+        {
+          "Name": "Body.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "TextStyles"
+        },
+        {
+          "Name": "Body.Text",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Body"
+        },
+        {
+          "Name": "Colors.ChildrenLayout",
+          "Type": "ChildrenLayout",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Colors.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 110
+        },
+        {
+          "Name": "Colors.StackSpacing",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 4
+        },
+        {
+          "Name": "Colors.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": -0
+        },
+        {
+          "Name": "Colors.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Colors.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Colors.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Colors.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "Colors.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Colors.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "Colors.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Coral.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 120
+        },
+        {
+          "Name": "Coral.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 154
+        },
+        {
+          "Name": "Coral.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 237
+        },
+        {
+          "Name": "Coral.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Coral.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "Coral.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "CoralDark.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 88
+        },
+        {
+          "Name": "CoralDark.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 126
+        },
+        {
+          "Name": "CoralDark.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 222
+        },
+        {
+          "Name": "CoralDark.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "CoralDark.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "CoralDark.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Cream.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 214
+        },
+        {
+          "Name": "Cream.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 237
+        },
+        {
+          "Name": "Cream.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 247
+        },
+        {
+          "Name": "Cream.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Cream.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "Cream.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Cream2.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 230
+        },
+        {
+          "Name": "Cream2.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 245
+        },
+        {
+          "Name": "Cream2.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 252
+        },
+        {
+          "Name": "Cream2.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Cream2.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "Cream2.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Disabled.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 186
+        },
+        {
+          "Name": "Disabled.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 205
+        },
+        {
+          "Name": "Disabled.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 216
+        },
+        {
+          "Name": "Disabled.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Disabled.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "Disabled.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "DisabledInk.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 142
+        },
+        {
+          "Name": "DisabledInk.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 168
+        },
+        {
+          "Name": "DisabledInk.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 183
+        },
+        {
+          "Name": "DisabledInk.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "DisabledInk.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "DisabledInk.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "DisabledSliderFill.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 168
+        },
+        {
+          "Name": "DisabledSliderFill.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 188
+        },
+        {
+          "Name": "DisabledSliderFill.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 201
+        },
+        {
+          "Name": "DisabledSliderFill.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "DisabledSliderFill.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "DisabledSliderFill.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": -0
+        },
+        {
+          "Name": "HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Muted.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 132
+        },
+        {
+          "Name": "Muted.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 156
+        },
+        {
+          "Name": "Muted.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 180
+        },
+        {
+          "Name": "Muted.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Muted.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "Muted.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Normal.Font",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Fonts/Baloo2-SemiBold.ttf"
+        },
+        {
+          "Name": "Normal.FontSize",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 15
+        },
+        {
+          "Name": "Normal.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "TextStyles"
+        },
+        {
+          "Name": "Normal.Text",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Normal"
+        },
+        {
+          "Name": "PeachDark.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 160
+        },
+        {
+          "Name": "PeachDark.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 200
+        },
+        {
+          "Name": "PeachDark.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 239
+        },
+        {
+          "Name": "PeachDark.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "PeachDark.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "PeachDark.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "PeachLight.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 212
+        },
+        {
+          "Name": "PeachLight.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 234
+        },
+        {
+          "Name": "PeachLight.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 251
+        },
+        {
+          "Name": "PeachLight.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "PeachLight.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "PeachLight.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Sage.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 201
+        },
+        {
+          "Name": "Sage.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 221
+        },
+        {
+          "Name": "Sage.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 188
+        },
+        {
+          "Name": "Sage.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Sage.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "Sage.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "SageDark.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 166
+        },
+        {
+          "Name": "SageDark.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 194
+        },
+        {
+          "Name": "SageDark.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 132
+        },
+        {
+          "Name": "SageDark.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "SageDark.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "SageDark.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "SageFocusRing.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 201
+        },
+        {
+          "Name": "SageFocusRing.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 221
+        },
+        {
+          "Name": "SageFocusRing.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 188
+        },
+        {
+          "Name": "SageFocusRing.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "SageFocusRing.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "SageFocusRing.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "State",
+          "Type": "State",
+          "Category": "States and Visibility",
+          "ValueAsString": "Default"
+        },
+        {
+          "Name": "Strong.Font",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Fonts/Baloo2-Bold.ttf"
+        },
+        {
+          "Name": "Strong.FontSize",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 15
+        },
+        {
+          "Name": "Strong.IsBold",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Strong.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "TextStyles"
+        },
+        {
+          "Name": "Strong.Text",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Strong"
+        },
+        {
+          "Name": "Teal.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 118
+        },
+        {
+          "Name": "Teal.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 133
+        },
+        {
+          "Name": "Teal.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 46
+        },
+        {
+          "Name": "Teal.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Teal.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "Teal.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "TealDark.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 91
+        },
+        {
+          "Name": "TealDark.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 106
+        },
+        {
+          "Name": "TealDark.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 30
+        },
+        {
+          "Name": "TealDark.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "TealDark.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "TealDark.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "TextStyles.ChildrenLayout",
+          "Type": "ChildrenLayout",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "TextStyles.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 20
+        },
+        {
+          "Name": "TextStyles.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 4
+        },
+        {
+          "Name": "TextStyles.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 100
+        },
+        {
+          "Name": "TextStyles.X",
+          "Type": "float",
+          "SetsValue": true
+        },
+        {
+          "Name": "TextStyles.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 81
+        },
+        {
+          "Name": "ThumbShadow.FillAlpha",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 120
+        },
+        {
+          "Name": "ThumbShadow.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 70
+        },
+        {
+          "Name": "ThumbShadow.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 110
+        },
+        {
+          "Name": "ThumbShadow.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 160
+        },
+        {
+          "Name": "ThumbShadow.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "ThumbShadow.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "ThumbShadow.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "White.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "White.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "White.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": -0
+        },
+        {
+          "Name": "WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "WindowShadow.FillAlpha",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 90
+        },
+        {
+          "Name": "WindowShadow.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 70
+        },
+        {
+          "Name": "WindowShadow.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 110
+        },
+        {
+          "Name": "WindowShadow.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 150
+        },
+        {
+          "Name": "WindowShadow.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "WindowShadow.Parent",
+          "Type": "string",
+          "SetsValue": true,
+          "ValueAsString": "Colors"
+        },
+        {
+          "Name": "WindowShadow.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        }
+      ],
+      "VariableLists": []
+    }
+  ],
+  "Categories": [],
+  "Instances": [
+    {
+      "Name": "Colors",
+      "BaseType": "Container",
+      "Locked": true
+    },
+    {
+      "Name": "White",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "Cream",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "Cream2",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "PeachDark",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "PeachLight",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "Sage",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "SageDark",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "Teal",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "TealDark",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "Blue",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "BlueDark",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "BlueHover",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "Coral",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "CoralDark",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "Muted",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "Disabled",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "DisabledInk",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "DisabledSliderFill",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "SageFocusRing",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "BlueFocusRing",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "ThumbShadow",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "WindowShadow",
+      "BaseType": "Rectangle"
+    },
+    {
+      "Name": "Normal",
+      "BaseType": "Text"
+    },
+    {
+      "Name": "Strong",
+      "BaseType": "Text"
+    },
+    {
+      "Name": "Body",
+      "BaseType": "Text"
+    },
+    {
+      "Name": "TextStyles",
+      "BaseType": "Container"
+    }
+  ],
+  "Events": [],
+  "Behaviors": [],
+  "VariablesHiddenFromInstances": []
+}

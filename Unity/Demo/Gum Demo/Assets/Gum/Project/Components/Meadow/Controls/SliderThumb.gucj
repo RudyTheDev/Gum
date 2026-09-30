@@ -1,0 +1,808 @@
+{
+  "Name": "Meadow/Controls/SliderThumb",
+  "BaseType": "Container",
+  "States": [
+    {
+      "Name": "Default",
+      "Variables": [
+        {
+          "Name": "Body.DropshadowAlpha",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 160
+        },
+        {
+          "Name": "Body.DropshadowBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 230
+        },
+        {
+          "Name": "Body.DropshadowBlurX",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 10
+        },
+        {
+          "Name": "Body.DropshadowBlurY",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 10
+        },
+        {
+          "Name": "Body.DropshadowGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 173
+        },
+        {
+          "Name": "Body.DropshadowOffsetX",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Body.DropshadowOffsetY",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 2
+        },
+        {
+          "Name": "Body.DropshadowRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 70
+        },
+        {
+          "Name": "Body.FillBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 230
+        },
+        {
+          "Name": "Body.FillGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 245
+        },
+        {
+          "Name": "Body.FillRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 252
+        },
+        {
+          "Name": "Body.HasDropshadow",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Body.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Body.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Body.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": true
+        },
+        {
+          "Name": "Body.StrokeBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 230
+        },
+        {
+          "Name": "Body.StrokeGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 173
+        },
+        {
+          "Name": "Body.StrokeRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 70
+        },
+        {
+          "Name": "Body.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 2
+        },
+        {
+          "Name": "Body.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Body.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "Body.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Body.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Body.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "Body.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "Body.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "Body.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 7
+        },
+        {
+          "Name": "ButtonCategoryState",
+          "Type": "ButtonCategory"
+        },
+        {
+          "Name": "FocusedIndicator.Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 6
+        },
+        {
+          "Name": "FocusedIndicator.HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "FocusedIndicator.IsFilled",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": false
+        },
+        {
+          "Name": "FocusedIndicator.StrokeAlpha",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 90
+        },
+        {
+          "Name": "FocusedIndicator.StrokeBlue",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 230
+        },
+        {
+          "Name": "FocusedIndicator.StrokeGreen",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 173
+        },
+        {
+          "Name": "FocusedIndicator.StrokeRed",
+          "Type": "int",
+          "SetsValue": true,
+          "ValueAsInt": 70
+        },
+        {
+          "Name": "FocusedIndicator.StrokeWidth",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 4
+        },
+        {
+          "Name": "FocusedIndicator.Visible",
+          "Type": "bool",
+          "SetsValue": true,
+          "ValueAsBool": false
+        },
+        {
+          "Name": "FocusedIndicator.Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 6
+        },
+        {
+          "Name": "FocusedIndicator.WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 2
+        },
+        {
+          "Name": "FocusedIndicator.X",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "FocusedIndicator.XOrigin",
+          "Type": "HorizontalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "FocusedIndicator.XUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 6
+        },
+        {
+          "Name": "FocusedIndicator.Y",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 0
+        },
+        {
+          "Name": "FocusedIndicator.YOrigin",
+          "Type": "VerticalAlignment",
+          "SetsValue": true,
+          "ValueAsInt": 1
+        },
+        {
+          "Name": "FocusedIndicator.YUnits",
+          "Type": "PositionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 7
+        },
+        {
+          "Name": "Height",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 20
+        },
+        {
+          "Name": "HeightUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        },
+        {
+          "Name": "State",
+          "Type": "State",
+          "Category": "States and Visibility",
+          "SetsValue": true
+        },
+        {
+          "Name": "Width",
+          "Type": "float",
+          "SetsValue": true,
+          "ValueAsFloat": 20
+        },
+        {
+          "Name": "WidthUnits",
+          "Type": "DimensionUnitType",
+          "SetsValue": true,
+          "ValueAsInt": 0
+        }
+      ],
+      "VariableLists": [
+        {
+          "Name": "Body.VariableReferences",
+          "Type": "string",
+          "Category": "References",
+          "StringValues": [
+            "FillColor = Components/Meadow/Styles.Cream2.FillColor",
+            "DropshadowColor = Components/Meadow/Styles.Blue.FillColor",
+            "StrokeColor = Components/Meadow/Styles.Blue.FillColor"
+          ]
+        },
+        {
+          "Name": "FocusedIndicator.VariableReferences",
+          "Type": "string",
+          "Category": "References",
+          "StringValues": [
+            "StrokeColor = Components/Meadow/Styles.Blue.FillColor"
+          ]
+        }
+      ]
+    }
+  ],
+  "Categories": [
+    {
+      "Name": "ButtonCategory",
+      "States": [
+        {
+          "Name": "Enabled",
+          "Variables": [
+            {
+              "Name": "Body.FillBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.FillGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 245
+            },
+            {
+              "Name": "Body.FillRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 252
+            },
+            {
+              "Name": "Body.HasDropshadow",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": true
+            },
+            {
+              "Name": "Body.StrokeBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.StrokeGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 173
+            },
+            {
+              "Name": "Body.StrokeRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 70
+            },
+            {
+              "Name": "FocusedIndicator.Visible",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": false
+            }
+          ],
+          "VariableLists": [
+            {
+              "Name": "Body.VariableReferences",
+              "Type": "string",
+              "Category": "References",
+              "StringValues": [
+                "FillColor = Components/Meadow/Styles.Cream2.FillColor",
+                "StrokeColor = Components/Meadow/Styles.Blue.FillColor"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Highlighted",
+          "Variables": [
+            {
+              "Name": "Body.FillBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.FillGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 245
+            },
+            {
+              "Name": "Body.FillRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 252
+            },
+            {
+              "Name": "Body.HasDropshadow",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": true
+            },
+            {
+              "Name": "Body.StrokeBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.StrokeGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 173
+            },
+            {
+              "Name": "Body.StrokeRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 70
+            },
+            {
+              "Name": "FocusedIndicator.Visible",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": false
+            }
+          ],
+          "VariableLists": [
+            {
+              "Name": "Body.VariableReferences",
+              "Type": "string",
+              "Category": "References",
+              "StringValues": [
+                "FillColor = Components/Meadow/Styles.Cream2.FillColor",
+                "StrokeColor = Components/Meadow/Styles.Blue.FillColor"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Pushed",
+          "Variables": [
+            {
+              "Name": "Body.FillBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 240
+            },
+            {
+              "Name": "Body.FillGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 187
+            },
+            {
+              "Name": "Body.FillRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 94
+            },
+            {
+              "Name": "Body.HasDropshadow",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": true
+            },
+            {
+              "Name": "Body.StrokeBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 210
+            },
+            {
+              "Name": "Body.StrokeGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 147
+            },
+            {
+              "Name": "Body.StrokeRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 46
+            },
+            {
+              "Name": "FocusedIndicator.Visible",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": false
+            }
+          ],
+          "VariableLists": [
+            {
+              "Name": "Body.VariableReferences",
+              "Type": "string",
+              "Category": "References",
+              "StringValues": [
+                "FillColor = Components/Meadow/Styles.BlueHover.FillColor",
+                "StrokeColor = Components/Meadow/Styles.BlueDark.FillColor"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Focused",
+          "Variables": [
+            {
+              "Name": "Body.FillBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.FillGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 245
+            },
+            {
+              "Name": "Body.FillRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 252
+            },
+            {
+              "Name": "Body.HasDropshadow",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": true
+            },
+            {
+              "Name": "Body.StrokeBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.StrokeGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 173
+            },
+            {
+              "Name": "Body.StrokeRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 70
+            },
+            {
+              "Name": "FocusedIndicator.Visible",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": true
+            }
+          ],
+          "VariableLists": [
+            {
+              "Name": "Body.VariableReferences",
+              "Type": "string",
+              "Category": "References",
+              "StringValues": [
+                "FillColor = Components/Meadow/Styles.Cream2.FillColor",
+                "StrokeColor = Components/Meadow/Styles.Blue.FillColor"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "HighlightedFocused",
+          "Variables": [
+            {
+              "Name": "Body.FillBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.FillGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 245
+            },
+            {
+              "Name": "Body.FillRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 252
+            },
+            {
+              "Name": "Body.HasDropshadow",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": true
+            },
+            {
+              "Name": "Body.StrokeBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.StrokeGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 173
+            },
+            {
+              "Name": "Body.StrokeRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 70
+            },
+            {
+              "Name": "FocusedIndicator.Visible",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": true
+            }
+          ],
+          "VariableLists": [
+            {
+              "Name": "Body.VariableReferences",
+              "Type": "string",
+              "Category": "References",
+              "StringValues": [
+                "FillColor = Components/Meadow/Styles.Cream2.FillColor",
+                "StrokeColor = Components/Meadow/Styles.Blue.FillColor"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "Disabled",
+          "Variables": [
+            {
+              "Name": "Body.FillBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.FillGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 245
+            },
+            {
+              "Name": "Body.FillRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 252
+            },
+            {
+              "Name": "Body.HasDropshadow",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": false
+            },
+            {
+              "Name": "Body.StrokeBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 186
+            },
+            {
+              "Name": "Body.StrokeGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 205
+            },
+            {
+              "Name": "Body.StrokeRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 216
+            },
+            {
+              "Name": "FocusedIndicator.Visible",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": false
+            }
+          ],
+          "VariableLists": [
+            {
+              "Name": "Body.VariableReferences",
+              "Type": "string",
+              "Category": "References",
+              "StringValues": [
+                "FillColor = Components/Meadow/Styles.Cream2.FillColor",
+                "StrokeColor = Components/Meadow/Styles.Disabled.FillColor"
+              ]
+            }
+          ]
+        },
+        {
+          "Name": "DisabledFocused",
+          "Variables": [
+            {
+              "Name": "Body.FillBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 230
+            },
+            {
+              "Name": "Body.FillGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 245
+            },
+            {
+              "Name": "Body.FillRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 252
+            },
+            {
+              "Name": "Body.HasDropshadow",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": false
+            },
+            {
+              "Name": "Body.StrokeBlue",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 186
+            },
+            {
+              "Name": "Body.StrokeGreen",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 205
+            },
+            {
+              "Name": "Body.StrokeRed",
+              "Type": "int",
+              "SetsValue": true,
+              "ValueAsInt": 216
+            },
+            {
+              "Name": "FocusedIndicator.Visible",
+              "Type": "bool",
+              "SetsValue": true,
+              "ValueAsBool": true
+            }
+          ],
+          "VariableLists": [
+            {
+              "Name": "Body.VariableReferences",
+              "Type": "string",
+              "Category": "References",
+              "StringValues": [
+                "FillColor = Components/Meadow/Styles.Cream2.FillColor",
+                "StrokeColor = Components/Meadow/Styles.Disabled.FillColor"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Instances": [
+    {
+      "Name": "Body",
+      "BaseType": "Circle"
+    },
+    {
+      "Name": "FocusedIndicator",
+      "BaseType": "Circle"
+    }
+  ],
+  "Events": [],
+  "Behaviors": [
+    {
+      "BehaviorName": "ButtonBehavior"
+    }
+  ],
+  "VariablesHiddenFromInstances": [
+    "ButtonCategoryState",
+    "ContainedType",
+    "ChildrenLayout",
+    "ClipsChildren",
+    "IsRenderTarget",
+    "ExposeChildrenEvents"
+  ]
+}
