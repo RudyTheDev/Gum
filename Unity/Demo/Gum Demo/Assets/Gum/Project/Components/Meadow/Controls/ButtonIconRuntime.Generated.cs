@@ -8,82 +8,84 @@ using Gum.Wireframe;
 using GumRuntime;
 using RenderingLibrary.Graphics;
 using System.Linq;
-namespace Assembly_CSharp.Components.Meadow.Controls;
-partial class ButtonIconRuntime : ContainerRuntime
+namespace Assembly_CSharp.Components.Meadow.Controls
 {
-    [System.Runtime.CompilerServices.ModuleInitializer]
-    public static void RegisterRuntimeType()
+    partial class ButtonIconRuntime : ContainerRuntime
     {
-        GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/ButtonIcon", typeof(ButtonIconRuntime));
-    }
-    public global::Gum.Forms.Controls.Button FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Button;
-    public enum ButtonCategory
-    {
-        Enabled,
-        Disabled,
-        Highlighted,
-        Pushed,
-        HighlightedFocused,
-        Focused,
-        DisabledFocused,
-    }
-
-    ButtonCategory? _buttonCategoryState;
-    public ButtonCategory? ButtonCategoryState
-    {
-        get => _buttonCategoryState;
-        set
+        [System.Runtime.CompilerServices.ModuleInitializer]
+        public static void RegisterRuntimeType()
         {
-            _buttonCategoryState = value;
-            if(value != null)
+            GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/ButtonIcon", typeof(ButtonIconRuntime));
+        }
+        public global::Gum.Forms.Controls.Button FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Button;
+        public enum ButtonCategory
+        {
+            Enabled,
+            Disabled,
+            Highlighted,
+            Pushed,
+            HighlightedFocused,
+            Focused,
+            DisabledFocused,
+        }
+
+        ButtonCategory? _buttonCategoryState;
+        public ButtonCategory? ButtonCategoryState
+        {
+            get => _buttonCategoryState;
+            set
             {
-                if(Categories.ContainsKey("ButtonCategory"))
+                _buttonCategoryState = value;
+                if(value != null)
                 {
-                    var category = Categories["ButtonCategory"];
-                    var state = category.States.Find(item => item.Name == value.ToString());
-                    this.ApplyState(state);
-                }
-                else
-                {
-                    var category = ((global::Gum.DataTypes.ElementSave)this.Tag).Categories.FirstOrDefault(item => item.Name == "ButtonCategory");
-                    var state = category.States.Find(item => item.Name == value.ToString());
-                    this.ApplyState(state);
+                    if(Categories.ContainsKey("ButtonCategory"))
+                    {
+                        var category = Categories["ButtonCategory"];
+                        var state = category.States.Find(item => item.Name == value.ToString());
+                        this.ApplyState(state);
+                    }
+                    else
+                    {
+                        var category = ((global::Gum.DataTypes.ElementSave)this.Tag).Categories.FirstOrDefault(item => item.Name == "ButtonCategory");
+                        var state = category.States.Find(item => item.Name == value.ToString());
+                        this.ApplyState(state);
+                    }
                 }
             }
         }
-    }
-    public RectangleRuntime Background { get; protected set; }
-    public TextRuntime IconInstance { get; protected set; }
-    public RectangleRuntime FocusedIndicator { get; protected set; }
+        public RectangleRuntime Background { get; protected set; }
+        public TextRuntime IconInstance { get; protected set; }
+        public RectangleRuntime FocusedIndicator { get; protected set; }
 
-    public string Text
-    {
-        get => IconInstance.Text;
-        set => IconInstance.Text = value;
-    }
-
-    public ButtonIconRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
-    {
-        if(fullInstantiation)
+        public string Text
         {
-            var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/ButtonIcon");
-            element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            get => IconInstance.Text;
+            set => IconInstance.Text = value;
         }
 
-
-
-    }
-    public override void AfterFullCreation()
-    {
-        if (FormsControl == null)
+        public ButtonIconRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
         {
-            FormsControlAsObject = new global::Gum.Forms.Controls.Button(this);
+            if(fullInstantiation)
+            {
+                var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/ButtonIcon");
+                element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            }
+
+
+
         }
-        Background = this.GetGraphicalUiElementByName("Background") as global::Gum.GueDeriving.RectangleRuntime;
-        IconInstance = this.GetGraphicalUiElementByName("IconInstance") as global::Gum.GueDeriving.TextRuntime;
-        FocusedIndicator = this.GetGraphicalUiElementByName("FocusedIndicator") as global::Gum.GueDeriving.RectangleRuntime;
-        CustomInitialize();
+        public override void AfterFullCreation()
+        {
+            if (FormsControl == null)
+            {
+                FormsControlAsObject = new global::Gum.Forms.Controls.Button(this);
+            }
+            Background = this.GetGraphicalUiElementByName("Background") as global::Gum.GueDeriving.RectangleRuntime;
+            IconInstance = this.GetGraphicalUiElementByName("IconInstance") as global::Gum.GueDeriving.TextRuntime;
+            FocusedIndicator = this.GetGraphicalUiElementByName("FocusedIndicator") as global::Gum.GueDeriving.RectangleRuntime;
+            CustomInitialize();
+        }
+        //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
+        partial void CustomInitialize();
     }
-    //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
-    partial void CustomInitialize();
 }

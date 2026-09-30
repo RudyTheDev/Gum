@@ -8,36 +8,38 @@ using Gum.Wireframe;
 using GumRuntime;
 using RenderingLibrary.Graphics;
 using System.Linq;
-namespace Assembly_CSharp.Components.Meadow.Elements;
-partial class DividerRuntime : ContainerRuntime
+namespace Assembly_CSharp.Components.Meadow.Elements
 {
-    [System.Runtime.CompilerServices.ModuleInitializer]
-    public static void RegisterRuntimeType()
+    partial class DividerRuntime : ContainerRuntime
     {
-        GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Elements/Divider", typeof(DividerRuntime));
-    }
-    public SpriteRuntime AccentLeft { get; protected set; }
-    public SpriteRuntime Line { get; protected set; }
-    public SpriteRuntime AccentRight { get; protected set; }
-
-    public DividerRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
-    {
-        if(fullInstantiation)
+        [System.Runtime.CompilerServices.ModuleInitializer]
+        public static void RegisterRuntimeType()
         {
-            var element = ObjectFinder.Self.GetElementSave("Meadow/Elements/Divider");
-            element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Elements/Divider", typeof(DividerRuntime));
         }
+        public SpriteRuntime AccentLeft { get; protected set; }
+        public SpriteRuntime Line { get; protected set; }
+        public SpriteRuntime AccentRight { get; protected set; }
+
+        public DividerRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
+        {
+            if(fullInstantiation)
+            {
+                var element = ObjectFinder.Self.GetElementSave("Meadow/Elements/Divider");
+                element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            }
 
 
 
+        }
+        public override void AfterFullCreation()
+        {
+            AccentLeft = this.GetGraphicalUiElementByName("AccentLeft") as global::Gum.GueDeriving.SpriteRuntime;
+            Line = this.GetGraphicalUiElementByName("Line") as global::Gum.GueDeriving.SpriteRuntime;
+            AccentRight = this.GetGraphicalUiElementByName("AccentRight") as global::Gum.GueDeriving.SpriteRuntime;
+            CustomInitialize();
+        }
+        //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
+        partial void CustomInitialize();
     }
-    public override void AfterFullCreation()
-    {
-        AccentLeft = this.GetGraphicalUiElementByName("AccentLeft") as global::Gum.GueDeriving.SpriteRuntime;
-        Line = this.GetGraphicalUiElementByName("Line") as global::Gum.GueDeriving.SpriteRuntime;
-        AccentRight = this.GetGraphicalUiElementByName("AccentRight") as global::Gum.GueDeriving.SpriteRuntime;
-        CustomInitialize();
-    }
-    //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
-    partial void CustomInitialize();
 }

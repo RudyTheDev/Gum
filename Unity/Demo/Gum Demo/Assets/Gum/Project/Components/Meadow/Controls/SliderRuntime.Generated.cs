@@ -9,83 +9,85 @@ using Gum.Wireframe;
 using GumRuntime;
 using RenderingLibrary.Graphics;
 using System.Linq;
-namespace Assembly_CSharp.Components.Meadow.Controls;
-partial class SliderRuntime : ContainerRuntime
+namespace Assembly_CSharp.Components.Meadow.Controls
 {
-    [System.Runtime.CompilerServices.ModuleInitializer]
-    public static void RegisterRuntimeType()
+    partial class SliderRuntime : ContainerRuntime
     {
-        GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Slider", typeof(SliderRuntime));
-        global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof(global::Gum.Forms.Controls.Slider)] = typeof(SliderRuntime);
-    }
-    public global::Gum.Forms.Controls.Slider FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Slider;
-    public enum SliderCategory
-    {
-        Enabled,
-        Disabled,
-        DisabledFocused,
-        Focused,
-        Highlighted,
-        HighlightedFocused,
-        Pushed,
-    }
-
-    SliderCategory? _sliderCategoryState;
-    public SliderCategory? SliderCategoryState
-    {
-        get => _sliderCategoryState;
-        set
+        [System.Runtime.CompilerServices.ModuleInitializer]
+        public static void RegisterRuntimeType()
         {
-            _sliderCategoryState = value;
-            if(value != null)
+            GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Slider", typeof(SliderRuntime));
+            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof(global::Gum.Forms.Controls.Slider)] = typeof(SliderRuntime);
+        }
+        public global::Gum.Forms.Controls.Slider FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Slider;
+        public enum SliderCategory
+        {
+            Enabled,
+            Disabled,
+            DisabledFocused,
+            Focused,
+            Highlighted,
+            HighlightedFocused,
+            Pushed,
+        }
+
+        SliderCategory? _sliderCategoryState;
+        public SliderCategory? SliderCategoryState
+        {
+            get => _sliderCategoryState;
+            set
             {
-                if(Categories.ContainsKey("SliderCategory"))
+                _sliderCategoryState = value;
+                if(value != null)
                 {
-                    var category = Categories["SliderCategory"];
-                    var state = category.States.Find(item => item.Name == value.ToString());
-                    this.ApplyState(state);
-                }
-                else
-                {
-                    var category = ((global::Gum.DataTypes.ElementSave)this.Tag).Categories.FirstOrDefault(item => item.Name == "SliderCategory");
-                    var state = category.States.Find(item => item.Name == value.ToString());
-                    this.ApplyState(state);
+                    if(Categories.ContainsKey("SliderCategory"))
+                    {
+                        var category = Categories["SliderCategory"];
+                        var state = category.States.Find(item => item.Name == value.ToString());
+                        this.ApplyState(state);
+                    }
+                    else
+                    {
+                        var category = ((global::Gum.DataTypes.ElementSave)this.Tag).Categories.FirstOrDefault(item => item.Name == "SliderCategory");
+                        var state = category.States.Find(item => item.Name == value.ToString());
+                        this.ApplyState(state);
+                    }
                 }
             }
         }
-    }
-    public ContainerRuntime TrackInstance { get; protected set; }
-    public RectangleRuntime TrackBackground { get; protected set; }
-    public SliderThumbRuntime ThumbInstance { get; protected set; }
+        public ContainerRuntime TrackInstance { get; protected set; }
+        public RectangleRuntime TrackBackground { get; protected set; }
+        public SliderThumbRuntime ThumbInstance { get; protected set; }
 
-    public float SliderPercent
-    {
-        get => ThumbInstance.X;
-        set => ThumbInstance.X = value;
-    }
-
-    public SliderRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
-    {
-        if(fullInstantiation)
+        public float SliderPercent
         {
-            var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/Slider");
-            element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            get => ThumbInstance.X;
+            set => ThumbInstance.X = value;
         }
 
-
-
-    }
-    public override void AfterFullCreation()
-    {
-        if (FormsControl == null)
+        public SliderRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
         {
-            FormsControlAsObject = new global::Gum.Forms.Controls.Slider(this);
+            if(fullInstantiation)
+            {
+                var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/Slider");
+                element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            }
+
+
+
         }
-        TrackInstance = this.GetGraphicalUiElementByName("TrackInstance") as global::Gum.GueDeriving.ContainerRuntime;
-        TrackBackground = this.GetGraphicalUiElementByName("TrackBackground") as global::Gum.GueDeriving.RectangleRuntime;
-        ThumbInstance = this.GetGraphicalUiElementByName("ThumbInstance") as Assembly_CSharp.Components.Meadow.Controls.SliderThumbRuntime;
-        CustomInitialize();
+        public override void AfterFullCreation()
+        {
+            if (FormsControl == null)
+            {
+                FormsControlAsObject = new global::Gum.Forms.Controls.Slider(this);
+            }
+            TrackInstance = this.GetGraphicalUiElementByName("TrackInstance") as global::Gum.GueDeriving.ContainerRuntime;
+            TrackBackground = this.GetGraphicalUiElementByName("TrackBackground") as global::Gum.GueDeriving.RectangleRuntime;
+            ThumbInstance = this.GetGraphicalUiElementByName("ThumbInstance") as Assembly_CSharp.Components.Meadow.Controls.SliderThumbRuntime;
+            CustomInitialize();
+        }
+        //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
+        partial void CustomInitialize();
     }
-    //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
-    partial void CustomInitialize();
 }

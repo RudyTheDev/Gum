@@ -8,34 +8,36 @@ using Gum.Wireframe;
 using GumRuntime;
 using RenderingLibrary.Graphics;
 using System.Linq;
-namespace Assembly_CSharp.Components.Meadow.Controls;
-partial class ToastRuntime : ContainerRuntime
+namespace Assembly_CSharp.Components.Meadow.Controls
 {
-    [System.Runtime.CompilerServices.ModuleInitializer]
-    public static void RegisterRuntimeType()
+    partial class ToastRuntime : ContainerRuntime
     {
-        GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Toast", typeof(ToastRuntime));
-    }
-    public RectangleRuntime Background { get; protected set; }
-    public TextRuntime TextInstance { get; protected set; }
-
-    public ToastRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
-    {
-        if(fullInstantiation)
+        [System.Runtime.CompilerServices.ModuleInitializer]
+        public static void RegisterRuntimeType()
         {
-            var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/Toast");
-            element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Toast", typeof(ToastRuntime));
         }
+        public RectangleRuntime Background { get; protected set; }
+        public TextRuntime TextInstance { get; protected set; }
+
+        public ToastRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
+        {
+            if(fullInstantiation)
+            {
+                var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/Toast");
+                element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            }
 
 
 
+        }
+        public override void AfterFullCreation()
+        {
+            Background = this.GetGraphicalUiElementByName("Background") as global::Gum.GueDeriving.RectangleRuntime;
+            TextInstance = this.GetGraphicalUiElementByName("TextInstance") as global::Gum.GueDeriving.TextRuntime;
+            CustomInitialize();
+        }
+        //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
+        partial void CustomInitialize();
     }
-    public override void AfterFullCreation()
-    {
-        Background = this.GetGraphicalUiElementByName("Background") as global::Gum.GueDeriving.RectangleRuntime;
-        TextInstance = this.GetGraphicalUiElementByName("TextInstance") as global::Gum.GueDeriving.TextRuntime;
-        CustomInitialize();
-    }
-    //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
-    partial void CustomInitialize();
 }

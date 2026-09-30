@@ -8,35 +8,37 @@ using Gum.Wireframe;
 using GumRuntime;
 using RenderingLibrary.Graphics;
 using System.Linq;
-namespace Assembly_CSharp.Components.Meadow.Controls;
-partial class PanelRuntime : ContainerRuntime
+namespace Assembly_CSharp.Components.Meadow.Controls
 {
-    [System.Runtime.CompilerServices.ModuleInitializer]
-    public static void RegisterRuntimeType()
+    partial class PanelRuntime : ContainerRuntime
     {
-        GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Panel", typeof(PanelRuntime));
-    }
-    public global::Gum.Forms.Controls.Panel FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Panel;
-
-    public PanelRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
-    {
-        if(fullInstantiation)
+        [System.Runtime.CompilerServices.ModuleInitializer]
+        public static void RegisterRuntimeType()
         {
-            var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/Panel");
-            element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Panel", typeof(PanelRuntime));
         }
+        public global::Gum.Forms.Controls.Panel FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Panel;
 
-
-
-    }
-    public override void AfterFullCreation()
-    {
-        if (FormsControl == null)
+        public PanelRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
         {
-            FormsControlAsObject = new global::Gum.Forms.Controls.Panel(this);
+            if(fullInstantiation)
+            {
+                var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/Panel");
+                element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            }
+
+
+
         }
-        CustomInitialize();
+        public override void AfterFullCreation()
+        {
+            if (FormsControl == null)
+            {
+                FormsControlAsObject = new global::Gum.Forms.Controls.Panel(this);
+            }
+            CustomInitialize();
+        }
+        //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
+        partial void CustomInitialize();
     }
-    //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
-    partial void CustomInitialize();
 }

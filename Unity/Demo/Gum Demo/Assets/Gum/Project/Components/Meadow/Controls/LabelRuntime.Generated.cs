@@ -8,65 +8,67 @@ using Gum.Wireframe;
 using GumRuntime;
 using RenderingLibrary.Graphics;
 using System.Linq;
-namespace Assembly_CSharp.Components.Meadow.Controls;
-partial class LabelRuntime : global::Gum.GueDeriving.TextRuntime
+namespace Assembly_CSharp.Components.Meadow.Controls
 {
-    [System.Runtime.CompilerServices.ModuleInitializer]
-    public static void RegisterRuntimeType()
+    partial class LabelRuntime : global::Gum.GueDeriving.TextRuntime
     {
-        GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Label", typeof(LabelRuntime));
-    }
-    public global::Gum.Forms.Controls.Label FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Label;
-    public enum TextCategory
-    {
-        Normal,
-        Strong,
-    }
-
-    TextCategory? _textCategoryState;
-    public TextCategory? TextCategoryState
-    {
-        get => _textCategoryState;
-        set
+        [System.Runtime.CompilerServices.ModuleInitializer]
+        public static void RegisterRuntimeType()
         {
-            _textCategoryState = value;
-            if(value != null)
+            GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Label", typeof(LabelRuntime));
+        }
+        public global::Gum.Forms.Controls.Label FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Label;
+        public enum TextCategory
+        {
+            Normal,
+            Strong,
+        }
+
+        TextCategory? _textCategoryState;
+        public TextCategory? TextCategoryState
+        {
+            get => _textCategoryState;
+            set
             {
-                if(Categories.ContainsKey("TextCategory"))
+                _textCategoryState = value;
+                if(value != null)
                 {
-                    var category = Categories["TextCategory"];
-                    var state = category.States.Find(item => item.Name == value.ToString());
-                    this.ApplyState(state);
-                }
-                else
-                {
-                    var category = ((global::Gum.DataTypes.ElementSave)this.Tag).Categories.FirstOrDefault(item => item.Name == "TextCategory");
-                    var state = category.States.Find(item => item.Name == value.ToString());
-                    this.ApplyState(state);
+                    if(Categories.ContainsKey("TextCategory"))
+                    {
+                        var category = Categories["TextCategory"];
+                        var state = category.States.Find(item => item.Name == value.ToString());
+                        this.ApplyState(state);
+                    }
+                    else
+                    {
+                        var category = ((global::Gum.DataTypes.ElementSave)this.Tag).Categories.FirstOrDefault(item => item.Name == "TextCategory");
+                        var state = category.States.Find(item => item.Name == value.ToString());
+                        this.ApplyState(state);
+                    }
                 }
             }
         }
-    }
 
-    public LabelRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
-    {
-        if(fullInstantiation)
+        public LabelRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
         {
-            var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/Label");
-            element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            if(fullInstantiation)
+            {
+                var element = ObjectFinder.Self.GetElementSave("Meadow/Controls/Label");
+                element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            }
+
+
+
         }
-
-
-
-    }
-    public override void AfterFullCreation()
-    {
-        if (FormsControl == null)
+        public override void AfterFullCreation()
         {
-            FormsControlAsObject = new global::Gum.Forms.Controls.Label(this);
+            if (FormsControl == null)
+            {
+                FormsControlAsObject = new global::Gum.Forms.Controls.Label(this);
+            }
+            CustomInitialize();
         }
-        CustomInitialize();
+        //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
+        partial void CustomInitialize();
     }
-    //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
-    partial void CustomInitialize();
 }

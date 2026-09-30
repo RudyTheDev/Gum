@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="Assets\Gum\Project\Screens\DemoScreenGumRuntime.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\MenuRuntime.cs" />
+    <Compile Include="Assets\Gum\Project\StandardElements.Generated.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\ScrollViewerRuntime.Generated.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\StackPanelRuntime.Generated.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\StylesRuntime.cs" />

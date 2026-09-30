@@ -8,132 +8,134 @@ using Gum.Wireframe;
 using GumRuntime;
 using RenderingLibrary.Graphics;
 using System.Linq;
-namespace Assembly_CSharp.Components.Meadow.Elements;
-partial class IconRuntime : ContainerRuntime
+namespace Assembly_CSharp.Components.Meadow.Elements
 {
-    [System.Runtime.CompilerServices.ModuleInitializer]
-    public static void RegisterRuntimeType()
+    partial class IconRuntime : ContainerRuntime
     {
-        GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Elements/Icon", typeof(IconRuntime));
-    }
-    public enum IconCategory
-    {
-        None,
-        ArrowUpDown,
-        Arrow1,
-        Arrow2,
-        Arrow3,
-        Basket,
-        Battery,
-        Check,
-        CheckeredFlag,
-        Circle1,
-        Circle2,
-        Close,
-        Crosshairs,
-        Currency,
-        Cursor,
-        CursorText,
-        Dash,
-        Delete,
-        Enter,
-        Expand,
-        Gamepad,
-        GamepadNES,
-        GamepadSNES,
-        GamepadNintendo64,
-        GamepadGamecube,
-        GamepadSwitchPro,
-        GamepadXbox,
-        GamepadPlaystationDualShock,
-        GamepadSegaGenesis,
-        Gear,
-        FastForward,
-        FastForwardBar,
-        FitToScreen,
-        Flame1,
-        Flame2,
-        Heart,
-        Info,
-        Keyboard,
-        Leaf,
-        Lightning,
-        Minimize,
-        Monitor,
-        Mouse,
-        Music,
-        Pause,
-        Pencil,
-        Play,
-        PlayBar,
-        Power,
-        Radiation,
-        Reduce,
-        Shield,
-        Shot,
-        Skull,
-        Sliders,
-        SoundMaximum,
-        SoundMinimum,
-        Speech,
-        Star,
-        Stop,
-        Temperature,
-        Touch,
-        Trash,
-        Trophy,
-        User,
-        UserAdd,
-        UserDelete,
-        UserGear,
-        UserMulti,
-        UserRemove,
-        Warning,
-        Wrench,
-    }
-
-    IconCategory? _iconCategoryState;
-    public IconCategory? IconCategoryState
-    {
-        get => _iconCategoryState;
-        set
+        [System.Runtime.CompilerServices.ModuleInitializer]
+        public static void RegisterRuntimeType()
         {
-            _iconCategoryState = value;
-            if(value != null)
+            GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Elements/Icon", typeof(IconRuntime));
+        }
+        public enum IconCategory
+        {
+            None,
+            ArrowUpDown,
+            Arrow1,
+            Arrow2,
+            Arrow3,
+            Basket,
+            Battery,
+            Check,
+            CheckeredFlag,
+            Circle1,
+            Circle2,
+            Close,
+            Crosshairs,
+            Currency,
+            Cursor,
+            CursorText,
+            Dash,
+            Delete,
+            Enter,
+            Expand,
+            Gamepad,
+            GamepadNES,
+            GamepadSNES,
+            GamepadNintendo64,
+            GamepadGamecube,
+            GamepadSwitchPro,
+            GamepadXbox,
+            GamepadPlaystationDualShock,
+            GamepadSegaGenesis,
+            Gear,
+            FastForward,
+            FastForwardBar,
+            FitToScreen,
+            Flame1,
+            Flame2,
+            Heart,
+            Info,
+            Keyboard,
+            Leaf,
+            Lightning,
+            Minimize,
+            Monitor,
+            Mouse,
+            Music,
+            Pause,
+            Pencil,
+            Play,
+            PlayBar,
+            Power,
+            Radiation,
+            Reduce,
+            Shield,
+            Shot,
+            Skull,
+            Sliders,
+            SoundMaximum,
+            SoundMinimum,
+            Speech,
+            Star,
+            Stop,
+            Temperature,
+            Touch,
+            Trash,
+            Trophy,
+            User,
+            UserAdd,
+            UserDelete,
+            UserGear,
+            UserMulti,
+            UserRemove,
+            Warning,
+            Wrench,
+        }
+
+        IconCategory? _iconCategoryState;
+        public IconCategory? IconCategoryState
+        {
+            get => _iconCategoryState;
+            set
             {
-                if(Categories.ContainsKey("IconCategory"))
+                _iconCategoryState = value;
+                if(value != null)
                 {
-                    var category = Categories["IconCategory"];
-                    var state = category.States.Find(item => item.Name == value.ToString());
-                    this.ApplyState(state);
-                }
-                else
-                {
-                    var category = ((global::Gum.DataTypes.ElementSave)this.Tag).Categories.FirstOrDefault(item => item.Name == "IconCategory");
-                    var state = category.States.Find(item => item.Name == value.ToString());
-                    this.ApplyState(state);
+                    if(Categories.ContainsKey("IconCategory"))
+                    {
+                        var category = Categories["IconCategory"];
+                        var state = category.States.Find(item => item.Name == value.ToString());
+                        this.ApplyState(state);
+                    }
+                    else
+                    {
+                        var category = ((global::Gum.DataTypes.ElementSave)this.Tag).Categories.FirstOrDefault(item => item.Name == "IconCategory");
+                        var state = category.States.Find(item => item.Name == value.ToString());
+                        this.ApplyState(state);
+                    }
                 }
             }
         }
-    }
-    public SpriteRuntime IconSprite { get; protected set; }
+        public SpriteRuntime IconSprite { get; protected set; }
 
-    public IconRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
-    {
-        if(fullInstantiation)
+        public IconRuntime(bool fullInstantiation = true, bool tryCreateFormsObject = true)
         {
-            var element = ObjectFinder.Self.GetElementSave("Meadow/Elements/Icon");
-            element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            if(fullInstantiation)
+            {
+                var element = ObjectFinder.Self.GetElementSave("Meadow/Elements/Icon");
+                element?.SetGraphicalUiElement(this, global::RenderingLibrary.SystemManagers.Default);
+            }
+
+
+
         }
-
-
-
+        public override void AfterFullCreation()
+        {
+            IconSprite = this.GetGraphicalUiElementByName("IconSprite") as global::Gum.GueDeriving.SpriteRuntime;
+            CustomInitialize();
+        }
+        //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
+        partial void CustomInitialize();
     }
-    public override void AfterFullCreation()
-    {
-        IconSprite = this.GetGraphicalUiElementByName("IconSprite") as global::Gum.GueDeriving.SpriteRuntime;
-        CustomInitialize();
-    }
-    //Not assigning variables because Object Instantiation Type is set to By Name rather than Fully In Code
-    partial void CustomInitialize();
 }
