@@ -1,9 +1,32 @@
 {
   "solution": {
-    "path": "AllLibraries.sln",
+    "path": "Gum.slnx",
     "projects": [
       "GumCommon\\GumCommon.csproj",
-      "Runtimes\\SkiaGum\\SkiaGum.csproj"
+      "Runtimes\\SkiaGum\\SkiaGum.csproj",
+      "Tool\\Gum.Avalonia\\Gum.Avalonia.csproj",
+      "Tool\\EditorTabPlugin.Core\\EditorTabPlugin.Core.csproj",
+      "Tool\\StateAnimationPlugin.Core\\StateAnimationPlugin.Core.csproj",
+      "Tool\\TextureCoordinatePlugin.Core\\TextureCoordinatePlugin.Core.csproj",
+      "Tool\\TreeViewPlugin.Core\\TreeViewPlugin.Core.csproj",
+      "Gum\\ConvertToJsonPlugin\\ConvertToJsonPlugin.csproj",
+      "Gum\\EventOutputPlugin\\EventOutputPlugin.csproj",
+      "Gum\\GumFormsPlugin\\GumFormsPlugin.csproj",
+      "Gum\\ImportFromGumxPlugin\\ImportFromGumxPlugin.csproj",
+      "Gum\\PerformanceMeasurementPlugin\\PerformanceMeasurementPlugin.csproj",
+      "Gum\\SvgPlugin\\SkiaPlugin.csproj",
+      "AvaloniaDataUi\\AvaloniaDataUi.csproj",
+      "DataUi.Core\\DataUi.Core.csproj",
+      "FlatRedBall.SpecializedXnaControls\\FlatRedBall.SpecializedXnaControls.csproj",
+      "InputLibrary\\InputLibrary.csproj",
+      "MonoGameGum\\KniGum\\KniGum.csproj",
+      "Runtimes\\GumExpressions\\GumExpressions.csproj",
+      "Runtimes\\GumShapes\\KniGumShapes.csproj",
+      "Tools\\Gum.FormsStaging\\Gum.FormsStaging.csproj",
+      "Tools\\Gum.ImageDiff\\Gum.ImageDiff.csproj",
+      "Tools\\Gum.Presentation\\Gum.Presentation.csproj",
+      "Tools\\Gum.ProjectServices\\Gum.ProjectServices.csproj",
+      "XnaAndWinforms\\XnaAndWinforms.csproj"
     ]
   }
 }
