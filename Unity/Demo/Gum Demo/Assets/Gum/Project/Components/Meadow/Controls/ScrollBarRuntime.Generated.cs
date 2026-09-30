@@ -13,7 +13,7 @@ namespace Assembly_CSharp.Components.Meadow.Controls
 {
     partial class ScrollBarRuntime : ContainerRuntime
     {
-        [System.Runtime.CompilerServices.ModuleInitializer]
+        [UnityEngine.RuntimeInitializeOnLoadMethod(UnityEngine.RuntimeInitializeLoadType.SubsystemRegistration)]
         public static void RegisterRuntimeType()
         {
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/ScrollBar", typeof(ScrollBarRuntime));

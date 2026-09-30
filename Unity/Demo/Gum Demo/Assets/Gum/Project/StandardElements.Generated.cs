@@ -12,7 +12,7 @@ namespace Assembly_CSharp
 {
     internal static class StandardElementsCodeGenRegistration
     {
-        [ModuleInitializer]
+        [UnityEngine.RuntimeInitializeOnLoadMethod(UnityEngine.RuntimeInitializeLoadType.SubsystemRegistration)]
         internal static void RegisterFallbackStandardElements()
         {
             XmlSerializer serializer = GumFileSerializer.GetCompactSerializer(typeof(List<StandardElementSave>));

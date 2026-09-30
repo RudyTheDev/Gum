@@ -12,7 +12,7 @@ namespace Assembly_CSharp.Components.Meadow.Controls
 {
     partial class LabelRuntime : global::Gum.GueDeriving.TextRuntime
     {
-        [System.Runtime.CompilerServices.ModuleInitializer]
+        [UnityEngine.RuntimeInitializeOnLoadMethod(UnityEngine.RuntimeInitializeLoadType.SubsystemRegistration)]
         public static void RegisterRuntimeType()
         {
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Label", typeof(LabelRuntime));

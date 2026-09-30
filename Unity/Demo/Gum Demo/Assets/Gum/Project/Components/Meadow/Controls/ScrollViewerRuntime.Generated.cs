@@ -13,7 +13,7 @@ namespace Assembly_CSharp.Components.Meadow.Controls
 {
     partial class ScrollViewerRuntime : ContainerRuntime
     {
-        [System.Runtime.CompilerServices.ModuleInitializer]
+        [UnityEngine.RuntimeInitializeOnLoadMethod(UnityEngine.RuntimeInitializeLoadType.SubsystemRegistration)]
         public static void RegisterRuntimeType()
         {
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/ScrollViewer", typeof(ScrollViewerRuntime));
