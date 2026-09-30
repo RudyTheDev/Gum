@@ -1,0 +1,4383 @@
+fileFormatVersion: 2
+guid: 270bb9c796f4bcd47b2e6a6d75898a67
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5870295319313653770
+    second: Font15Quicksand-Medium_ttf_0_0
+  - first:
+      213: 4084003583120783188
+    second: Font15Quicksand-Medium_ttf_0_1
+  - first:
+      213: 13054331667908646
+    second: Font15Quicksand-Medium_ttf_0_2
+  - first:
+      213: 6265464027249200561
+    second: Font15Quicksand-Medium_ttf_0_3
+  - first:
+      213: -8094610079631475412
+    second: Font15Quicksand-Medium_ttf_0_4
+  - first:
+      213: 7034751736673590793
+    second: Font15Quicksand-Medium_ttf_0_5
+  - first:
+      213: 9212584792842772374
+    second: Font15Quicksand-Medium_ttf_0_6
+  - first:
+      213: -1399704172087377805
+    second: Font15Quicksand-Medium_ttf_0_7
+  - first:
+      213: -316335190787302198
+    second: Font15Quicksand-Medium_ttf_0_8
+  - first:
+      213: -2995993059012876678
+    second: Font15Quicksand-Medium_ttf_0_9
+  - first:
+      213: 4682292575362382925
+    second: Font15Quicksand-Medium_ttf_0_10
+  - first:
+      213: 2319528584358069899
+    second: Font15Quicksand-Medium_ttf_0_11
+  - first:
+      213: 7731332246703904910
+    second: Font15Quicksand-Medium_ttf_0_12
+  - first:
+      213: -8522841551480838405
+    second: Font15Quicksand-Medium_ttf_0_13
+  - first:
+      213: -3217834788808637630
+    second: Font15Quicksand-Medium_ttf_0_14
+  - first:
+      213: -2630384778991941135
+    second: Font15Quicksand-Medium_ttf_0_15
+  - first:
+      213: -7430966097130655632
+    second: Font15Quicksand-Medium_ttf_0_16
+  - first:
+      213: -8358209250086927331
+    second: Font15Quicksand-Medium_ttf_0_17
+  - first:
+      213: -8185291375208000488
+    second: Font15Quicksand-Medium_ttf_0_18
+  - first:
+      213: -3677480437389258565
+    second: Font15Quicksand-Medium_ttf_0_19
+  - first:
+      213: -756076449717448137
+    second: Font15Quicksand-Medium_ttf_0_20
+  - first:
+      213: 5232315258213364014
+    second: Font15Quicksand-Medium_ttf_0_21
+  - first:
+      213: -3474874235638572610
+    second: Font15Quicksand-Medium_ttf_0_22
+  - first:
+      213: 8597153904059523422
+    second: Font15Quicksand-Medium_ttf_0_23
+  - first:
+      213: 44803316623405862
+    second: Font15Quicksand-Medium_ttf_0_24
+  - first:
+      213: 2034339048133062332
+    second: Font15Quicksand-Medium_ttf_0_25
+  - first:
+      213: 6340041784437434135
+    second: Font15Quicksand-Medium_ttf_0_26
+  - first:
+      213: -7631731933200982581
+    second: Font15Quicksand-Medium_ttf_0_27
+  - first:
+      213: 6260635719152868137
+    second: Font15Quicksand-Medium_ttf_0_28
+  - first:
+      213: -8067632683808869215
+    second: Font15Quicksand-Medium_ttf_0_29
+  - first:
+      213: -3273487815436350187
+    second: Font15Quicksand-Medium_ttf_0_30
+  - first:
+      213: 3122135990696515416
+    second: Font15Quicksand-Medium_ttf_0_31
+  - first:
+      213: 5871924891750442758
+    second: Font15Quicksand-Medium_ttf_0_32
+  - first:
+      213: 4077984164317154240
+    second: Font15Quicksand-Medium_ttf_0_33
+  - first:
+      213: -3341665611587144117
+    second: Font15Quicksand-Medium_ttf_0_34
+  - first:
+      213: -2195724927388451760
+    second: Font15Quicksand-Medium_ttf_0_35
+  - first:
+      213: -1357548133932025604
+    second: Font15Quicksand-Medium_ttf_0_36
+  - first:
+      213: -2281170119892478983
+    second: Font15Quicksand-Medium_ttf_0_37
+  - first:
+      213: 3751525484446609502
+    second: Font15Quicksand-Medium_ttf_0_38
+  - first:
+      213: 6078623446603965386
+    second: Font15Quicksand-Medium_ttf_0_39
+  - first:
+      213: 5506986005746246702
+    second: Font15Quicksand-Medium_ttf_0_40
+  - first:
+      213: 8075435555725104416
+    second: Font15Quicksand-Medium_ttf_0_41
+  - first:
+      213: -3648158627678010666
+    second: Font15Quicksand-Medium_ttf_0_42
+  - first:
+      213: -5946155520875964963
+    second: Font15Quicksand-Medium_ttf_0_43
+  - first:
+      213: 7428448550276745281
+    second: Font15Quicksand-Medium_ttf_0_44
+  - first:
+      213: 1795108685406835284
+    second: Font15Quicksand-Medium_ttf_0_45
+  - first:
+      213: 1150854423177993829
+    second: Font15Quicksand-Medium_ttf_0_46
+  - first:
+      213: 35963196866308901
+    second: Font15Quicksand-Medium_ttf_0_47
+  - first:
+      213: 6551565314262067151
+    second: Font15Quicksand-Medium_ttf_0_48
+  - first:
+      213: -3696774513054548355
+    second: Font15Quicksand-Medium_ttf_0_49
+  - first:
+      213: -4362797491851849397
+    second: Font15Quicksand-Medium_ttf_0_50
+  - first:
+      213: -744878097905310008
+    second: Font15Quicksand-Medium_ttf_0_51
+  - first:
+      213: 4376071544040414884
+    second: Font15Quicksand-Medium_ttf_0_52
+  - first:
+      213: -7212768807275630331
+    second: Font15Quicksand-Medium_ttf_0_53
+  - first:
+      213: 2615708683267131221
+    second: Font15Quicksand-Medium_ttf_0_54
+  - first:
+      213: 3192814620812007930
+    second: Font15Quicksand-Medium_ttf_0_55
+  - first:
+      213: 3191672668152151864
+    second: Font15Quicksand-Medium_ttf_0_56
+  - first:
+      213: -2025093485051214281
+    second: Font15Quicksand-Medium_ttf_0_57
+  - first:
+      213: 4566413631523193416
+    second: Font15Quicksand-Medium_ttf_0_58
+  - first:
+      213: -6415084315433710470
+    second: Font15Quicksand-Medium_ttf_0_59
+  - first:
+      213: -5102015041674833227
+    second: Font15Quicksand-Medium_ttf_0_60
+  - first:
+      213: -3794825284645055611
+    second: Font15Quicksand-Medium_ttf_0_61
+  - first:
+      213: 4604698891823370515
+    second: Font15Quicksand-Medium_ttf_0_62
+  - first:
+      213: 2223774863399999520
+    second: Font15Quicksand-Medium_ttf_0_63
+  - first:
+      213: 6866093373997193132
+    second: Font15Quicksand-Medium_ttf_0_64
+  - first:
+      213: 2449078363877744532
+    second: Font15Quicksand-Medium_ttf_0_65
+  - first:
+      213: 3549603948221851282
+    second: Font15Quicksand-Medium_ttf_0_66
+  - first:
+      213: 3873049022120771448
+    second: Font15Quicksand-Medium_ttf_0_67
+  - first:
+      213: 8457992600246394018
+    second: Font15Quicksand-Medium_ttf_0_68
+  - first:
+      213: -2716795472648332284
+    second: Font15Quicksand-Medium_ttf_0_69
+  - first:
+      213: 4057499840421250595
+    second: Font15Quicksand-Medium_ttf_0_70
+  - first:
+      213: -7683453444819475750
+    second: Font15Quicksand-Medium_ttf_0_71
+  - first:
+      213: -4351446588536723966
+    second: Font15Quicksand-Medium_ttf_0_72
+  - first:
+      213: 3001710819614282263
+    second: Font15Quicksand-Medium_ttf_0_73
+  - first:
+      213: -2191844440834950064
+    second: Font15Quicksand-Medium_ttf_0_74
+  - first:
+      213: -5995332862700696591
+    second: Font15Quicksand-Medium_ttf_0_75
+  - first:
+      213: 5137821337594754797
+    second: Font15Quicksand-Medium_ttf_0_76
+  - first:
+      213: 3676916179638030229
+    second: Font15Quicksand-Medium_ttf_0_77
+  - first:
+      213: -9012250439243365483
+    second: Font15Quicksand-Medium_ttf_0_78
+  - first:
+      213: -593403665156767470
+    second: Font15Quicksand-Medium_ttf_0_79
+  - first:
+      213: 7977534805583470505
+    second: Font15Quicksand-Medium_ttf_0_80
+  - first:
+      213: -2718560091307584946
+    second: Font15Quicksand-Medium_ttf_0_81
+  - first:
+      213: -7624672986225932843
+    second: Font15Quicksand-Medium_ttf_0_82
+  - first:
+      213: 1935741381850374517
+    second: Font15Quicksand-Medium_ttf_0_83
+  - first:
+      213: -1775414811954890699
+    second: Font15Quicksand-Medium_ttf_0_84
+  - first:
+      213: -447110618511595396
+    second: Font15Quicksand-Medium_ttf_0_85
+  - first:
+      213: -2560328167632388322
+    second: Font15Quicksand-Medium_ttf_0_86
+  - first:
+      213: -6741151263842835211
+    second: Font15Quicksand-Medium_ttf_0_87
+  - first:
+      213: 3234960526778525418
+    second: Font15Quicksand-Medium_ttf_0_88
+  - first:
+      213: -2379356943845877897
+    second: Font15Quicksand-Medium_ttf_0_89
+  - first:
+      213: 4950000504247203612
+    second: Font15Quicksand-Medium_ttf_0_90
+  - first:
+      213: 3607058533270545867
+    second: Font15Quicksand-Medium_ttf_0_91
+  - first:
+      213: 3722848458068239401
+    second: Font15Quicksand-Medium_ttf_0_92
+  - first:
+      213: 1616338466902218518
+    second: Font15Quicksand-Medium_ttf_0_93
+  - first:
+      213: 7613691041017351322
+    second: Font15Quicksand-Medium_ttf_0_94
+  - first:
+      213: -119049524249074300
+    second: Font15Quicksand-Medium_ttf_0_95
+  - first:
+      213: 1373782384646614953
+    second: Font15Quicksand-Medium_ttf_0_96
+  - first:
+      213: 1935122088017843072
+    second: Font15Quicksand-Medium_ttf_0_97
+  - first:
+      213: 3075077494292983106
+    second: Font15Quicksand-Medium_ttf_0_98
+  - first:
+      213: 6512836425918099406
+    second: Font15Quicksand-Medium_ttf_0_99
+  - first:
+      213: -1632724515573107969
+    second: Font15Quicksand-Medium_ttf_0_100
+  - first:
+      213: 5724489431194458884
+    second: Font15Quicksand-Medium_ttf_0_101
+  - first:
+      213: 2897461143571581847
+    second: Font15Quicksand-Medium_ttf_0_102
+  - first:
+      213: 7241443220378728369
+    second: Font15Quicksand-Medium_ttf_0_103
+  - first:
+      213: 6194959175514579529
+    second: Font15Quicksand-Medium_ttf_0_104
+  - first:
+      213: 267557740359729139
+    second: Font15Quicksand-Medium_ttf_0_105
+  - first:
+      213: 6959640541176012455
+    second: Font15Quicksand-Medium_ttf_0_106
+  - first:
+      213: 6704340775300481385
+    second: Font15Quicksand-Medium_ttf_0_107
+  - first:
+      213: 9045942638795731682
+    second: Font15Quicksand-Medium_ttf_0_108
+  - first:
+      213: 630251256739420611
+    second: Font15Quicksand-Medium_ttf_0_109
+  - first:
+      213: 6206920380974777345
+    second: Font15Quicksand-Medium_ttf_0_110
+  - first:
+      213: 3402224294004802709
+    second: Font15Quicksand-Medium_ttf_0_111
+  - first:
+      213: -1826448206506199871
+    second: Font15Quicksand-Medium_ttf_0_112
+  - first:
+      213: 6528888311524928708
+    second: Font15Quicksand-Medium_ttf_0_113
+  - first:
+      213: -3125784762903890926
+    second: Font15Quicksand-Medium_ttf_0_114
+  - first:
+      213: 3911780866103285084
+    second: Font15Quicksand-Medium_ttf_0_115
+  - first:
+      213: -6511748286038541590
+    second: Font15Quicksand-Medium_ttf_0_116
+  - first:
+      213: 3865186742956866613
+    second: Font15Quicksand-Medium_ttf_0_117
+  - first:
+      213: -6616586573465111776
+    second: Font15Quicksand-Medium_ttf_0_118
+  - first:
+      213: 8217237270684238105
+    second: Font15Quicksand-Medium_ttf_0_119
+  - first:
+      213: -3507361016936460997
+    second: Font15Quicksand-Medium_ttf_0_120
+  - first:
+      213: -6854565023363519352
+    second: Font15Quicksand-Medium_ttf_0_121
+  - first:
+      213: 8914329697221602294
+    second: Font15Quicksand-Medium_ttf_0_122
+  - first:
+      213: 1086415592305883413
+    second: Font15Quicksand-Medium_ttf_0_123
+  - first:
+      213: 7145122642116464201
+    second: Font15Quicksand-Medium_ttf_0_124
+  - first:
+      213: 8477921424271028338
+    second: Font15Quicksand-Medium_ttf_0_125
+  - first:
+      213: -7245315126054664483
+    second: Font15Quicksand-Medium_ttf_0_126
+  - first:
+      213: 3349855515046818571
+    second: Font15Quicksand-Medium_ttf_0_127
+  - first:
+      213: -586507071373494427
+    second: Font15Quicksand-Medium_ttf_0_128
+  - first:
+      213: 9194052044427655989
+    second: Font15Quicksand-Medium_ttf_0_129
+  - first:
+      213: -4921953161771659299
+    second: Font15Quicksand-Medium_ttf_0_130
+  - first:
+      213: 2191608854585224338
+    second: Font15Quicksand-Medium_ttf_0_131
+  - first:
+      213: 1963410179332414423
+    second: Font15Quicksand-Medium_ttf_0_132
+  - first:
+      213: 8029070121455298139
+    second: Font15Quicksand-Medium_ttf_0_133
+  - first:
+      213: 7944578163893945818
+    second: Font15Quicksand-Medium_ttf_0_134
+  - first:
+      213: -1645830956301617438
+    second: Font15Quicksand-Medium_ttf_0_135
+  - first:
+      213: -5548620710803511333
+    second: Font15Quicksand-Medium_ttf_0_136
+  - first:
+      213: -3549880894145333354
+    second: Font15Quicksand-Medium_ttf_0_137
+  - first:
+      213: 7593924327272735148
+    second: Font15Quicksand-Medium_ttf_0_138
+  - first:
+      213: 940940193627040053
+    second: Font15Quicksand-Medium_ttf_0_139
+  - first:
+      213: -2351032478352972932
+    second: Font15Quicksand-Medium_ttf_0_140
+  - first:
+      213: 6437267657690954314
+    second: Font15Quicksand-Medium_ttf_0_141
+  - first:
+      213: -5405638285957305256
+    second: Font15Quicksand-Medium_ttf_0_142
+  - first:
+      213: 3178890978096780065
+    second: Font15Quicksand-Medium_ttf_0_143
+  - first:
+      213: -6335247708499128553
+    second: Font15Quicksand-Medium_ttf_0_144
+  - first:
+      213: 1049484410643804211
+    second: Font15Quicksand-Medium_ttf_0_145
+  - first:
+      213: -3774368257953850701
+    second: Font15Quicksand-Medium_ttf_0_146
+  - first:
+      213: 2387420636074884937
+    second: Font15Quicksand-Medium_ttf_0_147
+  - first:
+      213: -6691591269848102301
+    second: Font15Quicksand-Medium_ttf_0_148
+  - first:
+      213: -5817836726074891747
+    second: Font15Quicksand-Medium_ttf_0_149
+  - first:
+      213: 1432113572848619906
+    second: Font15Quicksand-Medium_ttf_0_150
+  - first:
+      213: 4505909147515197071
+    second: Font15Quicksand-Medium_ttf_0_151
+  - first:
+      213: 8990253919915896280
+    second: Font15Quicksand-Medium_ttf_0_152
+  - first:
+      213: -101146993450695107
+    second: Font15Quicksand-Medium_ttf_0_153
+  - first:
+      213: -7571773948708545603
+    second: Font15Quicksand-Medium_ttf_0_154
+  - first:
+      213: 4893057713301362612
+    second: Font15Quicksand-Medium_ttf_0_155
+  - first:
+      213: -3674564353917012320
+    second: Font15Quicksand-Medium_ttf_0_156
+  - first:
+      213: 5278976340946019810
+    second: Font15Quicksand-Medium_ttf_0_157
+  - first:
+      213: 7913049331506669387
+    second: Font15Quicksand-Medium_ttf_0_158
+  - first:
+      213: -7590430748642889979
+    second: Font15Quicksand-Medium_ttf_0_159
+  - first:
+      213: 3219445666481146898
+    second: Font15Quicksand-Medium_ttf_0_160
+  - first:
+      213: 9035367958226143701
+    second: Font15Quicksand-Medium_ttf_0_161
+  - first:
+      213: 6163589548005458180
+    second: Font15Quicksand-Medium_ttf_0_162
+  - first:
+      213: -6477662039241265716
+    second: Font15Quicksand-Medium_ttf_0_163
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a002452ad7a777150800000000000000
+      internalID: 5870295319313653770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 242
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4573651fe9b4da830800000000000000
+      internalID: 4084003583120783188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 243
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62888d178d06e2000800000000000000
+      internalID: 13054331667908646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_3
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 243
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd4d21465663f650800000000000000
+      internalID: 6265464027249200561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 243
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2df448050b2aaf80800000000000000
+      internalID: -8094610079631475412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 244
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90edd7bce6570a160800000000000000
+      internalID: 7034751736673590793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 244
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f1f880f0da9df70800000000000000
+      internalID: 9212584792842772374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 244
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3708910b870439ce0800000000000000
+      internalID: -1399704172087377805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 244
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accda2be1d62c9bf0800000000000000
+      internalID: -316335190787302198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 247
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a766000bf281c66d0800000000000000
+      internalID: -2995993059012876678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 249
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c7ce81a48daf040800000000000000
+      internalID: 4682292575362382925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_11
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 249
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b86070545fe903020800000000000000
+      internalID: 2319528584358069899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e881f4d47b53b4b60800000000000000
+      internalID: 7731332246703904910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 229
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6ab0fc3c8c8b980800000000000000
+      internalID: -8522841551480838405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_14
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 231
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243ca23fe44f753d0800000000000000
+      internalID: -3217834788808637630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 230
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f94799dafefe7bd0800000000000000
+      internalID: -2630384778991941135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 231
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0707e82a4b7efd890800000000000000
+      internalID: -7430966097130655632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 232
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d144f2288fca10c80800000000000000
+      internalID: -8358209250086927331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_18
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 232
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81498ad9cd0086e80800000000000000
+      internalID: -8185291375208000488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 232
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb017fcb607f6fcc0800000000000000
+      internalID: -3677480437389258565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_20
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 221
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7329d8f8970e185f0800000000000000
+      internalID: -756076449717448137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_21
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 234
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21f9ae510bec9840800000000000000
+      internalID: 5232315258213364014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 225
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb91b991b44c6cfc0800000000000000
+      internalID: -3474874235638572610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 234
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51a4d21de93f4770800000000000000
+      internalID: 8597153904059523422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623f81c016c2f9000800000000000000
+      internalID: 44803316623405862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_25
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 216
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe6dacf59c6b3c10800000000000000
+      internalID: 2034339048133062332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_26
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 216
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717e686796a5cf750800000000000000
+      internalID: 6340041784437434135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_27
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 217
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcddc8ccd34a61690800000000000000
+      internalID: -7631731933200982581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_28
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 218
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b9a3c240f32e650800000000000000
+      internalID: 6260635719152868137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_29
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 219
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4bd3771d20a0090800000000000000
+      internalID: -8067632683808869215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_30
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 207
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51dc850fc2c3292d0800000000000000
+      internalID: -3273487815436350187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 220
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8579de9442e045b20800000000000000
+      internalID: 3122135990696515416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_32
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 208
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6072f8804944d7150800000000000000
+      internalID: 5871924891750442758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_33
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 220
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbcac9cdf8e79830800000000000000
+      internalID: 4077984164317154240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_34
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 209
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46b537c4d400a1d0800000000000000
+      internalID: -3341665611587144117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_35
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 215
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c7a8edfc73781e0800000000000000
+      internalID: -2195724927388451760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 215
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8bc7f2a25092de0800000000000000
+      internalID: -1357548133932025604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_37
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 219
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3d293bcd7a750e0800000000000000
+      internalID: -2281170119892478983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 193
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50f34a3d88101430800000000000000
+      internalID: 3751525484446609502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 194
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3a03a91db9b5450800000000000000
+      internalID: 6078623446603965386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 208
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e246d8f489ebc6c40800000000000000
+      internalID: 5506986005746246702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_41
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 203
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025dd893ad5b11070800000000000000
+      internalID: 8075435555725104416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_42
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 203
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2c9f09e032f5dc0800000000000000
+      internalID: -3648158627678010666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_43
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 205
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5d5fece030b7da0800000000000000
+      internalID: -5946155520875964963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_44
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 206
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148c28f4996271760800000000000000
+      internalID: 7428448550276745281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_45
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 187
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45294e6a6d189e810800000000000000
+      internalID: 1795108685406835284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_46
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 200
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e16b91008a8ff00800000000000000
+      internalID: 1150854423177993829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_47
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 206
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b24364654cf7000800000000000000
+      internalID: 35963196866308901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_48
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 209
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc76c5f01f5dbea50800000000000000
+      internalID: 6551565314262067151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_49
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 203
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e7aaeaa2b62bcc0800000000000000
+      internalID: -3696774513054548355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_50
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 191
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b419437dbca3473c0800000000000000
+      internalID: -4362797491851849397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_51
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 190
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6a2650159a9a5f0800000000000000
+      internalID: -744878097905310008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_52
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 193
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae593642edeabc30800000000000000
+      internalID: 4376071544040414884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_53
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 193
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50171531cf817eb90800000000000000
+      internalID: -7212768807275630331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_54
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 194
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557ca06503ddc4420800000000000000
+      internalID: 2615708683267131221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_55
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 195
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af95c2b3bf72f4c20800000000000000
+      internalID: 3192814620812007930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_56
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 197
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f3888a1691b4c20800000000000000
+      internalID: 3191672668152151864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_57
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 189
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736809a643c65e3e0800000000000000
+      internalID: -2025093485051214281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 177
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842017401092f5f30800000000000000
+      internalID: 4566413631523193416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_59
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 180
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cc46ebdca09f6a0800000000000000
+      internalID: -6415084315433710470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_60
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 177
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2954ae9500239b0800000000000000
+      internalID: -5102015041674833227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_61
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 178
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5839f0c6282165bc0800000000000000
+      internalID: -3794825284645055611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_62
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 177
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31154c0de3d27ef30800000000000000
+      internalID: 4604698891823370515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_63
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 181
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0285669c47f6cde10800000000000000
+      internalID: 2223774863399999520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_64
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 181
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca714c7ab83494f50800000000000000
+      internalID: 6866093373997193132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_65
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 183
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f1702dbcfdcf120800000000000000
+      internalID: 2449078363877744532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_66
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 171
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296661bfbf9b24130800000000000000
+      internalID: 3549603948221851282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_67
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 178
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fbe29b095dfb530800000000000000
+      internalID: 3873049022120771448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac91922573d06570800000000000000
+      internalID: 8457992600246394018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_69
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 166
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c186d69e00c4ad0800000000000000
+      internalID: -2716795472648332284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_70
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 166
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32643887b922f4830800000000000000
+      internalID: 4057499840421250595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_71
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 164
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2a845fcc3ee5590800000000000000
+      internalID: -7683453444819475750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_72
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 164
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206ee27f16e8c93c0800000000000000
+      internalID: -4351446588536723966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_73
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 164
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7125e81361838a920800000000000000
+      internalID: 3001710819614282263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_74
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 151
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c3e1d08110591e0800000000000000
+      internalID: -2191844440834950064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_75
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 169
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbcf78a68c4ccca0800000000000000
+      internalID: -5995332862700696591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_76
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 157
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6f1c209453d4740800000000000000
+      internalID: 5137821337594754797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_77
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 169
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f0634c8c7070330800000000000000
+      internalID: 3676916179638030229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_78
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 161
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5938a0679fd0ee280800000000000000
+      internalID: -9012250439243365483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_79
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 164
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2118ae1b28ec3c7f0800000000000000
+      internalID: -593403665156767470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af1e1e83a5e5be60800000000000000
+      internalID: 7977534805583470505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_81
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 145
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42de01200cb54ad0800000000000000
+      internalID: -2718560091307584946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_82
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 160
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d58c77f058bf2690800000000000000
+      internalID: -7624672986225932843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_83
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 152
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5712732e7822dda10800000000000000
+      internalID: 1935741381850374517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_84
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 151
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538367492a57c57e0800000000000000
+      internalID: -1775414811954890699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_85
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 151
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78af48e24b8bc9f0800000000000000
+      internalID: -447110618511595396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_86
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 151
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f38d3c813e77cd0800000000000000
+      internalID: -2560328167632388322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_87
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 152
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4e87544ae9272a0800000000000000
+      internalID: -6741151263842835211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_88
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 138
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae66b05a573e4ec20800000000000000
+      internalID: 3234960526778525418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_89
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 138
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77715384773dafed0800000000000000
+      internalID: -2379356943845877897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_90
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 138
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17b8ad7b3fe1b440800000000000000
+      internalID: 4950000504247203612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_91
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 138
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5e1afff98de0230800000000000000
+      internalID: 3607058533270545867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_92
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 138
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924a4c7b2f63aa330800000000000000
+      internalID: 3722848458068239401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_93
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 145
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617918c95436e6610800000000000000
+      internalID: 1616338466902218518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_94
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 145
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cc969a9a349a960800000000000000
+      internalID: 7613691041017351322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_95
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 147
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4856474a61d095ef0800000000000000
+      internalID: -119049524249074300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_96
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 137
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afec8bdcc7a01310800000000000000
+      internalID: 1373782384646614953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083d05d494feada10800000000000000
+      internalID: 1935122088017843072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_98
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 130
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24da12840bedcaa20800000000000000
+      internalID: 3075077494292983106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_99
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 124
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfa21f093e326a50800000000000000
+      internalID: 6512836425918099406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_100
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 125
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2713124b56759e0800000000000000
+      internalID: -1632724515573107969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_101
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 125
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bd2dadec8717f40800000000000000
+      internalID: 5724489431194458884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_102
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 125
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bc4150f89d53820800000000000000
+      internalID: 2897461143571581847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_103
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 112
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7b5dbfd36ce7460800000000000000
+      internalID: 7241443220378728369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_104
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 133
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942e79e3c8ae8f550800000000000000
+      internalID: 6194959175514579529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_105
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 125
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff3c07e85e86b300800000000000000
+      internalID: 267557740359729139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_106
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 125
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae143dc23c959060800000000000000
+      internalID: 6959640541176012455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_107
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 125
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961c3fcf96a9a0d50800000000000000
+      internalID: 6704340775300481385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2bafb07e4a98d70800000000000000
+      internalID: 9045942638795731682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_109
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 113
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c95235cd2a1fb800800000000000000
+      internalID: 630251256739420611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_110
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 115
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10442296339632650800000000000000
+      internalID: 6206920380974777345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_111
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 100
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5944c5a38f0273f20800000000000000
+      internalID: 3402224294004802709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_112
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 110
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c47c8a780727a6e0800000000000000
+      internalID: -1826448206506199871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_113
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 112
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cca4aae3554b9a50800000000000000
+      internalID: 6528888311524928708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_114
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 112
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214f8cab15bfe94d0800000000000000
+      internalID: -3125784762903890926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_115
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 112
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c559143e8ff694630800000000000000
+      internalID: 3911780866103285084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_116
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 116
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaf9ef3f6f91a5a0800000000000000
+      internalID: -6511748286038541590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c3e743dd6e3a530800000000000000
+      internalID: 3865186742956866613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_118
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 98
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0233efe41992d24a0800000000000000
+      internalID: -6616586573465111776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_119
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 98
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9110c3ac2cd790270800000000000000
+      internalID: 8217237270684238105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_120
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 86
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d0376ecb9535fc0800000000000000
+      internalID: -3507361016936460997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_121
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 103
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ca994ad61bfd0a0800000000000000
+      internalID: -6854565023363519352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_122
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 99
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbeb9521af06bb70800000000000000
+      internalID: 8914329697221602294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_123
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 99
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51976d1a939b31f00800000000000000
+      internalID: 1086415592305883413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_124
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 99
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ec3ffbf23982360800000000000000
+      internalID: 7145122642116464201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_125
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 100
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270395f0e90a7a570800000000000000
+      internalID: 8477921424271028338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd64fb9b748737b90800000000000000
+      internalID: -7245315126054664483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_127
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 83
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03bf37b7d31d7e20800000000000000
+      internalID: 3349855515046818571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_128
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 83
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56737801dee4cd7f0800000000000000
+      internalID: -586507071373494427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_129
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 86
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b709a4f95d79f70800000000000000
+      internalID: 9194052044427655989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_130
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 86
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf4d7f4da5b1bbb0800000000000000
+      internalID: -4921953161771659299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_131
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 86
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c272044a82a6e10800000000000000
+      internalID: 2191608854585224338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_132
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 88
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db9e7fc72f6f3b10800000000000000
+      internalID: 1963410179332414423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56ab025cbcfc6f60800000000000000
+      internalID: 8029070121455298139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_134
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 65
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad549357fbfc04e60800000000000000
+      internalID: 7944578163893945818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_135
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 50
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6fc491775d829e0800000000000000
+      internalID: -1645830956301617438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_136
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 68
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd76e238cd65ff2b0800000000000000
+      internalID: -5548620710803511333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_137
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 72
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6977585822a4cbec0800000000000000
+      internalID: -3549880894145333354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_138
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 58
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1e94af0f9036960800000000000000
+      internalID: 7593924327272735148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_139
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 73
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539e60cee14ee0d00800000000000000
+      internalID: 940940193627040053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_140
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 60
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c736d50da647f5fd0800000000000000
+      internalID: -2351032478352972932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_141
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 73
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ab7cc14d4c55950800000000000000
+      internalID: 6437267657690954314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_142
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 60
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c63458e905bf4b0800000000000000
+      internalID: -5405638285957305256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_143
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 73
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12317298080bd1c20800000000000000
+      internalID: 3178890978096780065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f4dc256cda418a0800000000000000
+      internalID: -6335247708499128553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_145
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 49
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330fbb5d284809e00800000000000000
+      internalID: 1049484410643804211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_146
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 35
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba962d1110ce9bc0800000000000000
+      internalID: -3774368257953850701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_147
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 51
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f3eae5b62d12120800000000000000
+      internalID: 2387420636074884937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_148
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 44
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a49929131b223a0800000000000000
+      internalID: -6691591269848102301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_149
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 47
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12a5156254e24fa0800000000000000
+      internalID: -5817836726074891747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28158a3f4b3efd310800000000000000
+      internalID: 1432113572848619906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_151
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 33
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8693df0f74388e30800000000000000
+      internalID: 4505909147515197071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_152
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 35
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd6629ce4cc3cc70800000000000000
+      internalID: 8990253919915896280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_153
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 19
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36c5496857a89ef0800000000000000
+      internalID: -101146993450695107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_154
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 20
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb9babe5b7abe690800000000000000
+      internalID: -7571773948708545603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_155
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b710d2d012a7e340800000000000000
+      internalID: 4893057713301362612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_156
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 30
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6b6745033510dc0800000000000000
+      internalID: -3674564353917012320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_157
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 19
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e567cb4301b24940800000000000000
+      internalID: 5278976340946019810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_158
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 3
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47e89e117cc0dd60800000000000000
+      internalID: 7913049331506669387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_159
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 4
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f20fe237f59a690800000000000000
+      internalID: -7590430748642889979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_160
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 4
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c874cb6c4cdac20800000000000000
+      internalID: 3219445666481146898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_161
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 16
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9040d5943146d70800000000000000
+      internalID: 9035367958226143701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4010d2ea908798550800000000000000
+      internalID: 6163589548005458180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font15Quicksand-Medium_ttf_0_163
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 2
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdedf702b8ba16a0800000000000000
+      internalID: -6477662039241265716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Font15Quicksand-Medium_ttf_0_0: 5870295319313653770
+      Font15Quicksand-Medium_ttf_0_1: 4084003583120783188
+      Font15Quicksand-Medium_ttf_0_10: 4682292575362382925
+      Font15Quicksand-Medium_ttf_0_100: -1632724515573107969
+      Font15Quicksand-Medium_ttf_0_101: 5724489431194458884
+      Font15Quicksand-Medium_ttf_0_102: 2897461143571581847
+      Font15Quicksand-Medium_ttf_0_103: 7241443220378728369
+      Font15Quicksand-Medium_ttf_0_104: 6194959175514579529
+      Font15Quicksand-Medium_ttf_0_105: 267557740359729139
+      Font15Quicksand-Medium_ttf_0_106: 6959640541176012455
+      Font15Quicksand-Medium_ttf_0_107: 6704340775300481385
+      Font15Quicksand-Medium_ttf_0_108: 9045942638795731682
+      Font15Quicksand-Medium_ttf_0_109: 630251256739420611
+      Font15Quicksand-Medium_ttf_0_11: 2319528584358069899
+      Font15Quicksand-Medium_ttf_0_110: 6206920380974777345
+      Font15Quicksand-Medium_ttf_0_111: 3402224294004802709
+      Font15Quicksand-Medium_ttf_0_112: -1826448206506199871
+      Font15Quicksand-Medium_ttf_0_113: 6528888311524928708
+      Font15Quicksand-Medium_ttf_0_114: -3125784762903890926
+      Font15Quicksand-Medium_ttf_0_115: 3911780866103285084
+      Font15Quicksand-Medium_ttf_0_116: -6511748286038541590
+      Font15Quicksand-Medium_ttf_0_117: 3865186742956866613
+      Font15Quicksand-Medium_ttf_0_118: -6616586573465111776
+      Font15Quicksand-Medium_ttf_0_119: 8217237270684238105
+      Font15Quicksand-Medium_ttf_0_12: 7731332246703904910
+      Font15Quicksand-Medium_ttf_0_120: -3507361016936460997
+      Font15Quicksand-Medium_ttf_0_121: -6854565023363519352
+      Font15Quicksand-Medium_ttf_0_122: 8914329697221602294
+      Font15Quicksand-Medium_ttf_0_123: 1086415592305883413
+      Font15Quicksand-Medium_ttf_0_124: 7145122642116464201
+      Font15Quicksand-Medium_ttf_0_125: 8477921424271028338
+      Font15Quicksand-Medium_ttf_0_126: -7245315126054664483
+      Font15Quicksand-Medium_ttf_0_127: 3349855515046818571
+      Font15Quicksand-Medium_ttf_0_128: -586507071373494427
+      Font15Quicksand-Medium_ttf_0_129: 9194052044427655989
+      Font15Quicksand-Medium_ttf_0_13: -8522841551480838405
+      Font15Quicksand-Medium_ttf_0_130: -4921953161771659299
+      Font15Quicksand-Medium_ttf_0_131: 2191608854585224338
+      Font15Quicksand-Medium_ttf_0_132: 1963410179332414423
+      Font15Quicksand-Medium_ttf_0_133: 8029070121455298139
+      Font15Quicksand-Medium_ttf_0_134: 7944578163893945818
+      Font15Quicksand-Medium_ttf_0_135: -1645830956301617438
+      Font15Quicksand-Medium_ttf_0_136: -5548620710803511333
+      Font15Quicksand-Medium_ttf_0_137: -3549880894145333354
+      Font15Quicksand-Medium_ttf_0_138: 7593924327272735148
+      Font15Quicksand-Medium_ttf_0_139: 940940193627040053
+      Font15Quicksand-Medium_ttf_0_14: -3217834788808637630
+      Font15Quicksand-Medium_ttf_0_140: -2351032478352972932
+      Font15Quicksand-Medium_ttf_0_141: 6437267657690954314
+      Font15Quicksand-Medium_ttf_0_142: -5405638285957305256
+      Font15Quicksand-Medium_ttf_0_143: 3178890978096780065
+      Font15Quicksand-Medium_ttf_0_144: -6335247708499128553
+      Font15Quicksand-Medium_ttf_0_145: 1049484410643804211
+      Font15Quicksand-Medium_ttf_0_146: -3774368257953850701
+      Font15Quicksand-Medium_ttf_0_147: 2387420636074884937
+      Font15Quicksand-Medium_ttf_0_148: -6691591269848102301
+      Font15Quicksand-Medium_ttf_0_149: -5817836726074891747
+      Font15Quicksand-Medium_ttf_0_15: -2630384778991941135
+      Font15Quicksand-Medium_ttf_0_150: 1432113572848619906
+      Font15Quicksand-Medium_ttf_0_151: 4505909147515197071
+      Font15Quicksand-Medium_ttf_0_152: 8990253919915896280
+      Font15Quicksand-Medium_ttf_0_153: -101146993450695107
+      Font15Quicksand-Medium_ttf_0_154: -7571773948708545603
+      Font15Quicksand-Medium_ttf_0_155: 4893057713301362612
+      Font15Quicksand-Medium_ttf_0_156: -3674564353917012320
+      Font15Quicksand-Medium_ttf_0_157: 5278976340946019810
+      Font15Quicksand-Medium_ttf_0_158: 7913049331506669387
+      Font15Quicksand-Medium_ttf_0_159: -7590430748642889979
+      Font15Quicksand-Medium_ttf_0_16: -7430966097130655632
+      Font15Quicksand-Medium_ttf_0_160: 3219445666481146898
+      Font15Quicksand-Medium_ttf_0_161: 9035367958226143701
+      Font15Quicksand-Medium_ttf_0_162: 6163589548005458180
+      Font15Quicksand-Medium_ttf_0_163: -6477662039241265716
+      Font15Quicksand-Medium_ttf_0_17: -8358209250086927331
+      Font15Quicksand-Medium_ttf_0_18: -8185291375208000488
+      Font15Quicksand-Medium_ttf_0_19: -3677480437389258565
+      Font15Quicksand-Medium_ttf_0_2: 13054331667908646
+      Font15Quicksand-Medium_ttf_0_20: -756076449717448137
+      Font15Quicksand-Medium_ttf_0_21: 5232315258213364014
+      Font15Quicksand-Medium_ttf_0_22: -3474874235638572610
+      Font15Quicksand-Medium_ttf_0_23: 8597153904059523422
+      Font15Quicksand-Medium_ttf_0_24: 44803316623405862
+      Font15Quicksand-Medium_ttf_0_25: 2034339048133062332
+      Font15Quicksand-Medium_ttf_0_26: 6340041784437434135
+      Font15Quicksand-Medium_ttf_0_27: -7631731933200982581
+      Font15Quicksand-Medium_ttf_0_28: 6260635719152868137
+      Font15Quicksand-Medium_ttf_0_29: -8067632683808869215
+      Font15Quicksand-Medium_ttf_0_3: 6265464027249200561
+      Font15Quicksand-Medium_ttf_0_30: -3273487815436350187
+      Font15Quicksand-Medium_ttf_0_31: 3122135990696515416
+      Font15Quicksand-Medium_ttf_0_32: 5871924891750442758
+      Font15Quicksand-Medium_ttf_0_33: 4077984164317154240
+      Font15Quicksand-Medium_ttf_0_34: -3341665611587144117
+      Font15Quicksand-Medium_ttf_0_35: -2195724927388451760
+      Font15Quicksand-Medium_ttf_0_36: -1357548133932025604
+      Font15Quicksand-Medium_ttf_0_37: -2281170119892478983
+      Font15Quicksand-Medium_ttf_0_38: 3751525484446609502
+      Font15Quicksand-Medium_ttf_0_39: 6078623446603965386
+      Font15Quicksand-Medium_ttf_0_4: -8094610079631475412
+      Font15Quicksand-Medium_ttf_0_40: 5506986005746246702
+      Font15Quicksand-Medium_ttf_0_41: 8075435555725104416
+      Font15Quicksand-Medium_ttf_0_42: -3648158627678010666
+      Font15Quicksand-Medium_ttf_0_43: -5946155520875964963
+      Font15Quicksand-Medium_ttf_0_44: 7428448550276745281
+      Font15Quicksand-Medium_ttf_0_45: 1795108685406835284
+      Font15Quicksand-Medium_ttf_0_46: 1150854423177993829
+      Font15Quicksand-Medium_ttf_0_47: 35963196866308901
+      Font15Quicksand-Medium_ttf_0_48: 6551565314262067151
+      Font15Quicksand-Medium_ttf_0_49: -3696774513054548355
+      Font15Quicksand-Medium_ttf_0_5: 7034751736673590793
+      Font15Quicksand-Medium_ttf_0_50: -4362797491851849397
+      Font15Quicksand-Medium_ttf_0_51: -744878097905310008
+      Font15Quicksand-Medium_ttf_0_52: 4376071544040414884
+      Font15Quicksand-Medium_ttf_0_53: -7212768807275630331
+      Font15Quicksand-Medium_ttf_0_54: 2615708683267131221
+      Font15Quicksand-Medium_ttf_0_55: 3192814620812007930
+      Font15Quicksand-Medium_ttf_0_56: 3191672668152151864
+      Font15Quicksand-Medium_ttf_0_57: -2025093485051214281
+      Font15Quicksand-Medium_ttf_0_58: 4566413631523193416
+      Font15Quicksand-Medium_ttf_0_59: -6415084315433710470
+      Font15Quicksand-Medium_ttf_0_6: 9212584792842772374
+      Font15Quicksand-Medium_ttf_0_60: -5102015041674833227
+      Font15Quicksand-Medium_ttf_0_61: -3794825284645055611
+      Font15Quicksand-Medium_ttf_0_62: 4604698891823370515
+      Font15Quicksand-Medium_ttf_0_63: 2223774863399999520
+      Font15Quicksand-Medium_ttf_0_64: 6866093373997193132
+      Font15Quicksand-Medium_ttf_0_65: 2449078363877744532
+      Font15Quicksand-Medium_ttf_0_66: 3549603948221851282
+      Font15Quicksand-Medium_ttf_0_67: 3873049022120771448
+      Font15Quicksand-Medium_ttf_0_68: 8457992600246394018
+      Font15Quicksand-Medium_ttf_0_69: -2716795472648332284
+      Font15Quicksand-Medium_ttf_0_7: -1399704172087377805
+      Font15Quicksand-Medium_ttf_0_70: 4057499840421250595
+      Font15Quicksand-Medium_ttf_0_71: -7683453444819475750
+      Font15Quicksand-Medium_ttf_0_72: -4351446588536723966
+      Font15Quicksand-Medium_ttf_0_73: 3001710819614282263
+      Font15Quicksand-Medium_ttf_0_74: -2191844440834950064
+      Font15Quicksand-Medium_ttf_0_75: -5995332862700696591
+      Font15Quicksand-Medium_ttf_0_76: 5137821337594754797
+      Font15Quicksand-Medium_ttf_0_77: 3676916179638030229
+      Font15Quicksand-Medium_ttf_0_78: -9012250439243365483
+      Font15Quicksand-Medium_ttf_0_79: -593403665156767470
+      Font15Quicksand-Medium_ttf_0_8: -316335190787302198
+      Font15Quicksand-Medium_ttf_0_80: 7977534805583470505
+      Font15Quicksand-Medium_ttf_0_81: -2718560091307584946
+      Font15Quicksand-Medium_ttf_0_82: -7624672986225932843
+      Font15Quicksand-Medium_ttf_0_83: 1935741381850374517
+      Font15Quicksand-Medium_ttf_0_84: -1775414811954890699
+      Font15Quicksand-Medium_ttf_0_85: -447110618511595396
+      Font15Quicksand-Medium_ttf_0_86: -2560328167632388322
+      Font15Quicksand-Medium_ttf_0_87: -6741151263842835211
+      Font15Quicksand-Medium_ttf_0_88: 3234960526778525418
+      Font15Quicksand-Medium_ttf_0_89: -2379356943845877897
+      Font15Quicksand-Medium_ttf_0_9: -2995993059012876678
+      Font15Quicksand-Medium_ttf_0_90: 4950000504247203612
+      Font15Quicksand-Medium_ttf_0_91: 3607058533270545867
+      Font15Quicksand-Medium_ttf_0_92: 3722848458068239401
+      Font15Quicksand-Medium_ttf_0_93: 1616338466902218518
+      Font15Quicksand-Medium_ttf_0_94: 7613691041017351322
+      Font15Quicksand-Medium_ttf_0_95: -119049524249074300
+      Font15Quicksand-Medium_ttf_0_96: 1373782384646614953
+      Font15Quicksand-Medium_ttf_0_97: 1935122088017843072
+      Font15Quicksand-Medium_ttf_0_98: 3075077494292983106
+      Font15Quicksand-Medium_ttf_0_99: 6512836425918099406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

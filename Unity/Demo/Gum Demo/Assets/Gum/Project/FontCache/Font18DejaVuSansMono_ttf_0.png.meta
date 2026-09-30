@@ -1,0 +1,4591 @@
+fileFormatVersion: 2
+guid: 1420cdfa18c301447b747caf1fce2d43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7937823215119301480
+    second: Font18DejaVuSansMono_ttf_0_0
+  - first:
+      213: 172256883240388379
+    second: Font18DejaVuSansMono_ttf_0_1
+  - first:
+      213: -5441821232569231832
+    second: Font18DejaVuSansMono_ttf_0_2
+  - first:
+      213: 4962445564855683984
+    second: Font18DejaVuSansMono_ttf_0_3
+  - first:
+      213: -2768574239178371783
+    second: Font18DejaVuSansMono_ttf_0_4
+  - first:
+      213: 3899432385933338387
+    second: Font18DejaVuSansMono_ttf_0_5
+  - first:
+      213: -4263406973314141265
+    second: Font18DejaVuSansMono_ttf_0_6
+  - first:
+      213: -7840853738873983326
+    second: Font18DejaVuSansMono_ttf_0_7
+  - first:
+      213: 500673452923760911
+    second: Font18DejaVuSansMono_ttf_0_8
+  - first:
+      213: 880610733632246672
+    second: Font18DejaVuSansMono_ttf_0_9
+  - first:
+      213: -3916682806888658471
+    second: Font18DejaVuSansMono_ttf_0_10
+  - first:
+      213: 3130029892122706906
+    second: Font18DejaVuSansMono_ttf_0_11
+  - first:
+      213: 2838945841608649116
+    second: Font18DejaVuSansMono_ttf_0_12
+  - first:
+      213: 4407997518288567430
+    second: Font18DejaVuSansMono_ttf_0_13
+  - first:
+      213: -1989146810641178826
+    second: Font18DejaVuSansMono_ttf_0_14
+  - first:
+      213: -5063864652526253917
+    second: Font18DejaVuSansMono_ttf_0_15
+  - first:
+      213: -5474883565878560896
+    second: Font18DejaVuSansMono_ttf_0_16
+  - first:
+      213: -6267199916265700094
+    second: Font18DejaVuSansMono_ttf_0_17
+  - first:
+      213: 453132791592323205
+    second: Font18DejaVuSansMono_ttf_0_18
+  - first:
+      213: -7399237693995114761
+    second: Font18DejaVuSansMono_ttf_0_19
+  - first:
+      213: -8807065482186722073
+    second: Font18DejaVuSansMono_ttf_0_20
+  - first:
+      213: -7557900633424116350
+    second: Font18DejaVuSansMono_ttf_0_21
+  - first:
+      213: 3083049574617408829
+    second: Font18DejaVuSansMono_ttf_0_22
+  - first:
+      213: -2114447969664588086
+    second: Font18DejaVuSansMono_ttf_0_23
+  - first:
+      213: 1416565843389987043
+    second: Font18DejaVuSansMono_ttf_0_24
+  - first:
+      213: 6925042367003035068
+    second: Font18DejaVuSansMono_ttf_0_25
+  - first:
+      213: 3456399533948279083
+    second: Font18DejaVuSansMono_ttf_0_26
+  - first:
+      213: -7595905336338605692
+    second: Font18DejaVuSansMono_ttf_0_27
+  - first:
+      213: 3965331381240697864
+    second: Font18DejaVuSansMono_ttf_0_28
+  - first:
+      213: 7457029702247570608
+    second: Font18DejaVuSansMono_ttf_0_29
+  - first:
+      213: 8135735520942617618
+    second: Font18DejaVuSansMono_ttf_0_30
+  - first:
+      213: -5504788870720996822
+    second: Font18DejaVuSansMono_ttf_0_31
+  - first:
+      213: -4550311584712204775
+    second: Font18DejaVuSansMono_ttf_0_32
+  - first:
+      213: 8634991225434255661
+    second: Font18DejaVuSansMono_ttf_0_33
+  - first:
+      213: 3837070071454955681
+    second: Font18DejaVuSansMono_ttf_0_34
+  - first:
+      213: -7813535441060868014
+    second: Font18DejaVuSansMono_ttf_0_35
+  - first:
+      213: -7811069797333436752
+    second: Font18DejaVuSansMono_ttf_0_36
+  - first:
+      213: 2006431570719422026
+    second: Font18DejaVuSansMono_ttf_0_37
+  - first:
+      213: -8192200558609224964
+    second: Font18DejaVuSansMono_ttf_0_38
+  - first:
+      213: -7849977453507471991
+    second: Font18DejaVuSansMono_ttf_0_39
+  - first:
+      213: 3299927422891536381
+    second: Font18DejaVuSansMono_ttf_0_40
+  - first:
+      213: -536634799819789356
+    second: Font18DejaVuSansMono_ttf_0_41
+  - first:
+      213: -1380715177308453937
+    second: Font18DejaVuSansMono_ttf_0_42
+  - first:
+      213: 4710458195382234715
+    second: Font18DejaVuSansMono_ttf_0_43
+  - first:
+      213: -1955858641812609343
+    second: Font18DejaVuSansMono_ttf_0_44
+  - first:
+      213: 4416184419020572363
+    second: Font18DejaVuSansMono_ttf_0_45
+  - first:
+      213: 5800976381672796629
+    second: Font18DejaVuSansMono_ttf_0_46
+  - first:
+      213: 4109333133059411424
+    second: Font18DejaVuSansMono_ttf_0_47
+  - first:
+      213: 865537154801788575
+    second: Font18DejaVuSansMono_ttf_0_48
+  - first:
+      213: -6897651008688429403
+    second: Font18DejaVuSansMono_ttf_0_49
+  - first:
+      213: -1404734798817410104
+    second: Font18DejaVuSansMono_ttf_0_50
+  - first:
+      213: 5940661455651563701
+    second: Font18DejaVuSansMono_ttf_0_51
+  - first:
+      213: -1676856261035068700
+    second: Font18DejaVuSansMono_ttf_0_52
+  - first:
+      213: -5359462089702790100
+    second: Font18DejaVuSansMono_ttf_0_53
+  - first:
+      213: 8639509857339114274
+    second: Font18DejaVuSansMono_ttf_0_54
+  - first:
+      213: 8646395445668898296
+    second: Font18DejaVuSansMono_ttf_0_55
+  - first:
+      213: 250715180348659771
+    second: Font18DejaVuSansMono_ttf_0_56
+  - first:
+      213: 627410727449825408
+    second: Font18DejaVuSansMono_ttf_0_57
+  - first:
+      213: -16233050190669384
+    second: Font18DejaVuSansMono_ttf_0_58
+  - first:
+      213: -7419113948652405205
+    second: Font18DejaVuSansMono_ttf_0_59
+  - first:
+      213: 7985013934805975543
+    second: Font18DejaVuSansMono_ttf_0_60
+  - first:
+      213: 8750007332220595423
+    second: Font18DejaVuSansMono_ttf_0_61
+  - first:
+      213: -6252331662979651108
+    second: Font18DejaVuSansMono_ttf_0_62
+  - first:
+      213: 3784553574341292186
+    second: Font18DejaVuSansMono_ttf_0_63
+  - first:
+      213: -662257997567940572
+    second: Font18DejaVuSansMono_ttf_0_64
+  - first:
+      213: 7381703631395440842
+    second: Font18DejaVuSansMono_ttf_0_65
+  - first:
+      213: -6879654986652203162
+    second: Font18DejaVuSansMono_ttf_0_66
+  - first:
+      213: -867821736943340711
+    second: Font18DejaVuSansMono_ttf_0_67
+  - first:
+      213: 975717543985699416
+    second: Font18DejaVuSansMono_ttf_0_68
+  - first:
+      213: 1825407840647336224
+    second: Font18DejaVuSansMono_ttf_0_69
+  - first:
+      213: 2150802147660990636
+    second: Font18DejaVuSansMono_ttf_0_70
+  - first:
+      213: 3468414509890681511
+    second: Font18DejaVuSansMono_ttf_0_71
+  - first:
+      213: 3140397887259347371
+    second: Font18DejaVuSansMono_ttf_0_72
+  - first:
+      213: -7741453943415950048
+    second: Font18DejaVuSansMono_ttf_0_73
+  - first:
+      213: 4433078632560386389
+    second: Font18DejaVuSansMono_ttf_0_74
+  - first:
+      213: -9010546577992418687
+    second: Font18DejaVuSansMono_ttf_0_75
+  - first:
+      213: 504715001944765135
+    second: Font18DejaVuSansMono_ttf_0_76
+  - first:
+      213: 268059866604340328
+    second: Font18DejaVuSansMono_ttf_0_77
+  - first:
+      213: 9094006565329175295
+    second: Font18DejaVuSansMono_ttf_0_78
+  - first:
+      213: 2213726099720828550
+    second: Font18DejaVuSansMono_ttf_0_79
+  - first:
+      213: 539384542765232188
+    second: Font18DejaVuSansMono_ttf_0_80
+  - first:
+      213: 8556342984132742882
+    second: Font18DejaVuSansMono_ttf_0_81
+  - first:
+      213: 1080992931840406430
+    second: Font18DejaVuSansMono_ttf_0_82
+  - first:
+      213: 6646155386732908013
+    second: Font18DejaVuSansMono_ttf_0_83
+  - first:
+      213: -1414737373905457978
+    second: Font18DejaVuSansMono_ttf_0_84
+  - first:
+      213: -1499912843578686647
+    second: Font18DejaVuSansMono_ttf_0_85
+  - first:
+      213: 1496590063412950298
+    second: Font18DejaVuSansMono_ttf_0_86
+  - first:
+      213: -1762201174588722940
+    second: Font18DejaVuSansMono_ttf_0_87
+  - first:
+      213: -1563927294690634323
+    second: Font18DejaVuSansMono_ttf_0_88
+  - first:
+      213: -7060379359689972521
+    second: Font18DejaVuSansMono_ttf_0_89
+  - first:
+      213: 9083016142402723301
+    second: Font18DejaVuSansMono_ttf_0_90
+  - first:
+      213: -7965536126448167761
+    second: Font18DejaVuSansMono_ttf_0_91
+  - first:
+      213: -1134635677968181434
+    second: Font18DejaVuSansMono_ttf_0_92
+  - first:
+      213: 1655776072460467366
+    second: Font18DejaVuSansMono_ttf_0_93
+  - first:
+      213: -3908249223269769380
+    second: Font18DejaVuSansMono_ttf_0_94
+  - first:
+      213: 4393123245132244184
+    second: Font18DejaVuSansMono_ttf_0_95
+  - first:
+      213: 9022843781770585403
+    second: Font18DejaVuSansMono_ttf_0_96
+  - first:
+      213: 2087145988851346061
+    second: Font18DejaVuSansMono_ttf_0_97
+  - first:
+      213: -8123205075657509826
+    second: Font18DejaVuSansMono_ttf_0_98
+  - first:
+      213: -7166123959618540482
+    second: Font18DejaVuSansMono_ttf_0_99
+  - first:
+      213: 5556179150970198085
+    second: Font18DejaVuSansMono_ttf_0_100
+  - first:
+      213: 6673883325998429074
+    second: Font18DejaVuSansMono_ttf_0_101
+  - first:
+      213: 4485968275513439967
+    second: Font18DejaVuSansMono_ttf_0_102
+  - first:
+      213: 8280537877051144946
+    second: Font18DejaVuSansMono_ttf_0_103
+  - first:
+      213: 7679346212058681639
+    second: Font18DejaVuSansMono_ttf_0_104
+  - first:
+      213: -831925910890171600
+    second: Font18DejaVuSansMono_ttf_0_105
+  - first:
+      213: 4384511114010733943
+    second: Font18DejaVuSansMono_ttf_0_106
+  - first:
+      213: 1661273175931549751
+    second: Font18DejaVuSansMono_ttf_0_107
+  - first:
+      213: 8974768317266400873
+    second: Font18DejaVuSansMono_ttf_0_108
+  - first:
+      213: 7425481819066579957
+    second: Font18DejaVuSansMono_ttf_0_109
+  - first:
+      213: 6403336774721896766
+    second: Font18DejaVuSansMono_ttf_0_110
+  - first:
+      213: -5290582994057615094
+    second: Font18DejaVuSansMono_ttf_0_111
+  - first:
+      213: -6219200706322681840
+    second: Font18DejaVuSansMono_ttf_0_112
+  - first:
+      213: 5345310116956737669
+    second: Font18DejaVuSansMono_ttf_0_113
+  - first:
+      213: -2746986637113629906
+    second: Font18DejaVuSansMono_ttf_0_114
+  - first:
+      213: -1500317883062752746
+    second: Font18DejaVuSansMono_ttf_0_115
+  - first:
+      213: -3327214616788070900
+    second: Font18DejaVuSansMono_ttf_0_116
+  - first:
+      213: -7120432493700940848
+    second: Font18DejaVuSansMono_ttf_0_117
+  - first:
+      213: -7954098241919786581
+    second: Font18DejaVuSansMono_ttf_0_118
+  - first:
+      213: 2512797322327497203
+    second: Font18DejaVuSansMono_ttf_0_119
+  - first:
+      213: 6775713988218328403
+    second: Font18DejaVuSansMono_ttf_0_120
+  - first:
+      213: 987368702179617567
+    second: Font18DejaVuSansMono_ttf_0_121
+  - first:
+      213: 7614233908435089765
+    second: Font18DejaVuSansMono_ttf_0_122
+  - first:
+      213: -7141436599213203251
+    second: Font18DejaVuSansMono_ttf_0_123
+  - first:
+      213: -1531781571572909081
+    second: Font18DejaVuSansMono_ttf_0_124
+  - first:
+      213: 5117551123279201642
+    second: Font18DejaVuSansMono_ttf_0_125
+  - first:
+      213: -7356844057401447350
+    second: Font18DejaVuSansMono_ttf_0_126
+  - first:
+      213: 3184187611819543046
+    second: Font18DejaVuSansMono_ttf_0_127
+  - first:
+      213: 2479081497892820811
+    second: Font18DejaVuSansMono_ttf_0_128
+  - first:
+      213: 8541964840273819454
+    second: Font18DejaVuSansMono_ttf_0_129
+  - first:
+      213: -3635518794259156669
+    second: Font18DejaVuSansMono_ttf_0_130
+  - first:
+      213: -737601569550895582
+    second: Font18DejaVuSansMono_ttf_0_131
+  - first:
+      213: -3993357768491351921
+    second: Font18DejaVuSansMono_ttf_0_132
+  - first:
+      213: -6010697527886356114
+    second: Font18DejaVuSansMono_ttf_0_133
+  - first:
+      213: 8021884526653358050
+    second: Font18DejaVuSansMono_ttf_0_134
+  - first:
+      213: -5400814737172810777
+    second: Font18DejaVuSansMono_ttf_0_135
+  - first:
+      213: -8019355892170030812
+    second: Font18DejaVuSansMono_ttf_0_136
+  - first:
+      213: 8218996495827494669
+    second: Font18DejaVuSansMono_ttf_0_137
+  - first:
+      213: 3512919385757305081
+    second: Font18DejaVuSansMono_ttf_0_138
+  - first:
+      213: -8901253485627986717
+    second: Font18DejaVuSansMono_ttf_0_139
+  - first:
+      213: 2843421385664401051
+    second: Font18DejaVuSansMono_ttf_0_140
+  - first:
+      213: 3587185374636047044
+    second: Font18DejaVuSansMono_ttf_0_141
+  - first:
+      213: 2460129079647482853
+    second: Font18DejaVuSansMono_ttf_0_142
+  - first:
+      213: 6325694711259000550
+    second: Font18DejaVuSansMono_ttf_0_143
+  - first:
+      213: 2488752446009157228
+    second: Font18DejaVuSansMono_ttf_0_144
+  - first:
+      213: -3585504051057881166
+    second: Font18DejaVuSansMono_ttf_0_145
+  - first:
+      213: -210000632656565496
+    second: Font18DejaVuSansMono_ttf_0_146
+  - first:
+      213: -4404226670449874025
+    second: Font18DejaVuSansMono_ttf_0_147
+  - first:
+      213: -6533463072984907919
+    second: Font18DejaVuSansMono_ttf_0_148
+  - first:
+      213: 2690458535509512422
+    second: Font18DejaVuSansMono_ttf_0_149
+  - first:
+      213: 753322607523733281
+    second: Font18DejaVuSansMono_ttf_0_150
+  - first:
+      213: -3245046633434693619
+    second: Font18DejaVuSansMono_ttf_0_151
+  - first:
+      213: 3578887896429268581
+    second: Font18DejaVuSansMono_ttf_0_152
+  - first:
+      213: 5969672968848753055
+    second: Font18DejaVuSansMono_ttf_0_153
+  - first:
+      213: -5338978197829697349
+    second: Font18DejaVuSansMono_ttf_0_154
+  - first:
+      213: -2575560887255435486
+    second: Font18DejaVuSansMono_ttf_0_155
+  - first:
+      213: -1299070633973106071
+    second: Font18DejaVuSansMono_ttf_0_156
+  - first:
+      213: 5353344681259388654
+    second: Font18DejaVuSansMono_ttf_0_157
+  - first:
+      213: -1715667163923480466
+    second: Font18DejaVuSansMono_ttf_0_158
+  - first:
+      213: -4356599257546228969
+    second: Font18DejaVuSansMono_ttf_0_159
+  - first:
+      213: 7647310289516554797
+    second: Font18DejaVuSansMono_ttf_0_160
+  - first:
+      213: 2520998272328760276
+    second: Font18DejaVuSansMono_ttf_0_161
+  - first:
+      213: 5350230150775212650
+    second: Font18DejaVuSansMono_ttf_0_162
+  - first:
+      213: -1743089861718973324
+    second: Font18DejaVuSansMono_ttf_0_163
+  - first:
+      213: -4715738031833527951
+    second: Font18DejaVuSansMono_ttf_0_164
+  - first:
+      213: -5946790150847299672
+    second: Font18DejaVuSansMono_ttf_0_165
+  - first:
+      213: -3224121450324813350
+    second: Font18DejaVuSansMono_ttf_0_166
+  - first:
+      213: 232067987130639020
+    second: Font18DejaVuSansMono_ttf_0_167
+  - first:
+      213: -3765491574664585959
+    second: Font18DejaVuSansMono_ttf_0_168
+  - first:
+      213: -3811034948498155275
+    second: Font18DejaVuSansMono_ttf_0_169
+  - first:
+      213: -7061607621067410721
+    second: Font18DejaVuSansMono_ttf_0_170
+  - first:
+      213: -4313543882770237131
+    second: Font18DejaVuSansMono_ttf_0_171
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89407fc97df27d190800000000000000
+      internalID: -7937823215119301480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 239
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17c8aff8baf36200800000000000000
+      internalID: 172256883240388379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 239
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8265885cb64ca74b0800000000000000
+      internalID: -5441821232569231832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 240
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b8f66f2f52ed440800000000000000
+      internalID: 4962445564855683984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_4
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 241
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93dc973e56c0499d0800000000000000
+      internalID: -2768574239178371783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 226
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 317e53d48119d1630800000000000000
+      internalID: 3899432385933338387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 238
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3ffae32f555d4c0800000000000000
+      internalID: -4263406973314141265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_7
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 227
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae6f9e2111bf2390800000000000000
+      internalID: -7840853738873983326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 242
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f013dfd4adfb2f600800000000000000
+      internalID: 500673452923760911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_9
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 228
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093db8bebce883c00800000000000000
+      internalID: 880610733632246672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_10
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 242
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d985851db525a9c0800000000000000
+      internalID: -3916682806888658471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_11
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 228
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad304507a99107b20800000000000000
+      internalID: 3130029892122706906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_12
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 242
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c99e7a99336f56720800000000000000
+      internalID: 2838945841608649116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cb468636a5c2d30800000000000000
+      internalID: 4407997518288567430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 222
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f91a1c3812564e0800000000000000
+      internalID: -1989146810641178826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 222
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a804839de989b9b0800000000000000
+      internalID: -5063864652526253917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 224
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0873f2d676e4504b0800000000000000
+      internalID: -5474883565878560896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_17
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 226
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20500a691ee6609a0800000000000000
+      internalID: -6267199916265700094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 211
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58801f68fd9d94600800000000000000
+      internalID: 453132791592323205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 213
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe9db82580a05990800000000000000
+      internalID: -7399237693995114761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 214
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4f7a41b9407c580800000000000000
+      internalID: -8807065482186722073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_21
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 217
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2854e09da61fc1790800000000000000
+      internalID: -7557900633424116350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d356dffd04139ca20800000000000000
+      internalID: 3083049574617408829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_23
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 200
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6a81046c8f7a2e0800000000000000
+      internalID: -2114447969664588086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 205
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e836381127a8a310800000000000000
+      internalID: 1416565843389987043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 188
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb50fb3a751ba1060800000000000000
+      internalID: 6925042367003035068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_26
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 205
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2910d6301997ff20800000000000000
+      internalID: 3456399533948279083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_27
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 208
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4891b08675ce59690800000000000000
+      internalID: -7595905336338605692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_28
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 192
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8049f8bc1efa70730800000000000000
+      internalID: 3965331381240697864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_29
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 205
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bcd0025101bc7760800000000000000
+      internalID: 7457029702247570608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_30
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 194
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214ff40f950f7e070800000000000000
+      internalID: 8135735520942617618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_31
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 194
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2ab62d00bf0b93b0800000000000000
+      internalID: -5504788870720996822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 197
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e52e7e8bb0ad0c0800000000000000
+      internalID: -4550311584712204775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_33
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 199
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21bf96f4c6a5d770800000000000000
+      internalID: 8634991225434255661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_34
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 200
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8fa5b76e2004530800000000000000
+      internalID: 3837070071454955681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 180
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25054ab0aeeb09390800000000000000
+      internalID: -7813535441060868014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 181
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b678267761899390800000000000000
+      internalID: -7811069797333436752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_37
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 183
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a463cde02e648db10800000000000000
+      internalID: 2006431570719422026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_38
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 171
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa275ffef47f4e80800000000000000
+      internalID: -8192200558609224964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_39
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 169
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9859cd4d8174f0390800000000000000
+      internalID: -7849977453507471991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_40
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 177
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff2502e182bbcd20800000000000000
+      internalID: 3299927422891536381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_41
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 179
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbe0a62e7d7d88f0800000000000000
+      internalID: -536634799819789356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 180
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc30a809cd6b6dce0800000000000000
+      internalID: -1380715177308453937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_43
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 185
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ee51985c8ee5140800000000000000
+      internalID: 4710458195382234715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_44
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 171
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6a1e78de46bd4e0800000000000000
+      internalID: -1955858641812609343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_45
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 186
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc60656c450794d30800000000000000
+      internalID: 4416184419020572363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 143
+        width: 12
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1b904c845318050800000000000000
+      internalID: 5800976381672796629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_47
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 162
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edcfbb56b8470930800000000000000
+      internalID: 4109333133059411424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_48
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 164
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96ecdbd471030c00800000000000000
+      internalID: 865537154801788575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_49
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 166
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6e282f3fe9640a0800000000000000
+      internalID: -6897651008688429403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_50
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 152
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3cbd0a421618ce0800000000000000
+      internalID: -1404734798817410104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_51
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 157
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b867f27e18717250800000000000000
+      internalID: 5940661455651563701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_52
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 162
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e27d9d6d1c9ab8e0800000000000000
+      internalID: -1676856261035068700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_53
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 165
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ca71400ad5f95b0800000000000000
+      internalID: -5359462089702790100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_54
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 151
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2230f20f074b5e770800000000000000
+      internalID: 8639509857339114274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_55
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 151
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f566a6e8da2ef770800000000000000
+      internalID: 8646395445668898296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 166
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38da70d028ba7300800000000000000
+      internalID: 250715180348659771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_57
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 152
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0809ae18bb205b800800000000000000
+      internalID: 627410727449825408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_58
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 166
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b993c9702456cff0800000000000000
+      internalID: -16233050190669384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_59
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 145
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e7d6efb230a0990800000000000000
+      internalID: -7419113948652405205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_60
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 147
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f187a60ed770de60800000000000000
+      internalID: 7985013934805975543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_61
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc62132f454e6970800000000000000
+      internalID: 8750007332220595423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_62
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 139
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9ab229a714b39a0800000000000000
+      internalID: -6252331662979651108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_63
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 144
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a903c08ac6f658430800000000000000
+      internalID: 3784553574341292186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4282d492cdf2fc6f0800000000000000
+      internalID: -662257997567940572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_65
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 128
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac84982c754117660800000000000000
+      internalID: 7381703631395440842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_66
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 131
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667c9575d3e8680a0800000000000000
+      internalID: -6879654986652203162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 140
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95331296ab0e4f3f0800000000000000
+      internalID: -867821736943340711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 125
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a526acfe17a8d00800000000000000
+      internalID: 975717543985699416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_69
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 132
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0215ff772c6255910800000000000000
+      internalID: 1825407840647336224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_70
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 137
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca80b79682f29dd10800000000000000
+      internalID: 2150802147660990636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_71
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 137
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa38dbce98422030800000000000000
+      internalID: 3468414509890681511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_72
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 138
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba90b7b6d3fe49b20800000000000000
+      internalID: 3140397887259347371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02535a987a4d09490800000000000000
+      internalID: -7741453943415950048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_74
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 111
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551e2236785758d30800000000000000
+      internalID: 4433078632560386389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_75
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 116
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a76a290ab14f280800000000000000
+      internalID: -9010546577992418687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_76
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 107
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc27ab3ce9b110700800000000000000
+      internalID: 504715001944765135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_77
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 121
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8648d77470758b300800000000000000
+      internalID: 268059866604340328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_78
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 112
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2048ff9c6643e70800000000000000
+      internalID: 9094006565329175295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_79
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 118
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686fedba82cb8be10800000000000000
+      internalID: 2213726099720828550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_80
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 123
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30bbd442674c7700800000000000000
+      internalID: 539384542765232188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_81
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 109
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee43a15c9c3eb670800000000000000
+      internalID: 8556342984132742882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_82
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 114
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e933e0b1855700f00800000000000000
+      internalID: 1080992931840406430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_83
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 94
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded83448c13eb3c50800000000000000
+      internalID: 6646155386732908013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_84
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 101
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc65e1aad7dd5ce0800000000000000
+      internalID: -1414737373905457978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_85
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 101
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9434274373d3f2be0800000000000000
+      internalID: -1499912843578686647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_86
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 97
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15bb10cbb4f4c410800000000000000
+      internalID: 1496590063412950298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_87
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 104
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401fcd54e576b87e0800000000000000
+      internalID: -1762201174588722940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_88
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 96
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da55d695960db4ae0800000000000000
+      internalID: -1563927294690634323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_89
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 112
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4ed2e316e740e90800000000000000
+      internalID: -7060379359689972521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 92
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed9d01ce0b5d0e70800000000000000
+      internalID: 9083016142402723301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_91
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 86
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa41481a81bb47190800000000000000
+      internalID: -7965536126448167761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_92
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 86
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647d839ccd6f040f0800000000000000
+      internalID: -1134635677968181434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_93
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 95
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6acf892b09f7af610800000000000000
+      internalID: 1655776072460467366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_94
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 83
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f1f49c90c13c9c0800000000000000
+      internalID: -3908249223269769380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_95
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 97
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d46e90d05287fc30800000000000000
+      internalID: 4393123245132244184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_96
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 90
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35274c4d94973d70800000000000000
+      internalID: 9022843781770585403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_97
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 84
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8aaddbf73807fc10800000000000000
+      internalID: 2087145988851346061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_98
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 90
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34b8c3b504944f80800000000000000
+      internalID: -8123205075657509826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_99
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c658af930dc8c90800000000000000
+      internalID: -7166123959618540482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_100
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 77
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548920aff738b1d40800000000000000
+      internalID: 5556179150970198085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_101
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293f98676856e9c50800000000000000
+      internalID: 6673883325998429074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_102
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 71
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd676aff06c514e30800000000000000
+      internalID: 4485968275513439967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_103
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 68
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fafcc6b3516ae270800000000000000
+      internalID: 8280537877051144946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_104
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 80
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721dff461b4829a60800000000000000
+      internalID: 7679346212058681639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_105
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 65
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 033b2f1bac76474f0800000000000000
+      internalID: -831925910890171600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_106
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 66
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dac58c0a9e8dc30800000000000000
+      internalID: 4384511114010733943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_107
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 69
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738f846d6270e0710800000000000000
+      internalID: 1661273175931549751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_108
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 72
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9661814fb38cc8c70800000000000000
+      internalID: 8974768317266400873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_109
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 79
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbb59f5f5c9c0760800000000000000
+      internalID: 7425481819066579957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_110
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 68
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e318e7aced83dd850800000000000000
+      internalID: 6403336774721896766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_111
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 79
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0929703cc21496b0800000000000000
+      internalID: -5290582994057615094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_112
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 69
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01037c888e5f0b9a0800000000000000
+      internalID: -6219200706322681840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580128f0b3b5e2a40800000000000000
+      internalID: 5345310116956737669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_114
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 58
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23e81c253eb0e9d0800000000000000
+      internalID: -2746986637113629906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_115
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 58
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ae0e995dccd2be0800000000000000
+      internalID: -1500317883062752746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_116
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 60
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e0cd23feb53d1d0800000000000000
+      internalID: -3327214616788070900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_117
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 56
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db7ec56f542f2d90800000000000000
+      internalID: -7120432493700940848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_118
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 56
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1efc5aacd5d9190800000000000000
+      internalID: -7954098241919786581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_119
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 51
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f912ede9df3fd220800000000000000
+      internalID: 2512797322327497203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_120
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 52
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355166719fb280e50800000000000000
+      internalID: 6775713988218328403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_121
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 55
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b21c37a96d3bd00800000000000000
+      internalID: 987368702179617567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_122
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 61
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569f105d5613ba960800000000000000
+      internalID: 7614233908435089765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_123
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 58
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc06cedff3584ec90800000000000000
+      internalID: -7141436599213203251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_124
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 60
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb38e0c6c40ebae0800000000000000
+      internalID: -1531781571572909081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6545f6f1a1350740800000000000000
+      internalID: 5117551123279201642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_126
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 41
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ca4aade4d37e990800000000000000
+      internalID: -7356844057401447350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_127
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 43
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a04bc23c1803c20800000000000000
+      internalID: 3184187611819543046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_128
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 41
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b471523dc77776220800000000000000
+      internalID: 2479081497892820811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_129
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 41
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37b564d3c72b8670800000000000000
+      internalID: 8541964840273819454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_130
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 37
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3413ded1bea0c8dc0800000000000000
+      internalID: -3635518794259156669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_131
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 38
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226f52dc74383c5f0800000000000000
+      internalID: -737601569550895582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_132
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 41
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80c60c644eb498c0800000000000000
+      internalID: -3993357768491351921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_133
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 50
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61e306c176b59ca0800000000000000
+      internalID: -6010697527886356114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_134
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 42
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef3068a975735f60800000000000000
+      internalID: 8021884526653358050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_135
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 39
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3be1d7c937c05b0800000000000000
+      internalID: -5400814737172810777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_136
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 50
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42105cfed4685b090800000000000000
+      internalID: -8019355892170030812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_137
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 48
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d076aff44cdbf0270800000000000000
+      internalID: 8218996495827494669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8c5a0b19560c030800000000000000
+      internalID: 3512919385757305081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_139
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 24
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecaf6d9d15687480800000000000000
+      internalID: -8901253485627986717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_140
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 26
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e86476facd57720800000000000000
+      internalID: 2843421385664401051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_141
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 26
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca78aea71e38c130800000000000000
+      internalID: 3587185374636047044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_142
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 26
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e33ff51d52242220800000000000000
+      internalID: 2460129079647482853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_143
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 24
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eee82e23d169c750800000000000000
+      internalID: 6325694711259000550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_144
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 27
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66a246e923d98220800000000000000
+      internalID: 2488752446009157228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_145
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 28
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf88f7ff0bbd3ec0800000000000000
+      internalID: -3585504051057881166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_146
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 28
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80be5e7898de51df0800000000000000
+      internalID: -210000632656565496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_147
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 39
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ba8858d2b01e2c0800000000000000
+      internalID: -4404226670449874025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_148
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 30
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f3a9d63f97455a0800000000000000
+      internalID: -6533463072984907919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_149
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e056fb88cd665520800000000000000
+      internalID: 2690458535509512422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_150
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 9
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f19b69be6547a00800000000000000
+      internalID: 753322607523733281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_151
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 11
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d004c86a74747f2d0800000000000000
+      internalID: -3245046633434693619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_152
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 11
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e8c9d7493caa130800000000000000
+      internalID: 3578887896429268581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_153
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 26
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f914b7dbfe988d250800000000000000
+      internalID: 5969672968848753055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_154
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 23
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb04ecebd9328e5b0800000000000000
+      internalID: -5338978197829697349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_155
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 13
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227ffb9d405c14cd0800000000000000
+      internalID: -2575560887255435486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_156
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 17
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a34e32426c8fde0800000000000000
+      internalID: -1299070633973106071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_157
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 17
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee41b6df96ea4a40800000000000000
+      internalID: 5353344681259388654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e600a8dedc9b038e0800000000000000
+      internalID: -1715667163923480466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71bf939be004a83c0800000000000000
+      internalID: -4356599257546228969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_160
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ae2dde034b02a60800000000000000
+      internalID: 7647310289516554797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_161
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 7
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db778562926cf220800000000000000
+      internalID: 2520998272328760276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_162
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a8a83b9f5df3a40800000000000000
+      internalID: 5350230150775212650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_163
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474e7ac810d4fc7e0800000000000000
+      internalID: -1743089861718973324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_164
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 6
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17943cebe355e8eb0800000000000000
+      internalID: -4715738031833527951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_165
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 0
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af74f08dd1c87da0800000000000000
+      internalID: -5946790150847299672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_166
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 10
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad91ca08f9e9143d0800000000000000
+      internalID: -3224121450324813350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_167
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca269a0da98783300800000000000000
+      internalID: 232067987130639020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_168
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 6
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d146ffc594ebbc0800000000000000
+      internalID: -3765491574664585959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_169
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 6
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f81b24f7eb7c1bc0800000000000000
+      internalID: -3811034948498155275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_170
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2f51b5841200e90800000000000000
+      internalID: -7061607621067410721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Font18DejaVuSansMono_ttf_0_171
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539bb6851b63324c0800000000000000
+      internalID: -4313543882770237131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Font18DejaVuSansMono_ttf_0_0: -7937823215119301480
+      Font18DejaVuSansMono_ttf_0_1: 172256883240388379
+      Font18DejaVuSansMono_ttf_0_10: -3916682806888658471
+      Font18DejaVuSansMono_ttf_0_100: 5556179150970198085
+      Font18DejaVuSansMono_ttf_0_101: 6673883325998429074
+      Font18DejaVuSansMono_ttf_0_102: 4485968275513439967
+      Font18DejaVuSansMono_ttf_0_103: 8280537877051144946
+      Font18DejaVuSansMono_ttf_0_104: 7679346212058681639
+      Font18DejaVuSansMono_ttf_0_105: -831925910890171600
+      Font18DejaVuSansMono_ttf_0_106: 4384511114010733943
+      Font18DejaVuSansMono_ttf_0_107: 1661273175931549751
+      Font18DejaVuSansMono_ttf_0_108: 8974768317266400873
+      Font18DejaVuSansMono_ttf_0_109: 7425481819066579957
+      Font18DejaVuSansMono_ttf_0_11: 3130029892122706906
+      Font18DejaVuSansMono_ttf_0_110: 6403336774721896766
+      Font18DejaVuSansMono_ttf_0_111: -5290582994057615094
+      Font18DejaVuSansMono_ttf_0_112: -6219200706322681840
+      Font18DejaVuSansMono_ttf_0_113: 5345310116956737669
+      Font18DejaVuSansMono_ttf_0_114: -2746986637113629906
+      Font18DejaVuSansMono_ttf_0_115: -1500317883062752746
+      Font18DejaVuSansMono_ttf_0_116: -3327214616788070900
+      Font18DejaVuSansMono_ttf_0_117: -7120432493700940848
+      Font18DejaVuSansMono_ttf_0_118: -7954098241919786581
+      Font18DejaVuSansMono_ttf_0_119: 2512797322327497203
+      Font18DejaVuSansMono_ttf_0_12: 2838945841608649116
+      Font18DejaVuSansMono_ttf_0_120: 6775713988218328403
+      Font18DejaVuSansMono_ttf_0_121: 987368702179617567
+      Font18DejaVuSansMono_ttf_0_122: 7614233908435089765
+      Font18DejaVuSansMono_ttf_0_123: -7141436599213203251
+      Font18DejaVuSansMono_ttf_0_124: -1531781571572909081
+      Font18DejaVuSansMono_ttf_0_125: 5117551123279201642
+      Font18DejaVuSansMono_ttf_0_126: -7356844057401447350
+      Font18DejaVuSansMono_ttf_0_127: 3184187611819543046
+      Font18DejaVuSansMono_ttf_0_128: 2479081497892820811
+      Font18DejaVuSansMono_ttf_0_129: 8541964840273819454
+      Font18DejaVuSansMono_ttf_0_13: 4407997518288567430
+      Font18DejaVuSansMono_ttf_0_130: -3635518794259156669
+      Font18DejaVuSansMono_ttf_0_131: -737601569550895582
+      Font18DejaVuSansMono_ttf_0_132: -3993357768491351921
+      Font18DejaVuSansMono_ttf_0_133: -6010697527886356114
+      Font18DejaVuSansMono_ttf_0_134: 8021884526653358050
+      Font18DejaVuSansMono_ttf_0_135: -5400814737172810777
+      Font18DejaVuSansMono_ttf_0_136: -8019355892170030812
+      Font18DejaVuSansMono_ttf_0_137: 8218996495827494669
+      Font18DejaVuSansMono_ttf_0_138: 3512919385757305081
+      Font18DejaVuSansMono_ttf_0_139: -8901253485627986717
+      Font18DejaVuSansMono_ttf_0_14: -1989146810641178826
+      Font18DejaVuSansMono_ttf_0_140: 2843421385664401051
+      Font18DejaVuSansMono_ttf_0_141: 3587185374636047044
+      Font18DejaVuSansMono_ttf_0_142: 2460129079647482853
+      Font18DejaVuSansMono_ttf_0_143: 6325694711259000550
+      Font18DejaVuSansMono_ttf_0_144: 2488752446009157228
+      Font18DejaVuSansMono_ttf_0_145: -3585504051057881166
+      Font18DejaVuSansMono_ttf_0_146: -210000632656565496
+      Font18DejaVuSansMono_ttf_0_147: -4404226670449874025
+      Font18DejaVuSansMono_ttf_0_148: -6533463072984907919
+      Font18DejaVuSansMono_ttf_0_149: 2690458535509512422
+      Font18DejaVuSansMono_ttf_0_15: -5063864652526253917
+      Font18DejaVuSansMono_ttf_0_150: 753322607523733281
+      Font18DejaVuSansMono_ttf_0_151: -3245046633434693619
+      Font18DejaVuSansMono_ttf_0_152: 3578887896429268581
+      Font18DejaVuSansMono_ttf_0_153: 5969672968848753055
+      Font18DejaVuSansMono_ttf_0_154: -5338978197829697349
+      Font18DejaVuSansMono_ttf_0_155: -2575560887255435486
+      Font18DejaVuSansMono_ttf_0_156: -1299070633973106071
+      Font18DejaVuSansMono_ttf_0_157: 5353344681259388654
+      Font18DejaVuSansMono_ttf_0_158: -1715667163923480466
+      Font18DejaVuSansMono_ttf_0_159: -4356599257546228969
+      Font18DejaVuSansMono_ttf_0_16: -5474883565878560896
+      Font18DejaVuSansMono_ttf_0_160: 7647310289516554797
+      Font18DejaVuSansMono_ttf_0_161: 2520998272328760276
+      Font18DejaVuSansMono_ttf_0_162: 5350230150775212650
+      Font18DejaVuSansMono_ttf_0_163: -1743089861718973324
+      Font18DejaVuSansMono_ttf_0_164: -4715738031833527951
+      Font18DejaVuSansMono_ttf_0_165: -5946790150847299672
+      Font18DejaVuSansMono_ttf_0_166: -3224121450324813350
+      Font18DejaVuSansMono_ttf_0_167: 232067987130639020
+      Font18DejaVuSansMono_ttf_0_168: -3765491574664585959
+      Font18DejaVuSansMono_ttf_0_169: -3811034948498155275
+      Font18DejaVuSansMono_ttf_0_17: -6267199916265700094
+      Font18DejaVuSansMono_ttf_0_170: -7061607621067410721
+      Font18DejaVuSansMono_ttf_0_171: -4313543882770237131
+      Font18DejaVuSansMono_ttf_0_18: 453132791592323205
+      Font18DejaVuSansMono_ttf_0_19: -7399237693995114761
+      Font18DejaVuSansMono_ttf_0_2: -5441821232569231832
+      Font18DejaVuSansMono_ttf_0_20: -8807065482186722073
+      Font18DejaVuSansMono_ttf_0_21: -7557900633424116350
+      Font18DejaVuSansMono_ttf_0_22: 3083049574617408829
+      Font18DejaVuSansMono_ttf_0_23: -2114447969664588086
+      Font18DejaVuSansMono_ttf_0_24: 1416565843389987043
+      Font18DejaVuSansMono_ttf_0_25: 6925042367003035068
+      Font18DejaVuSansMono_ttf_0_26: 3456399533948279083
+      Font18DejaVuSansMono_ttf_0_27: -7595905336338605692
+      Font18DejaVuSansMono_ttf_0_28: 3965331381240697864
+      Font18DejaVuSansMono_ttf_0_29: 7457029702247570608
+      Font18DejaVuSansMono_ttf_0_3: 4962445564855683984
+      Font18DejaVuSansMono_ttf_0_30: 8135735520942617618
+      Font18DejaVuSansMono_ttf_0_31: -5504788870720996822
+      Font18DejaVuSansMono_ttf_0_32: -4550311584712204775
+      Font18DejaVuSansMono_ttf_0_33: 8634991225434255661
+      Font18DejaVuSansMono_ttf_0_34: 3837070071454955681
+      Font18DejaVuSansMono_ttf_0_35: -7813535441060868014
+      Font18DejaVuSansMono_ttf_0_36: -7811069797333436752
+      Font18DejaVuSansMono_ttf_0_37: 2006431570719422026
+      Font18DejaVuSansMono_ttf_0_38: -8192200558609224964
+      Font18DejaVuSansMono_ttf_0_39: -7849977453507471991
+      Font18DejaVuSansMono_ttf_0_4: -2768574239178371783
+      Font18DejaVuSansMono_ttf_0_40: 3299927422891536381
+      Font18DejaVuSansMono_ttf_0_41: -536634799819789356
+      Font18DejaVuSansMono_ttf_0_42: -1380715177308453937
+      Font18DejaVuSansMono_ttf_0_43: 4710458195382234715
+      Font18DejaVuSansMono_ttf_0_44: -1955858641812609343
+      Font18DejaVuSansMono_ttf_0_45: 4416184419020572363
+      Font18DejaVuSansMono_ttf_0_46: 5800976381672796629
+      Font18DejaVuSansMono_ttf_0_47: 4109333133059411424
+      Font18DejaVuSansMono_ttf_0_48: 865537154801788575
+      Font18DejaVuSansMono_ttf_0_49: -6897651008688429403
+      Font18DejaVuSansMono_ttf_0_5: 3899432385933338387
+      Font18DejaVuSansMono_ttf_0_50: -1404734798817410104
+      Font18DejaVuSansMono_ttf_0_51: 5940661455651563701
+      Font18DejaVuSansMono_ttf_0_52: -1676856261035068700
+      Font18DejaVuSansMono_ttf_0_53: -5359462089702790100
+      Font18DejaVuSansMono_ttf_0_54: 8639509857339114274
+      Font18DejaVuSansMono_ttf_0_55: 8646395445668898296
+      Font18DejaVuSansMono_ttf_0_56: 250715180348659771
+      Font18DejaVuSansMono_ttf_0_57: 627410727449825408
+      Font18DejaVuSansMono_ttf_0_58: -16233050190669384
+      Font18DejaVuSansMono_ttf_0_59: -7419113948652405205
+      Font18DejaVuSansMono_ttf_0_6: -4263406973314141265
+      Font18DejaVuSansMono_ttf_0_60: 7985013934805975543
+      Font18DejaVuSansMono_ttf_0_61: 8750007332220595423
+      Font18DejaVuSansMono_ttf_0_62: -6252331662979651108
+      Font18DejaVuSansMono_ttf_0_63: 3784553574341292186
+      Font18DejaVuSansMono_ttf_0_64: -662257997567940572
+      Font18DejaVuSansMono_ttf_0_65: 7381703631395440842
+      Font18DejaVuSansMono_ttf_0_66: -6879654986652203162
+      Font18DejaVuSansMono_ttf_0_67: -867821736943340711
+      Font18DejaVuSansMono_ttf_0_68: 975717543985699416
+      Font18DejaVuSansMono_ttf_0_69: 1825407840647336224
+      Font18DejaVuSansMono_ttf_0_7: -7840853738873983326
+      Font18DejaVuSansMono_ttf_0_70: 2150802147660990636
+      Font18DejaVuSansMono_ttf_0_71: 3468414509890681511
+      Font18DejaVuSansMono_ttf_0_72: 3140397887259347371
+      Font18DejaVuSansMono_ttf_0_73: -7741453943415950048
+      Font18DejaVuSansMono_ttf_0_74: 4433078632560386389
+      Font18DejaVuSansMono_ttf_0_75: -9010546577992418687
+      Font18DejaVuSansMono_ttf_0_76: 504715001944765135
+      Font18DejaVuSansMono_ttf_0_77: 268059866604340328
+      Font18DejaVuSansMono_ttf_0_78: 9094006565329175295
+      Font18DejaVuSansMono_ttf_0_79: 2213726099720828550
+      Font18DejaVuSansMono_ttf_0_8: 500673452923760911
+      Font18DejaVuSansMono_ttf_0_80: 539384542765232188
+      Font18DejaVuSansMono_ttf_0_81: 8556342984132742882
+      Font18DejaVuSansMono_ttf_0_82: 1080992931840406430
+      Font18DejaVuSansMono_ttf_0_83: 6646155386732908013
+      Font18DejaVuSansMono_ttf_0_84: -1414737373905457978
+      Font18DejaVuSansMono_ttf_0_85: -1499912843578686647
+      Font18DejaVuSansMono_ttf_0_86: 1496590063412950298
+      Font18DejaVuSansMono_ttf_0_87: -1762201174588722940
+      Font18DejaVuSansMono_ttf_0_88: -1563927294690634323
+      Font18DejaVuSansMono_ttf_0_89: -7060379359689972521
+      Font18DejaVuSansMono_ttf_0_9: 880610733632246672
+      Font18DejaVuSansMono_ttf_0_90: 9083016142402723301
+      Font18DejaVuSansMono_ttf_0_91: -7965536126448167761
+      Font18DejaVuSansMono_ttf_0_92: -1134635677968181434
+      Font18DejaVuSansMono_ttf_0_93: 1655776072460467366
+      Font18DejaVuSansMono_ttf_0_94: -3908249223269769380
+      Font18DejaVuSansMono_ttf_0_95: 4393123245132244184
+      Font18DejaVuSansMono_ttf_0_96: 9022843781770585403
+      Font18DejaVuSansMono_ttf_0_97: 2087145988851346061
+      Font18DejaVuSansMono_ttf_0_98: -8123205075657509826
+      Font18DejaVuSansMono_ttf_0_99: -7166123959618540482
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
