@@ -1,11 +1,11 @@
 <#
 .SYNOPSIS
-	Publishes SkiaGum + GumCommon for netstandard2.1 into the Gum Demo Unity project's Assets/Gum/DLLs.
+	Publishes UnityGum (with SkiaGum + GumCommon) for netstandard2.1 into the Gum Demo Unity project's Assets/Gum/DLLs.
 
 .DESCRIPTION
 	Takes no parameters; run it directly.
 
-	Runs `dotnet publish` on Runtimes/SkiaGum for netstandard2.1, which gathers SkiaGum, GumCommon and
+	Runs `dotnet publish` on Runtimes/UnityGum for netstandard2.1, which gathers UnityGum, SkiaGum, GumCommon and
 	every managed NuGet dependency (System.Text.Json, SkiaSharp, Svg.Skia, ...). A plain `dotnet build`
 	does not: a library's bin folder never holds its package dependencies. The publish goes to a temporary
 	folder that is deleted afterwards.
@@ -25,7 +25,7 @@ Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$project = Join-Path $repoRoot 'Runtimes/SkiaGum/SkiaGum.csproj'
+$project = Join-Path $repoRoot 'Runtimes/UnityGum/UnityGum.csproj'
 $destination = Join-Path $PSScriptRoot 'Demo/Gum Demo/Assets/Gum/DLLs'
 $publishDirectory = Join-Path ([System.IO.Path]::GetTempPath()) ('gum-unity-publish-' + [guid]::NewGuid().ToString('N'))
 
