@@ -26,10 +26,9 @@
 ExportedObj/
 .consulo/
 
-# IDE project files Unity regenerates on every script change
-*.csproj
+# IDE files Unity regenerates on every script change. The generated .sln and .csproj files are
+# committed on purpose (the Gum tool's codegen reads the .csproj), so they are not listed here.
 *.unityproj
-*.sln
 *.suo
 *.tmp
 *.user
