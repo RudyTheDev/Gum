@@ -118,6 +118,7 @@
     <None Include="Assets\Gum\Project\FontCache\Font12DejaVuSansMono_ttf.fnt" />
     <None Include="Assets\Gum\Project\FontCache\Font15Baloo2-SemiBold_ttf.fnt" />
     <None Include="Assets\Gum\DLLs\SkiaGum.xml" />
+    <None Include="Assets\Gum\Shaders\GumPremultipliedSprite.shader" />
     <None Include="Assets\Gum\Project\FontCache\Font20DejaVuSansMono_ttf.fnt" />
     <None Include="Assets\Gum\Project\Fonts\Quicksand-OFL.txt" />
     <None Include="Assets\Gum\Project\FontCache\Font15Baloo2-Bold_ttf_Bold.fnt" />
