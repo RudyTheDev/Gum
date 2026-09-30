@@ -263,12 +263,6 @@
           "ValueAsInt": 7
         },
         {
-          "Name": "ButtonConfirmInstance.ButtonCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
-        },
-        {
           "Name": "ButtonConfirmInstance.Parent",
           "Type": "string",
           "SetsValue": true,
@@ -323,22 +317,10 @@
           "ValueAsFloat": 16
         },
         {
-          "Name": "ButtonDenyInstance.ButtonCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
-        },
-        {
           "Name": "ButtonDenyInstance.Parent",
           "Type": "string",
           "SetsValue": true,
           "ValueAsString": "ButtonContainer"
-        },
-        {
-          "Name": "ComboBoxInstance.ComboBoxCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
         },
         {
           "Name": "ComboBoxInstance.Parent",
@@ -443,12 +425,6 @@
           "ValueAsInt": 1
         },
         {
-          "Name": "DetectResolutionsButton.ButtonCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
-        },
-        {
           "Name": "DetectResolutionsButton.Parent",
           "Type": "string",
           "SetsValue": true,
@@ -494,13 +470,13 @@
           "Name": "DialogBoxInstance.X",
           "Type": "float",
           "SetsValue": true,
-          "ValueAsFloat": 722
+          "ValueAsFloat": 800
         },
         {
           "Name": "DialogBoxInstance.Y",
           "Type": "float",
           "SetsValue": true,
-          "ValueAsFloat": 376
+          "ValueAsFloat": 359
         },
         {
           "Name": "DifficultyLabel.Parent",
@@ -519,12 +495,6 @@
           "Type": "float",
           "SetsValue": true,
           "ValueAsFloat": 8
-        },
-        {
-          "Name": "FullScreenCheckbox.CheckBoxCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "EnabledOff"
         },
         {
           "Name": "FullScreenCheckbox.Parent",
@@ -836,13 +806,7 @@
           "Name": "MultiLineTextBox.Height",
           "Type": "float",
           "SetsValue": true,
-          "ValueAsFloat": 174
-        },
-        {
-          "Name": "MultiLineTextBox.LineModeCategoryState",
-          "Type": "LineModeCategory",
-          "SetsValue": true,
-          "ValueAsString": "Multi"
+          "ValueAsFloat": 151
         },
         {
           "Name": "MultiLineTextBox.Parent",
@@ -855,12 +819,6 @@
           "Type": "string",
           "SetsValue": true,
           "ValueAsString": "Multi-line text box"
-        },
-        {
-          "Name": "MultiLineTextBox.TextBoxCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
         },
         {
           "Name": "MultiLineTextBox.Width",
@@ -923,12 +881,6 @@
           "ValueAsString": "MenuItems"
         },
         {
-          "Name": "RadioButtonInstance.RadioButtonCategoryState",
-          "Type": "RadioButtonCategory",
-          "SetsValue": true,
-          "ValueAsString": "EnabledOff"
-        },
-        {
           "Name": "RadioButtonInstance.Text",
           "Type": "string",
           "SetsValue": true,
@@ -951,12 +903,6 @@
           "Type": "string",
           "SetsValue": true,
           "ValueAsString": "MenuItems"
-        },
-        {
-          "Name": "RadioButtonInstance1.RadioButtonCategoryState",
-          "Type": "RadioButtonCategory",
-          "SetsValue": true,
-          "ValueAsString": "EnabledOff"
         },
         {
           "Name": "RadioButtonInstance1.Text",
@@ -989,12 +935,6 @@
           "ValueAsString": "MenuItems"
         },
         {
-          "Name": "RadioButtonInstance2.RadioButtonCategoryState",
-          "Type": "RadioButtonCategory",
-          "SetsValue": true,
-          "ValueAsString": "EnabledOff"
-        },
-        {
           "Name": "RadioButtonInstance2.Text",
           "Type": "string",
           "SetsValue": true,
@@ -1023,12 +963,6 @@
           "Type": "float",
           "SetsValue": true,
           "ValueAsFloat": 128
-        },
-        {
-          "Name": "ResolutionBox.ListBoxCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
         },
         {
           "Name": "ResolutionBox.Parent",
@@ -1061,12 +995,6 @@
           "ValueAsString": "Resolution"
         },
         {
-          "Name": "ShowDialogButton.ButtonCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
-        },
-        {
           "Name": "ShowDialogButton.Parent",
           "Type": "string",
           "SetsValue": true
@@ -1081,7 +1009,7 @@
           "Name": "ShowDialogButton.X",
           "Type": "float",
           "SetsValue": true,
-          "ValueAsFloat": 722
+          "ValueAsFloat": 800
         },
         {
           "Name": "ShowDialogButton.XOrigin",
@@ -1099,7 +1027,7 @@
           "Name": "ShowDialogButton.Y",
           "Type": "float",
           "SetsValue": true,
-          "ValueAsFloat": 348
+          "ValueAsFloat": 307
         },
         {
           "Name": "ShowDialogButton.YOrigin",
@@ -1112,12 +1040,6 @@
           "Type": "PositionUnitType",
           "SetsValue": true,
           "ValueAsInt": 1
-        },
-        {
-          "Name": "ShowToastButton.ButtonCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
         },
         {
           "Name": "ShowToastButton.Parent",
@@ -1203,12 +1125,6 @@
           "ValueAsString": "MarginContainer"
         },
         {
-          "Name": "TextBoxInstance.TextBoxCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
-        },
-        {
           "Name": "TextBoxInstance.Width",
           "Type": "float",
           "SetsValue": true,
@@ -1225,12 +1141,6 @@
           "Type": "string",
           "SetsValue": true,
           "ValueAsString": "MarginContainer"
-        },
-        {
-          "Name": "TextBoxInstance1.PasswordBoxCategoryState",
-          "Type": "string",
-          "SetsValue": true,
-          "ValueAsString": "Enabled"
         },
         {
           "Name": "TextBoxInstance1.Width",
@@ -1382,13 +1292,13 @@
           "Name": "WindowStandardInstance.X",
           "Type": "float",
           "SetsValue": true,
-          "ValueAsFloat": 15
+          "ValueAsFloat": 802
         },
         {
           "Name": "WindowStandardInstance.Y",
           "Type": "float",
           "SetsValue": true,
-          "ValueAsFloat": 575
+          "ValueAsFloat": 111
         }
       ],
       "VariableLists": [
