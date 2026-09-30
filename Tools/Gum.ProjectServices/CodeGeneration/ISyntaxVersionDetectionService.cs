@@ -19,4 +19,11 @@ public interface ISyntaxVersionDetectionService
     /// can use the newest syntax it emits.
     /// </summary>
     int? DetectCSharpLanguageVersion(CodeOutputProjectSettings settings, string? projectDirectory);
+
+    /// <summary>
+    /// Whether the game project is a Unity project, detected from its .csproj referencing
+    /// <c>UnityEngine</c>. Unity doesn't run module initializers, so codegen registers types
+    /// through Unity's own startup hook instead.
+    /// </summary>
+    bool DetectIsUnityProject(CodeOutputProjectSettings settings, string? projectDirectory);
 }

@@ -806,6 +806,17 @@ $@"<Project ToolsVersion=""4.0"">
         _sut.DetectCSharpLanguageVersion(settings, _tempDirectory).ShouldBe(9);
     }
 
+    [Theory]
+    [InlineData(@"<Reference Include=""UnityEngine""><HintPath>C:\Unity\UnityEngine.dll</HintPath></Reference>", true)]
+    [InlineData(@"<Reference Include=""UnityEngine.CoreModule""><HintPath>C:\Unity\UnityEngine.CoreModule.dll</HintPath></Reference>", true)]
+    [InlineData(@"<Reference Include=""UnityEngineExtras"" />", false)]
+    [InlineData(@"<PackageReference Include=""Gum.MonoGame"" Version=""1.0.0"" />", false)]
+    public void IsUnityCsproj_DetectsUnityEngineReference(string itemGroupBody, bool expected)
+    {
+        SyntaxVersionDetectionService.IsUnityCsproj($"<Project><ItemGroup>{itemGroupBody}</ItemGroup></Project>")
+            .ShouldBe(expected);
+    }
+
     [Fact]
     public void DetectCSharpLanguageVersion_NoCsproj_ReturnsNull()
     {

@@ -143,6 +143,24 @@ public class SyntaxVersionDetectionService : ISyntaxVersionDetectionService
     /// <inheritdoc/>
     public int? DetectCSharpLanguageVersion(CodeOutputProjectSettings settings, string? projectDirectory)
     {
+        string? csprojContents = TryReadCsproj(settings, projectDirectory);
+        return csprojContents == null ? null : ParseCSharpLanguageVersion(csprojContents);
+    }
+
+    /// <inheritdoc/>
+    public bool DetectIsUnityProject(CodeOutputProjectSettings settings, string? projectDirectory)
+    {
+        string? csprojContents = TryReadCsproj(settings, projectDirectory);
+        return csprojContents != null && IsUnityCsproj(csprojContents);
+    }
+
+    // Unity's generated projects reference UnityEngine.dll (or its UnityEngine.*Module dlls) by HintPath:
+    // <Reference Include="UnityEngine"><HintPath>...\UnityEngine.dll</HintPath></Reference>
+    internal static bool IsUnityCsproj(string csprojContents) =>
+        Regex.IsMatch(csprojContents, @"<Reference\s+Include=""UnityEngine[."",]", RegexOptions.IgnoreCase);
+
+    private static string? TryReadCsproj(CodeOutputProjectSettings settings, string? projectDirectory)
+    {
         string? codeProjectRoot = ResolveCodeProjectRoot(settings, projectDirectory);
         string? csprojPath = codeProjectRoot == null ? null : FindCsprojInDirectory(codeProjectRoot);
         if (csprojPath == null)
@@ -152,7 +170,7 @@ public class SyntaxVersionDetectionService : ISyntaxVersionDetectionService
 
         try
         {
-            return ParseCSharpLanguageVersion(File.ReadAllText(csprojPath));
+            return File.ReadAllText(csprojPath);
         }
         catch
         {

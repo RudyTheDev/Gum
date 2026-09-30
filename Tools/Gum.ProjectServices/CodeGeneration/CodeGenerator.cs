@@ -82,6 +82,12 @@ public class CodeGenerationContext
     /// </summary>
     public bool UseFileScopedNamespace { get; set; } = true;
 
+    /// <summary>
+    /// Whether the game project is a Unity project. Unity doesn't run module initializers, so
+    /// startup registration uses <c>RuntimeInitializeOnLoadMethod</c> instead.
+    /// </summary>
+    public bool IsUnityProject { get; set; }
+
     CodeOutputProjectSettings _codeOutputProjectSettings = new ();
     public CodeOutputProjectSettings CodeOutputProjectSettings
     {
@@ -452,6 +458,19 @@ public class CodeGenerator
 
         return languageVersion == null || languageVersion >= 10;
     }
+
+    internal bool ResolveIsUnityProject(CodeOutputProjectSettings projectSettings) =>
+        _syntaxVersionDetectionService?.DetectIsUnityProject(
+            projectSettings, _projectDirectoryProvider.ProjectDirectory) == true;
+
+    /// <summary>
+    /// The attribute that makes a static method run at startup. Unity doesn't support module
+    /// initializers (they compile but never run there), so it gets Unity's earliest startup hook,
+    /// which runs before the first scene loads.
+    /// </summary>
+    private static string GetStartupInitializerAttribute(bool isUnityProject, string moduleInitializerAttribute = "[System.Runtime.CompilerServices.ModuleInitializer]") => isUnityProject
+        ? "[UnityEngine.RuntimeInitializeOnLoadMethod(UnityEngine.RuntimeInitializeLoadType.SubsystemRegistration)]"
+        : moduleInitializerAttribute;
 
     #region Using Statements
 
@@ -1703,7 +1722,7 @@ public class CodeGenerator
         {
             var builder = context.StringBuilder;
 
-            builder.AppendLine(context.Tabs + "[System.Runtime.CompilerServices.ModuleInitializer]");
+            builder.AppendLine(context.Tabs + GetStartupInitializerAttribute(context.IsUnityProject));
             var registerRuntimeTypeBase = ObjectFinder.Self.GetElementSave(context.Element.BaseType);
             var registerRuntimeTypeNewModifier = registerRuntimeTypeBase is ComponentSave ? "new " : "";
             builder.AppendLine(context.Tabs + $"public static {registerRuntimeTypeNewModifier}void RegisterRuntimeType()");
@@ -1800,7 +1819,7 @@ public class CodeGenerator
         {
             var builder = context.StringBuilder;
 
-            builder.AppendLine(context.Tabs + "[System.Runtime.CompilerServices.ModuleInitializer]");
+            builder.AppendLine(context.Tabs + GetStartupInitializerAttribute(context.IsUnityProject));
             var registerRuntimeTypeBase = ObjectFinder.Self.GetElementSave(context.Element.BaseType);
             var registerRuntimeTypeNewModifier = registerRuntimeTypeBase is ComponentSave ? "new " : "";
             builder.AppendLine(context.Tabs + $"public static {registerRuntimeTypeNewModifier}void RegisterRuntimeType()");
@@ -3519,6 +3538,7 @@ public class CodeGenerator
         context.ElementSettings = elementSettings;
         context.ResolvedSyntaxVersion = ResolveSyntaxVersion(projectSettings);
         context.UseFileScopedNamespace = ResolveUseFileScopedNamespace(projectSettings);
+        context.IsUnityProject = ResolveIsUnityProject(projectSettings);
 
         var stringBuilder = context.StringBuilder;
 
@@ -3711,7 +3731,7 @@ public class CodeGenerator
         string indent = hasBlockNamespace ? "    " : "";
         stringBuilder.AppendLine(indent + "internal static class StandardElementsCodeGenRegistration");
         stringBuilder.AppendLine(indent + "{");
-        stringBuilder.AppendLine(indent + "    [ModuleInitializer]");
+        stringBuilder.AppendLine(indent + "    " + GetStartupInitializerAttribute(ResolveIsUnityProject(projectSettings), "[ModuleInitializer]"));
         stringBuilder.AppendLine(indent + "    internal static void RegisterFallbackStandardElements()");
         stringBuilder.AppendLine(indent + "    {");
         stringBuilder.AppendLine(indent + "        XmlSerializer serializer = GumFileSerializer.GetCompactSerializer(typeof(List<StandardElementSave>));");
