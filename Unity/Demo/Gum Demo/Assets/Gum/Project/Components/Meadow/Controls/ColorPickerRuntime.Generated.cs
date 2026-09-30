@@ -16,7 +16,7 @@ namespace Assembly_CSharp.Components.Meadow.Controls
         public static void RegisterRuntimeType()
         {
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/ColorPicker", typeof(ColorPickerRuntime));
-            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof(global::Gum.Forms.Controls.ColorPicker)] = typeof(ColorPickerRuntime);
+            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsTemplates[typeof(global::Gum.Forms.Controls.ColorPicker)] = new global::Gum.Forms.VisualTemplate((vm, createForms) => new ColorPickerRuntime(fullInstantiation: true, tryCreateFormsObject: createForms));
         }
         public global::Gum.Forms.Controls.ColorPicker FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.ColorPicker;
         public ContainerRuntime SaturationValueContainer { get; protected set; }

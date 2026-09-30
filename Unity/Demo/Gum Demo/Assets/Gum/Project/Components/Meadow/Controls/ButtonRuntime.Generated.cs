@@ -16,7 +16,7 @@ namespace Assembly_CSharp.Components.Meadow.Controls
         public static void RegisterRuntimeType()
         {
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Button", typeof(ButtonRuntime));
-            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof(global::Gum.Forms.Controls.Button)] = typeof(ButtonRuntime);
+            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsTemplates[typeof(global::Gum.Forms.Controls.Button)] = new global::Gum.Forms.VisualTemplate((vm, createForms) => new ButtonRuntime(fullInstantiation: true, tryCreateFormsObject: createForms));
         }
         public global::Gum.Forms.Controls.Button FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Button;
         public enum ButtonCategory

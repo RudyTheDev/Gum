@@ -16,7 +16,7 @@ namespace Assembly_CSharp.Components.Meadow.Controls
         public static void RegisterRuntimeType()
         {
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/MenuItem", typeof(MenuItemRuntime));
-            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof(global::Gum.Forms.Controls.MenuItem)] = typeof(MenuItemRuntime);
+            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsTemplates[typeof(global::Gum.Forms.Controls.MenuItem)] = new global::Gum.Forms.VisualTemplate((vm, createForms) => new MenuItemRuntime(fullInstantiation: true, tryCreateFormsObject: createForms));
         }
         public global::Gum.Forms.Controls.MenuItem FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.MenuItem;
         public enum MenuItemCategory

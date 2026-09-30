@@ -16,7 +16,7 @@ namespace Assembly_CSharp.Components.Meadow.Controls
         public static void RegisterRuntimeType()
         {
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Expander", typeof(ExpanderRuntime));
-            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof(global::Gum.Forms.Controls.Expander)] = typeof(ExpanderRuntime);
+            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsTemplates[typeof(global::Gum.Forms.Controls.Expander)] = new global::Gum.Forms.VisualTemplate((vm, createForms) => new ExpanderRuntime(fullInstantiation: true, tryCreateFormsObject: createForms));
         }
         public global::Gum.Forms.Controls.Expander FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Expander;
         public enum ExpanderCategory

@@ -16,7 +16,7 @@ namespace Assembly_CSharp.Components.Meadow.Controls
         public static void RegisterRuntimeType()
         {
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/Splitter", typeof(SplitterRuntime));
-            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof(global::Gum.Forms.Controls.Splitter)] = typeof(SplitterRuntime);
+            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsTemplates[typeof(global::Gum.Forms.Controls.Splitter)] = new global::Gum.Forms.VisualTemplate((vm, createForms) => new SplitterRuntime(fullInstantiation: true, tryCreateFormsObject: createForms));
         }
         public global::Gum.Forms.Controls.Splitter FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.Splitter;
         public RectangleRuntime LineInstance { get; protected set; }

@@ -16,7 +16,7 @@ namespace Assembly_CSharp.Components.Meadow.Controls
         public static void RegisterRuntimeType()
         {
             GumRuntime.ElementSaveExtensions.RegisterGueInstantiationType("Meadow/Controls/PasswordBox", typeof(PasswordBoxRuntime));
-            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof(global::Gum.Forms.Controls.PasswordBox)] = typeof(PasswordBoxRuntime);
+            global::Gum.Forms.Controls.FrameworkElement.DefaultFormsTemplates[typeof(global::Gum.Forms.Controls.PasswordBox)] = new global::Gum.Forms.VisualTemplate((vm, createForms) => new PasswordBoxRuntime(fullInstantiation: true, tryCreateFormsObject: createForms));
         }
         public global::Gum.Forms.Controls.PasswordBox FormsControl => FormsControlAsObject as global::Gum.Forms.Controls.PasswordBox;
         public enum PasswordBoxCategory
