@@ -30,6 +30,7 @@
     <Project Path="Runtimes/GumShapes/KniGumShapes.csproj" />
     <Project Path="Runtimes/GumShapes/MonoGameGumShapes.csproj" />
     <Project Path="Runtimes/SkiaGum/SkiaGum.csproj" />
+    <Project Path="Runtimes/UnityGum/UnityGum.csproj" />
     <Project Path="Tools/Gum.FormsStaging/Gum.FormsStaging.csproj" />
     <Project Path="Tools/Gum.ImageDiff/Gum.ImageDiff.csproj" />
     <Project Path="Tools/Gum.Presentation/Gum.Presentation.csproj" />

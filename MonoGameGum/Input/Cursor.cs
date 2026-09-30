@@ -515,7 +515,12 @@ public Cursor(Microsoft.Xna.Framework.GameWindow? gameWindow)
 
     public void Activity(double gameTime)
     {
+#if UNITY
+        // netstandard2.1 has no OperatingSystem.IsAndroid/IsIOS; the Unity host sets this (Cursor.Unity.cs).
+        var isMobile = IsMobile;
+#else
         var isMobile = System.OperatingSystem.IsAndroid() || System.OperatingSystem.IsIOS();
+#endif
 
         MouseState? mouseState = isMobile ? null : GetMouseState();
 

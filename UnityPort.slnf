@@ -4,6 +4,7 @@
     "projects": [
       "GumCommon\\GumCommon.csproj",
       "Runtimes\\SkiaGum\\SkiaGum.csproj",
+      "Runtimes\\UnityGum\\UnityGum.csproj",
       "Tool\\Gum.Avalonia\\Gum.Avalonia.csproj",
       "Tool\\EditorTabPlugin.Core\\EditorTabPlugin.Core.csproj",
       "Tool\\StateAnimationPlugin.Core\\StateAnimationPlugin.Core.csproj",

@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<!--
+		Gum for Unity: renders through SkiaGum and adds Forms input, the same split as SilkNetGum.
+		It references no Unity assembly. The host (a MonoBehaviour in the Unity project) reads Unity's
+		input each frame and pushes it into GumService.Default.Cursor/Keyboard before calling Update.
+		Built for netstandard2.1 only; publish it with Unity/publish-unity.ps1.
+	-->
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<LangVersion>12.0</LangVersion>
+		<Nullable>enable</Nullable>
+		<NoWarn>1591</NoWarn>
+		<Configurations>Debug;Release;Release_No_Diagnostics</Configurations>
+	</PropertyGroup>
+
+	<!-- SKIA selects the Skia render aliases in the shared source; UNITY selects this project's input host. -->
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+		<DefineConstants>TRACE;SKIA;UNITY;FULL_DIAGNOSTICS</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+		<DefineConstants>TRACE;SKIA;UNITY;FULL_DIAGNOSTICS</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_No_Diagnostics|AnyCPU'">
+		<DefineConstants>TRACE;SKIA;UNITY</DefineConstants>
+	</PropertyGroup>
+
+	<!-- The input host half SkiaGum omits because it is render-only (same set as SilkNetGum). -->
+	<ItemGroup>
+		<Compile Include="..\..\GumRuntime\Input\ButtonState.cs" Link="Input\ButtonState.cs" />
+		<Compile Include="..\..\GumRuntime\Input\MouseState.cs" Link="Input\MouseState.cs" />
+		<Compile Include="..\..\GumRuntime\Input\TouchCollection.cs" Link="Input\TouchCollection.cs" />
+		<Compile Include="..\..\GumRuntime\Input\TouchLocation.cs" Link="Input\TouchLocation.cs" />
+		<Compile Include="..\..\MonoGameGum\Input\Cursor.cs" Link="Input\Cursor.cs" />
+		<Compile Include="..\..\MonoGameGum\Input\Cursor.Forms.cs" Link="Input\Cursor.Forms.cs" />
+		<Compile Include="..\..\MonoGameGum\Input\CursorExtensions.cs" Link="Input\CursorExtensions.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\GumCommon\GumCommon.csproj" />
+		<ProjectReference Include="..\SkiaGum\SkiaGum.csproj" />
+	</ItemGroup>
+
+</Project>
