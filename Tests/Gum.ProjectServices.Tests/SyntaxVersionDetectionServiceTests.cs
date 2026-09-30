@@ -653,6 +653,124 @@ public class SyntaxVersionDetectionServiceTests : IDisposable
 
     #endregion
 
+    #region Assembly Reference (HintPath) detection
+
+    [Fact]
+    public void Detect_AssemblyReference_RelativeHintPath_ReadsSyntaxVersionFromDll()
+    {
+        string gameDir = Path.Combine(_tempDirectory, "game");
+        string dllDir = Path.Combine(gameDir, "Assets", "Gum", "DLLs");
+        Directory.CreateDirectory(dllDir);
+        // GumCommon.dll carries the same [assembly: GumSyntaxVersion] as the runtimes, so it
+        // stands in for a real SkiaGum.dll.
+        File.Copy(
+            Path.Combine(AppContext.BaseDirectory, "GumCommon.dll"),
+            Path.Combine(dllDir, "SkiaGum.dll"));
+        File.WriteAllText(Path.Combine(gameDir, "Assembly-CSharp.csproj"),
+@"<Project ToolsVersion=""4.0"">
+  <ItemGroup>
+    <Reference Include=""SkiaGum"">
+      <HintPath>Assets\Gum\DLLs\SkiaGum.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>");
+
+        CodeOutputProjectSettings settings = new CodeOutputProjectSettings
+        {
+            SyntaxVersion = "*",
+            CodeProjectRoot = "./"
+        };
+
+        SyntaxVersionResult result = _sut.Detect(settings, gameDir);
+
+        result.Source.ShouldBe(SyntaxVersionSource.AssemblyReference);
+        result.Version.ShouldBe(4);
+    }
+
+    [Fact]
+    public void Detect_AssemblyReference_AbsoluteHintPath_ReadsSyntaxVersionFromDll()
+    {
+        string dllDir = Path.Combine(_tempDirectory, "dlls");
+        Directory.CreateDirectory(dllDir);
+        string dllPath = Path.Combine(dllDir, "SkiaGum.dll");
+        File.Copy(Path.Combine(AppContext.BaseDirectory, "GumCommon.dll"), dllPath);
+
+        string gameDir = Path.Combine(_tempDirectory, "game");
+        Directory.CreateDirectory(gameDir);
+        File.WriteAllText(Path.Combine(gameDir, "Assembly-CSharp.csproj"),
+$@"<Project ToolsVersion=""4.0"">
+  <ItemGroup>
+    <Reference Include=""SkiaGum"">
+      <HintPath>{dllPath}</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>");
+
+        CodeOutputProjectSettings settings = new CodeOutputProjectSettings
+        {
+            SyntaxVersion = "*",
+            CodeProjectRoot = "./"
+        };
+
+        SyntaxVersionResult result = _sut.Detect(settings, gameDir);
+
+        result.Source.ShouldBe(SyntaxVersionSource.AssemblyReference);
+        result.Version.ShouldBe(4);
+    }
+
+    [Fact]
+    public void Detect_AssemblyReference_DllMissing_ReturnsFallback()
+    {
+        string gameDir = Path.Combine(_tempDirectory, "game");
+        Directory.CreateDirectory(gameDir);
+        File.WriteAllText(Path.Combine(gameDir, "Assembly-CSharp.csproj"),
+@"<Project ToolsVersion=""4.0"">
+  <ItemGroup>
+    <Reference Include=""SkiaGum"">
+      <HintPath>Assets\Gum\DLLs\SkiaGum.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>");
+
+        CodeOutputProjectSettings settings = new CodeOutputProjectSettings
+        {
+            SyntaxVersion = "*",
+            CodeProjectRoot = "./"
+        };
+
+        SyntaxVersionResult result = _sut.Detect(settings, gameDir);
+
+        result.Source.ShouldBe(SyntaxVersionSource.Fallback);
+    }
+
+    [Fact]
+    public void ExtractReferenceHintPath_OtherDllWithSameSuffix_ReturnsNull()
+    {
+        string csproj =
+@"<Reference Include=""NotSkiaGum"">
+  <HintPath>Assets\NotSkiaGum.dll</HintPath>
+</Reference>";
+
+        SyntaxVersionDetectionService.ExtractReferenceHintPath(csproj, "SkiaGum").ShouldBeNull();
+    }
+
+    [Fact]
+    public void ExtractReferenceHintPath_AmongOtherReferences_ReturnsMatchingPath()
+    {
+        string csproj =
+@"<Reference Include=""GumCommon"">
+  <HintPath>D:\Game\Assets\Gum\DLLs\GumCommon.dll</HintPath>
+</Reference>
+<Reference Include=""SkiaGum"">
+  <HintPath>D:\Game\Assets\Gum\DLLs\SkiaGum.dll</HintPath>
+</Reference>";
+
+        SyntaxVersionDetectionService.ExtractReferenceHintPath(csproj, "SkiaGum")
+            .ShouldBe(@"D:\Game\Assets\Gum\DLLs\SkiaGum.dll");
+    }
+
+    #endregion
+
     public void Dispose()
     {
         try
