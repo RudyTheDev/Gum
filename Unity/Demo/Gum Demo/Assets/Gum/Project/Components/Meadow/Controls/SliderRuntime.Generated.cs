@@ -1,12 +1,12 @@
 //Code for Meadow/Controls/Slider (Container)
 using Assembly_CSharp.Components.Meadow.Controls;
+using Gum;
 using Gum.Converters;
 using Gum.DataTypes;
+using Gum.GueDeriving;
 using Gum.Managers;
 using Gum.Wireframe;
 using GumRuntime;
-using MonoGameGum;
-using MonoGameGum.GueDeriving;
 using RenderingLibrary.Graphics;
 using System.Linq;
 namespace Assembly_CSharp.Components.Meadow.Controls;
@@ -81,8 +81,8 @@ partial class SliderRuntime : ContainerRuntime
         {
             FormsControlAsObject = new global::Gum.Forms.Controls.Slider(this);
         }
-        TrackInstance = this.GetGraphicalUiElementByName("TrackInstance") as global::MonoGameGum.GueDeriving.ContainerRuntime;
-        TrackBackground = this.GetGraphicalUiElementByName("TrackBackground") as global::MonoGameGum.GueDeriving.RectangleRuntime;
+        TrackInstance = this.GetGraphicalUiElementByName("TrackInstance") as global::Gum.GueDeriving.ContainerRuntime;
+        TrackBackground = this.GetGraphicalUiElementByName("TrackBackground") as global::Gum.GueDeriving.RectangleRuntime;
         ThumbInstance = this.GetGraphicalUiElementByName("ThumbInstance") as Assembly_CSharp.Components.Meadow.Controls.SliderThumbRuntime;
         CustomInitialize();
     }

@@ -1,15 +1,15 @@
 //Code for Meadow/Controls/Label (Text)
+using Gum;
 using Gum.Converters;
 using Gum.DataTypes;
+using Gum.GueDeriving;
 using Gum.Managers;
 using Gum.Wireframe;
 using GumRuntime;
-using MonoGameGum;
-using MonoGameGum.GueDeriving;
 using RenderingLibrary.Graphics;
 using System.Linq;
 namespace Assembly_CSharp.Components.Meadow.Controls;
-partial class LabelRuntime : global::MonoGameGum.GueDeriving.TextRuntime
+partial class LabelRuntime : global::Gum.GueDeriving.TextRuntime
 {
     [System.Runtime.CompilerServices.ModuleInitializer]
     public static void RegisterRuntimeType()
