@@ -53,12 +53,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Gum\Project\Screens\DemoScreenGumRuntime.cs" />
-    <Compile Include="Assets\Gum\Scripts\UnityGumService.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\MenuRuntime.cs" />
     <Compile Include="Assets\Gum\Project\StandardElements.Generated.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\ScrollViewerRuntime.Generated.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\StackPanelRuntime.Generated.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\StylesRuntime.cs" />
+    <Compile Include="Assets\Gum\Scripts\GumUnityInput.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\ScrollViewerRuntime.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\TextBoxRuntime.cs" />
     <Compile Include="Assets\Gum\Project\Screens\DemoScreenGumRuntime.Generated.cs" />

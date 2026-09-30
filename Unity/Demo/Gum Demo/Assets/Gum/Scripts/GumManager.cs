@@ -1,10 +1,11 @@
 using System.IO;
 using Assembly_CSharp.Screens;
+using Gum;
 using SkiaSharp;
 using UnityEngine;
 
 /// <summary>
-/// Runs Gum the way a game would: initialize once with the project, then Update and Draw every frame.
+/// Runs Gum the way a game would: initialize once with the project, then push input, Update and Draw every frame.
 /// Gum draws with Skia into a CPU raster surface, which is uploaded to a texture shown on a sprite
 /// in front of the UI camera (an overlay camera that renders only its own layer).
 /// </summary>
@@ -14,7 +15,8 @@ public class GumManager : MonoBehaviour
     [SerializeField] Camera _uiCamera;
     [SerializeField] Shader _spriteShader;
 
-    UnityGumService _gum;
+    GumService _gum;
+    GumUnityInput _input;
     SKSurface _surface;
     Texture2D _texture;
     SpriteRenderer _spriteRenderer;
@@ -23,13 +25,14 @@ public class GumManager : MonoBehaviour
 
     void Start()
     {
-        _gum = UnityGumService.Default;
+        _gum = GumService.Default;
 
         CreateSpriteRenderer();
         CreateSurface(Screen.width, Screen.height);
 
         string projectPath = Path.Combine(Application.dataPath, _gumProjectRelativePath);
         _gum.Initialize(_surface.Canvas, _width, _height, projectPath);
+        _input = new GumUnityInput(_gum);
 
         // GraphicalUiElement.AddToRoot() is NET6_0_OR_GREATER-only; this is what it does.
         var screen = new DemoScreenGumRuntime();
@@ -50,6 +53,7 @@ public class GumManager : MonoBehaviour
             _gum.HandleResize(_width, _height);
         }
 
+        _input.Push(_height);
         _gum.Update(Time.timeAsDouble);
 
         SKCanvas canvas = _surface.Canvas;
@@ -66,6 +70,8 @@ public class GumManager : MonoBehaviour
 
     void OnDestroy()
     {
+        _input?.Dispose();
+
         if (_gum != null && _gum.IsInitialized)
             _gum.Uninitialize();
 
