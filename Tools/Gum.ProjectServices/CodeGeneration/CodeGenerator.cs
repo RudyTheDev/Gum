@@ -1837,9 +1837,22 @@ public class CodeGenerator
                 var behavior = ObjectFinder.Self.GetBehavior(behaviorReference!);
                 if (behavior?.DefaultImplementation == element.Name)
                 {
-                    // This is the default, so let's register it:
-                    builder.AppendLine(context.Tabs +
-                        $"global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof({formsType})] = typeof({className});");
+                    // This is the default, so let's register it. Every runtime at syntax version 1+ has
+                    // DefaultFormsTemplates and the (vm, createForms) VisualTemplate constructor; older ones
+                    // keep the DefaultFormsComponents registration, which is obsolete where both exist.
+                    // The lambda matches what DefaultFormsComponents did by reflection: the (bool, bool)
+                    // constructor that every unified-runtime class gets.
+                    if (context.ResolvedSyntaxVersion >= 1)
+                    {
+                        builder.AppendLine(context.Tabs +
+                            $"global::Gum.Forms.Controls.FrameworkElement.DefaultFormsTemplates[typeof({formsType})] = " +
+                            $"new global::Gum.Forms.VisualTemplate((vm, createForms) => new {className}(fullInstantiation: true, tryCreateFormsObject: createForms));");
+                    }
+                    else
+                    {
+                        builder.AppendLine(context.Tabs +
+                            $"global::Gum.Forms.Controls.FrameworkElement.DefaultFormsComponents[typeof({formsType})] = typeof({className});");
+                    }
                 }
             }
 
