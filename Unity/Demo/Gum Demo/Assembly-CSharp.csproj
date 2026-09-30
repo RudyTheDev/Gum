@@ -601,6 +601,9 @@
     <Reference Include="UnityPipeline.Microsoft.CodeAnalysis">
       <HintPath>D:\Progr\MonoGame\Gum\Unity\Demo\Gum Demo\Library\PackageCache\com.unity.pipeline@62c08c808737\Runtime\Plugins\CodeAnalysis\UnityPipeline.Microsoft.CodeAnalysis.dll</HintPath>
     </Reference>
+    <Reference Include="UnityGum">
+      <HintPath>D:\Progr\MonoGame\Gum\Unity\Demo\Gum Demo\Assets\Gum\DLLs\UnityGum.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.6.3f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
