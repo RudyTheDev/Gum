@@ -91,6 +91,7 @@
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\SliderRuntime.Generated.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\LabelRuntime.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\DialogBoxRuntime.cs" />
+    <Compile Include="Assets\Gum\Scripts\GumManager.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\CheckBoxRuntime.Generated.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\MenuItemRuntime.cs" />
     <Compile Include="Assets\Gum\Project\Components\Meadow\Controls\PasswordBoxRuntime.cs" />
