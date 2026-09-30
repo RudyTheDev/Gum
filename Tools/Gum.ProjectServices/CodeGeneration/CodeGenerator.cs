@@ -76,6 +76,12 @@ public class CodeGenerationContext
     /// </summary>
     public int ResolvedSyntaxVersion { get; set; }
 
+    /// <summary>
+    /// Whether the game project's C# version supports file-scoped namespaces (C# 10+). When false
+    /// (e.g. Unity, which compiles with C# 9) generated files use a block namespace instead.
+    /// </summary>
+    public bool UseFileScopedNamespace { get; set; } = true;
+
     CodeOutputProjectSettings _codeOutputProjectSettings = new ();
     public CodeOutputProjectSettings CodeOutputProjectSettings
     {
@@ -433,6 +439,18 @@ public class CodeGenerator
         }
 
         return version;
+    }
+
+    /// <summary>
+    /// File-scoped namespaces need C# 10. An unknown language version is assumed to be modern,
+    /// which keeps the file-scoped output projects got before this check existed.
+    /// </summary>
+    internal bool ResolveUseFileScopedNamespace(CodeOutputProjectSettings projectSettings)
+    {
+        int? languageVersion = _syntaxVersionDetectionService?.DetectCSharpLanguageVersion(
+            projectSettings, _projectDirectoryProvider.ProjectDirectory);
+
+        return languageVersion == null || languageVersion >= 10;
     }
 
     #region Using Statements
@@ -3500,6 +3518,7 @@ public class CodeGenerator
         context.CodeOutputProjectSettings = projectSettings;
         context.ElementSettings = elementSettings;
         context.ResolvedSyntaxVersion = ResolveSyntaxVersion(projectSettings);
+        context.UseFileScopedNamespace = ResolveUseFileScopedNamespace(projectSettings);
 
         var stringBuilder = context.StringBuilder;
 
@@ -3515,9 +3534,20 @@ public class CodeGenerator
 
         string namespaceName = GetElementNamespace(element, elementSettings, projectSettings);
 
+        bool hasBlockNamespace = !string.IsNullOrEmpty(namespaceName) && !context.UseFileScopedNamespace;
+
         if (!string.IsNullOrEmpty(namespaceName))
         {
-            stringBuilder.AppendLine(context.Tabs + $"namespace {namespaceName};");
+            if (context.UseFileScopedNamespace)
+            {
+                stringBuilder.AppendLine(context.Tabs + $"namespace {namespaceName};");
+            }
+            else
+            {
+                stringBuilder.AppendLine(context.Tabs + $"namespace {namespaceName}");
+                stringBuilder.AppendLine(context.Tabs + "{");
+                context.TabCount++;
+            }
         }
 
         #endregion
@@ -3606,6 +3636,12 @@ public class CodeGenerator
         stringBuilder.AppendLine(context.Tabs + "}");
         #endregion
 
+        if (hasBlockNamespace)
+        {
+            context.TabCount--;
+            stringBuilder.AppendLine(context.Tabs + "}");
+        }
+
         return stringBuilder.ToString();
     }
 
@@ -3656,28 +3692,44 @@ public class CodeGenerator
         stringBuilder.AppendLine("using System.Xml.Serialization;");
         stringBuilder.AppendLine();
 
+        bool hasBlockNamespace = false;
         if (!string.IsNullOrEmpty(projectSettings.RootNamespace))
         {
-            stringBuilder.AppendLine($"namespace {projectSettings.RootNamespace};");
-            stringBuilder.AppendLine();
+            if (ResolveUseFileScopedNamespace(projectSettings))
+            {
+                stringBuilder.AppendLine($"namespace {projectSettings.RootNamespace};");
+                stringBuilder.AppendLine();
+            }
+            else
+            {
+                stringBuilder.AppendLine($"namespace {projectSettings.RootNamespace}");
+                stringBuilder.AppendLine("{");
+                hasBlockNamespace = true;
+            }
         }
 
-        stringBuilder.AppendLine("internal static class StandardElementsCodeGenRegistration");
-        stringBuilder.AppendLine("{");
-        stringBuilder.AppendLine("    [ModuleInitializer]");
-        stringBuilder.AppendLine("    internal static void RegisterFallbackStandardElements()");
-        stringBuilder.AppendLine("    {");
-        stringBuilder.AppendLine("        XmlSerializer serializer = GumFileSerializer.GetCompactSerializer(typeof(List<StandardElementSave>));");
-        stringBuilder.AppendLine("        string xml = @\"" + escapedXml + "\";");
-        stringBuilder.AppendLine("        using StringReader reader = new StringReader(xml);");
-        stringBuilder.AppendLine("        List<StandardElementSave> standards = (List<StandardElementSave>)serializer.Deserialize(reader);");
-        stringBuilder.AppendLine("        foreach (StandardElementSave standard in standards)");
-        stringBuilder.AppendLine("        {");
-        stringBuilder.AppendLine("            standard.Initialize(defaultState: null, tolerateMissingDefaultStates: true);");
-        stringBuilder.AppendLine("        }");
-        stringBuilder.AppendLine("        ObjectFinder.Self.RegisterFallbackStandardElements(standards);");
-        stringBuilder.AppendLine("    }");
-        stringBuilder.AppendLine("}");
+        string indent = hasBlockNamespace ? "    " : "";
+        stringBuilder.AppendLine(indent + "internal static class StandardElementsCodeGenRegistration");
+        stringBuilder.AppendLine(indent + "{");
+        stringBuilder.AppendLine(indent + "    [ModuleInitializer]");
+        stringBuilder.AppendLine(indent + "    internal static void RegisterFallbackStandardElements()");
+        stringBuilder.AppendLine(indent + "    {");
+        stringBuilder.AppendLine(indent + "        XmlSerializer serializer = GumFileSerializer.GetCompactSerializer(typeof(List<StandardElementSave>));");
+        stringBuilder.AppendLine(indent + "        string xml = @\"" + escapedXml + "\";");
+        stringBuilder.AppendLine(indent + "        using StringReader reader = new StringReader(xml);");
+        stringBuilder.AppendLine(indent + "        List<StandardElementSave> standards = (List<StandardElementSave>)serializer.Deserialize(reader);");
+        stringBuilder.AppendLine(indent + "        foreach (StandardElementSave standard in standards)");
+        stringBuilder.AppendLine(indent + "        {");
+        stringBuilder.AppendLine(indent + "            standard.Initialize(defaultState: null, tolerateMissingDefaultStates: true);");
+        stringBuilder.AppendLine(indent + "        }");
+        stringBuilder.AppendLine(indent + "        ObjectFinder.Self.RegisterFallbackStandardElements(standards);");
+        stringBuilder.AppendLine(indent + "    }");
+        stringBuilder.AppendLine(indent + "}");
+
+        if (hasBlockNamespace)
+        {
+            stringBuilder.AppendLine("}");
+        }
 
         return stringBuilder.ToString();
     }

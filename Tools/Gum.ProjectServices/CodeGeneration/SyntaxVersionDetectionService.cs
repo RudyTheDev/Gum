@@ -93,21 +93,10 @@ public class SyntaxVersionDetectionService : ISyntaxVersionDetectionService
             };
         }
 
-        if (string.IsNullOrEmpty(projectDirectory) || string.IsNullOrEmpty(settings.CodeProjectRoot))
+        string? codeProjectRoot = ResolveCodeProjectRoot(settings, projectDirectory);
+        if (codeProjectRoot == null)
         {
             return CreateFallback("No project directory or CodeProjectRoot configured.");
-        }
-
-        string codeProjectRoot = settings.CodeProjectRoot;
-        if (FileManager.IsRelative(codeProjectRoot))
-        {
-            // Combine through the Path APIs rather than string concatenation: projectDirectory
-            // may or may not end in a separator, and a raw concat like "dir" + "./" produces
-            // "dir./" — a literal (nonexistent) directory name on macOS/Linux, though Windows
-            // silently trims the trailing dot. A root saved on Windows uses backslashes, which are
-            // file-name characters on macOS/Linux, so they become the native separator first.
-            codeProjectRoot = Path.GetFullPath(Path.Combine(projectDirectory,
-                codeProjectRoot.Replace('\\', Path.DirectorySeparatorChar)));
         }
 
         string? csprojPath = FindCsprojInDirectory(codeProjectRoot);
@@ -149,6 +138,113 @@ public class SyntaxVersionDetectionService : ISyntaxVersionDetectionService
         }
 
         return CreateFallback("No Gum PackageReference, ProjectReference or assembly Reference found in .csproj.");
+    }
+
+    /// <inheritdoc/>
+    public int? DetectCSharpLanguageVersion(CodeOutputProjectSettings settings, string? projectDirectory)
+    {
+        string? codeProjectRoot = ResolveCodeProjectRoot(settings, projectDirectory);
+        string? csprojPath = codeProjectRoot == null ? null : FindCsprojInDirectory(codeProjectRoot);
+        if (csprojPath == null)
+        {
+            return null;
+        }
+
+        try
+        {
+            return ParseCSharpLanguageVersion(File.ReadAllText(csprojPath));
+        }
+        catch
+        {
+            return null;
+        }
+    }
+
+    internal static int? ParseCSharpLanguageVersion(string csprojContents)
+    {
+        // An explicit <LangVersion> wins. Only a numeric one ("9.0", "9", "7.3") caps the version;
+        // latest/latestMajor/preview/default mean the newest the compiler knows.
+        Match langVersion = Regex.Match(csprojContents, @"<LangVersion>\s*([^<]*?)\s*</LangVersion>", RegexOptions.IgnoreCase);
+        if (langVersion.Success)
+        {
+            Match major = Regex.Match(langVersion.Groups[1].Value, @"^(\d+)(?:\.\d+)?$");
+            return major.Success ? int.Parse(major.Groups[1].Value) : null;
+        }
+
+        // Otherwise the compiler's default for the target framework. Multi-targeting compiles
+        // with each framework's default, so the lowest one decides.
+        Match targetFrameworks = Regex.Match(csprojContents, @"<TargetFrameworks?>\s*([^<]*?)\s*</TargetFrameworks?>", RegexOptions.IgnoreCase);
+        if (targetFrameworks.Success)
+        {
+            int? lowest = null;
+            foreach (string tfm in targetFrameworks.Groups[1].Value.Split(';'))
+            {
+                int? version = GetDefaultCSharpVersion(tfm.Trim());
+                if (version == null)
+                {
+                    // Unrecognized (or an MSBuild property like $(Frameworks)), so don't guess.
+                    return null;
+                }
+                lowest = lowest == null ? version : Math.Min(lowest.Value, version.Value);
+            }
+            return lowest;
+        }
+
+        // Old-style (non-SDK) projects target .NET Framework, which defaults to C# 7.3.
+        if (Regex.IsMatch(csprojContents, @"<TargetFrameworkVersion>\s*v4", RegexOptions.IgnoreCase))
+        {
+            return 7;
+        }
+
+        return null;
+    }
+
+    private static int? GetDefaultCSharpVersion(string targetFramework)
+    {
+        // net5.0 -> C# 9, net6.0 -> C# 10, ..., each .NET release bumps the default by one.
+        Match modern = Regex.Match(targetFramework, @"^net(\d+)\.\d+", RegexOptions.IgnoreCase);
+        if (modern.Success)
+        {
+            int netVersion = int.Parse(modern.Groups[1].Value);
+            if (netVersion >= 5)
+            {
+                return netVersion + 4;
+            }
+        }
+
+        if (Regex.IsMatch(targetFramework, @"^netstandard2\.1$|^netcoreapp3\.", RegexOptions.IgnoreCase))
+        {
+            return 8;
+        }
+
+        if (Regex.IsMatch(targetFramework, @"^netstandard|^netcoreapp|^net\d{2,3}$|^net4", RegexOptions.IgnoreCase))
+        {
+            return 7;
+        }
+
+        return null;
+    }
+
+    private static string? ResolveCodeProjectRoot(CodeOutputProjectSettings settings, string? projectDirectory)
+    {
+        if (string.IsNullOrEmpty(projectDirectory) || string.IsNullOrEmpty(settings.CodeProjectRoot))
+        {
+            return null;
+        }
+
+        string codeProjectRoot = settings.CodeProjectRoot;
+        if (FileManager.IsRelative(codeProjectRoot))
+        {
+            // Combine through the Path APIs rather than string concatenation: projectDirectory
+            // may or may not end in a separator, and a raw concat like "dir" + "./" produces
+            // "dir./" — a literal (nonexistent) directory name on macOS/Linux, though Windows
+            // silently trims the trailing dot. A root saved on Windows uses backslashes, which are
+            // file-name characters on macOS/Linux, so they become the native separator first.
+            codeProjectRoot = Path.GetFullPath(Path.Combine(projectDirectory,
+                codeProjectRoot.Replace('\\', Path.DirectorySeparatorChar)));
+        }
+
+        return codeProjectRoot;
     }
 
     private static string? FindCsprojInDirectory(string directory)

@@ -771,6 +771,51 @@ $@"<Project ToolsVersion=""4.0"">
 
     #endregion
 
+    #region C# language version detection
+
+    [Theory]
+    // Unity's generated project: explicit LangVersion next to an old-style framework version
+    [InlineData("<LangVersion>9.0</LangVersion><TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>", 9)]
+    [InlineData("<LangVersion>10</LangVersion>", 10)]
+    [InlineData("<LangVersion>7.3</LangVersion>", 7)]
+    [InlineData("<LangVersion>latest</LangVersion><TargetFramework>netstandard2.0</TargetFramework>", null)]
+    [InlineData("<LangVersion>preview</LangVersion>", null)]
+    [InlineData("<TargetFramework>net8.0</TargetFramework>", 12)]
+    [InlineData("<TargetFramework>net6.0-windows</TargetFramework>", 10)]
+    [InlineData("<TargetFramework>net5.0</TargetFramework>", 9)]
+    [InlineData("<TargetFramework>netstandard2.1</TargetFramework>", 8)]
+    [InlineData("<TargetFramework>net472</TargetFramework>", 7)]
+    [InlineData("<TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>", 7)]
+    [InlineData("<TargetFrameworks>$(GumFrameworks)</TargetFrameworks>", null)]
+    [InlineData("<TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>", 7)]
+    [InlineData("<Project />", null)]
+    public void ParseCSharpLanguageVersion_ReturnsExpectedMajorVersion(string csprojBody, int? expected)
+    {
+        SyntaxVersionDetectionService.ParseCSharpLanguageVersion($"<Project><PropertyGroup>{csprojBody}</PropertyGroup></Project>")
+            .ShouldBe(expected);
+    }
+
+    [Fact]
+    public void DetectCSharpLanguageVersion_ReadsCsprojInCodeProjectRoot()
+    {
+        File.WriteAllText(Path.Combine(_tempDirectory, "Assembly-CSharp.csproj"),
+            "<Project><PropertyGroup><LangVersion>9.0</LangVersion></PropertyGroup></Project>");
+
+        CodeOutputProjectSettings settings = new CodeOutputProjectSettings { CodeProjectRoot = "./" };
+
+        _sut.DetectCSharpLanguageVersion(settings, _tempDirectory).ShouldBe(9);
+    }
+
+    [Fact]
+    public void DetectCSharpLanguageVersion_NoCsproj_ReturnsNull()
+    {
+        CodeOutputProjectSettings settings = new CodeOutputProjectSettings { CodeProjectRoot = "./" };
+
+        _sut.DetectCSharpLanguageVersion(settings, _tempDirectory).ShouldBeNull();
+    }
+
+    #endregion
+
     public void Dispose()
     {
         try

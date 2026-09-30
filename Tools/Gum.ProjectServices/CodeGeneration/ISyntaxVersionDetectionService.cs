@@ -11,4 +11,12 @@ public interface ISyntaxVersionDetectionService
     /// Returns <c>"*"</c> for auto-detect or an explicit version number.
     /// </summary>
     SyntaxVersionResult Detect(CodeOutputProjectSettings settings, string? projectDirectory);
+
+    /// <summary>
+    /// Detects the C# language version (major number) the game project compiles with, from its
+    /// .csproj's <c>LangVersion</c> or, when absent, its target framework's default. Returns null
+    /// when it can't be determined or is an open-ended value like <c>latest</c>, meaning codegen
+    /// can use the newest syntax it emits.
+    /// </summary>
+    int? DetectCSharpLanguageVersion(CodeOutputProjectSettings settings, string? projectDirectory);
 }
